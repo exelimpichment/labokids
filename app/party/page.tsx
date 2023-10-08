@@ -1,11 +1,7 @@
 import PartyHero from './partyHero';
 
 const Party = () => {
-  return (
-    <div>
-      <PartyHero />
-    </div>
-  );
+  return <PartyHero />;
 };
 
 export default Party;
