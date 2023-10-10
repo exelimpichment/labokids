@@ -61,6 +61,19 @@ module.exports = {
         sm: 'calc(var(--radius) - 4px)',
       },
       keyframes: {
+        rotating: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+
+        'reciprocal-horizontal': {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(-20px)' },
+        },
+        reciprocal: {
+          '0%, 100%': { transform: 'translateY(100px)' },
+          '50%': { transform: 'translateY(120px)' },
+        },
         'accordion-down': {
           from: { height: 0 },
           to: { height: 'var(--radix-accordion-content-height)' },
@@ -73,6 +86,9 @@ module.exports = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        reciprocal: 'reciprocal 2s linear infinite alternate',
+        'reciprocal-horizontal':
+          'reciprocal-horizontal 2s linear infinite alternate',
       },
     },
   },

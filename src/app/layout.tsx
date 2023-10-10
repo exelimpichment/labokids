@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Prompt } from 'next/font/google';
+import { GlobalContextProvider } from './context/globalContext';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -19,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={prompt.className}>{children}</body>
+      <body className={prompt.className}>
+        <GlobalContextProvider>{children}</GlobalContextProvider>
+      </body>
     </html>
   );
 }
