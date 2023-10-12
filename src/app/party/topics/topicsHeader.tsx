@@ -7,10 +7,10 @@ import { kidFont, textFont, titleFont } from '../../common/fonts';
 const TopicsHeader = () => {
   return (
     <div className="relative mt-10 flex max-w-full flex-col items-center justify-center">
-      <div className="animate-reciprocal absolute right-0">
+      <div className="absolute right-0 animate-reciprocal">
         <Image src={movingRocket} alt="picture of a rocket" width={150} />
       </div>
-      <div className="animate-reciprocal-horizontal absolute left-0">
+      <div className="absolute left-0 animate-reciprocal-horizontal">
         <Image src={movingSun} width={120} alt="picture of a sun" />
       </div>
 
@@ -21,12 +21,12 @@ const TopicsHeader = () => {
         Birthday topics
       </h2>
       <p
-        className={`${textFont.className} mb-5 max-w-[50%] text-center text-sm text-gray-900`}
+        className={`${textFont.className} mb-5 max-w-[50%] text-center  text-gray-600`}
       >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quibusdam
-        autem, inventore cumque beatae alias quisquam repudiandae excepturi
-        veritatis similique.
+        Experience the magic of science and amaze your little ones with
+        thrilling experiments! Book a birthday party they&rsquo;ll never forget.
       </p>
+
       <Image src={bee} height={25} alt="small bee" />
     </div>
   );

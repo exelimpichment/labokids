@@ -10,14 +10,14 @@ const ButtonsHero = () => {
     <div className="flex w-full flex-row gap-3 py-5">
       <Button
         variant="outline"
-        className="rounded border-transparent bg-laboOrange transition-all duration-500 hover:bg-white"
+        className="rounded border-transparent bg-laboBlue transition-all duration-500 hover:bg-white"
         onClick={scrollToTopics}
       >
         Read More
       </Button>
       <Button
         variant="outline"
-        className="rounded border-transparent bg-white transition-all duration-500 hover:bg-gray-400"
+        className="rounded border-transparent bg-white hover:bg-slate-300"
       >
         Contact Us
       </Button>
