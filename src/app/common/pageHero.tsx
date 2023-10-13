@@ -1,19 +1,32 @@
 import Image from 'next/image';
-import Container from '../../common/container';
+import Container from './container';
 import Link from 'next/link';
 import { Instagram, Smartphone } from 'lucide-react';
-import { kidFont, textFont, titleFont } from '../../common/fonts';
+import { kidFont, textFont, titleFont } from '../common/fonts';
 import labokidsLogo from 'public/labokids-logo.png';
 import montessoriHero from 'public/montessoriHero.jpg';
-import ButtonsHero from '../../common/buttonsHero';
+import ButtonsHero from './buttonsHero';
+import { StaticImageData } from 'next/dist/shared/lib/get-img-props';
 
-const MontessoriHero = () => {
+interface IPageHero {
+  content: {
+    image: StaticImageData;
+    buttonsPosition: string;
+    kidFontText: string;
+    header: string;
+    paragraph: string;
+  };
+}
+
+const PageHero: React.FC<IPageHero> = ({
+  content: { image, buttonsPosition, kidFontText, header, paragraph },
+}) => {
   return (
     <section>
       <div className="relative min-h-[100vh]">
         <Image
           alt="smiling girl in pink"
-          src={montessoriHero}
+          src={image}
           placeholder="blur"
           quality={100}
           fill
@@ -47,25 +60,24 @@ const MontessoriHero = () => {
           <div className="flex flex-col items-end">
             <div className="mt-[40vh] max-w-[60%] text-right">
               <p className={`${kidFont.className} pb-3 text-2xl text-white`}>
-                Montessori with LaboKids
+                {kidFontText}
               </p>
               <h1 className={`${titleFont.className} pb-5 text-5xl text-white`}>
-                A bright future for all.
+                {header}
               </h1>
               <p
                 className={`${textFont.className} text-xl font-extralight text-white`}
               >
-                The Universe is one great kindergarten for man. Everything that
-                exists has brought with it its own peculiar lesson.
+                {paragraph}
               </p>
             </div>
           </div>
 
-          <ButtonsHero buttonsPosition={'end'} />
+          <ButtonsHero buttonsPosition={buttonsPosition} />
         </Container>
       </div>
     </section>
   );
 };
 
-export default MontessoriHero;
+export default PageHero;

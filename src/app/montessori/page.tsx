@@ -1,9 +1,11 @@
-import MontessoriHero from './montessoriHero/montessoriHero';
+import PageHero from '../common/pageHero';
+
+import { montessoriHeroContent } from './montessoriData';
 
 const Montessori = () => {
   return (
     <>
-      <MontessoriHero />
+      <PageHero content={montessoriHeroContent} />
     </>
   );
 };

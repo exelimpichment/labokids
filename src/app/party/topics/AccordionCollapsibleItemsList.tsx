@@ -7,11 +7,11 @@ const AccordionCollapsibleItemsList = () => {
   return (
     <Accordion
       type="single"
-      className="mx-auto mt-10 w-full max-w-[100vw] lg:max-w-[75vw] xl:max-w-[60vw]"
+      className="mx-auto mt-10 w-full max-w-[100vw] lg:max-w-[75vw] xl:max-w-[55vw]"
       collapsible
     >
       {accordionData.map((item) => (
-        <AccordionCollapsibleItem key={item.value} item={item} />
+        <AccordionCollapsibleItem key={item.key} item={item} />
       ))}
     </Accordion>
   );

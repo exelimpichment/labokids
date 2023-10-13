@@ -6,12 +6,11 @@ import Container from '../../common/container';
 import { titleFont, kidFont, textFont } from '../../common/fonts';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import ButtonsHero from './buttonsHero';
+import ButtonsHero from '../../common/buttonsHero';
 
 const PartyHero = () => {
   return (
     <section>
-      {/* <div className="sticky top-10 z-50 h-0">dsdsd</div> */}
       <div className="relative min-h-[100vh]">
         <Image
           alt="smiling girl in pink"
