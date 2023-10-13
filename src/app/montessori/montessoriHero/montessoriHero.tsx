@@ -1,21 +1,20 @@
 import Image from 'next/image';
-import partyHero from 'public/partyHero.jpg';
-import labokidsLogo from 'public/labokids-logo.png';
-import { Instagram, Smartphone } from 'lucide-react';
 import Container from '../../common/container';
-import { titleFont, kidFont, textFont } from '../../common/fonts';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import ButtonsHero from './buttonsHero';
+import { Instagram, Smartphone } from 'lucide-react';
+import { kidFont, textFont, titleFont } from '../../common/fonts';
+import labokidsLogo from 'public/labokids-logo.png';
+import montessoriHero from 'public/montessoriHero.jpg';
+import ButtonsHero from '../../party/partyHero/buttonsHero';
 
-const PartyHero = () => {
+const MontessoriHero = () => {
   return (
     <section>
       {/* <div className="sticky top-10 z-50 h-0">dsdsd</div> */}
       <div className="relative min-h-[100vh]">
         <Image
           alt="smiling girl in pink"
-          src={partyHero}
+          src={montessoriHero}
           placeholder="blur"
           quality={100}
           fill
@@ -46,26 +45,28 @@ const PartyHero = () => {
               </Link>
             </div>
           </div>
-          <div className="mt-[40vh] max-w-[60%]">
-            <p className={`${kidFont.className} pb-3 text-2xl text-white`}>
-              Birthday with LaboKids
-            </p>
-            <h1 className={`${titleFont.className} pb-5 text-5xl text-white`}>
-              A bright future for all.
-            </h1>
-            <p
-              className={`${textFont.className} text-xl font-extralight text-white`}
-            >
-              The Universe is one great kindergarten for man. Everything that
-              exists has brought with it its own peculiar lesson.
-            </p>
+          <div className="flex flex-col items-end">
+            <div className="mt-[40vh] max-w-[60%] text-right">
+              <p className={`${kidFont.className} pb-3 text-2xl text-white`}>
+                Montessori with LaboKids
+              </p>
+              <h1 className={`${titleFont.className} pb-5 text-5xl text-white`}>
+                A bright future for all.
+              </h1>
+              <p
+                className={`${textFont.className} text-xl font-extralight text-white`}
+              >
+                The Universe is one great kindergarten for man. Everything that
+                exists has brought with it its own peculiar lesson.
+              </p>
+            </div>
           </div>
 
-          <ButtonsHero />
+          <ButtonsHero position={'end'} />
         </Container>
       </div>
     </section>
   );
 };
 
-export default PartyHero;
+export default MontessoriHero;

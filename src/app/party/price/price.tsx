@@ -1,14 +1,13 @@
 import Container from '../../common/container';
-import PriceCard from './priceCard';
+import SectionHeader from '../../common/sectionHeader';
 import PriceCards from './priceCards';
-import PriceHeading from './priceHeading';
-import pricingData from './pricingData';
+import { content } from './pricingData';
 
 const Price = () => {
   return (
     <section className="mt-10">
       <Container>
-        <PriceHeading />
+        <SectionHeader content={content} />
         <PriceCards />
       </Container>
     </section>

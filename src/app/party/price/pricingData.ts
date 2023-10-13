@@ -1,8 +1,16 @@
-import { VenetianMask, HeartHandshake } from 'lucide-react';
+import { HeartHandshake } from 'lucide-react';
 import { RiHomeHeartLine } from 'react-icons/ri';
 import { LuSchool } from 'react-icons/lu';
 
-const pricingData = [
+export const content = {
+  kidFontText: 'BEST PRICE FOR PARENTS',
+  header: 'Pricing',
+  paragraph:
+    'Discover unbeatable prices for unforgettable parties - our commitment to ' +
+    'affordability ensures you get the best value for your celebrations.',
+};
+
+export const pricingData = [
   {
     id: 1,
     header: 'Party-at-Your-Place',
@@ -35,5 +43,3 @@ const pricingData = [
     icon: HeartHandshake,
   },
 ];
-
-export default pricingData;

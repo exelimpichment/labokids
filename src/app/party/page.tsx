@@ -8,6 +8,7 @@ const Party = () => {
       <PartyHero />
       <Topics />
       <Price />
+      <div className="h-[500px]"></div>
     </>
   );
 };

@@ -1,5 +1,11 @@
+import MontessoriHero from './montessoriHero/montessoriHero';
+
 const Montessori = () => {
-  return <> montessori page will be here</>;
+  return (
+    <>
+      <MontessoriHero />
+    </>
+  );
 };
 
 export default Montessori;

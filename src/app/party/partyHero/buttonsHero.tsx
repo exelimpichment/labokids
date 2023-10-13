@@ -3,11 +3,15 @@
 import { Button } from '@/components/ui/button';
 import { useGlobalContext } from '../../context/globalContext';
 
-const ButtonsHero = () => {
+interface IButtonsHero {
+  position?: 'start' | 'end';
+}
+
+const ButtonsHero: React.FC<IButtonsHero> = ({ position = 'start' }) => {
   const { scrollToTopics } = useGlobalContext();
 
   return (
-    <div className="flex w-full flex-row gap-3 py-5">
+    <div className={`flex w-full flex-row justify-${position} gap-3 py-5`}>
       <Button
         variant="outline"
         className="rounded border-transparent bg-laboBlue transition-all duration-500 hover:bg-white"

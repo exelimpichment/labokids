@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Prompt } from 'next/font/google';
 import { GlobalContextProvider } from './context/globalContext';
+import Navbar from './navbar';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -19,8 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body className={prompt.className}>
+        {/* <Navbar /> */}
         <GlobalContextProvider>{children}</GlobalContextProvider>
       </body>
     </html>

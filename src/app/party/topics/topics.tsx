@@ -1,12 +1,11 @@
 'use client';
 
 import Container from '../../common/container';
+import SectionHeader from '../../common/sectionHeader';
 import { useGlobalContext } from '../../context/globalContext';
-import AccordionTopics from './accordionTopics';
-import AccordionPrice from './accordionTopics';
-import TopicsHeader from './topicsHeader';
 
-import PriceHeader from './topicsHeader';
+import AccordionTopicsList from './AccordionCollapsibleItemsList';
+import { content } from './accordionData';
 
 const Topics = () => {
   const { topicsRef } = useGlobalContext();
@@ -14,8 +13,8 @@ const Topics = () => {
     <section>
       <div ref={topicsRef} className="border border-transparent"></div>
       <Container>
-        <TopicsHeader />
-        <AccordionTopics />
+        <SectionHeader content={content} />
+        <AccordionTopicsList />
       </Container>
     </section>
   );
