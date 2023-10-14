@@ -1,5 +1,5 @@
 import PriceCard from './priceCard';
-import { pricingData } from './pricingData';
+import { pricingData } from '../../party/partyData';
 
 const PriceCards = () => {
   return (

@@ -1,13 +1,13 @@
-import Container from '../../common/container';
-import SectionHeader from '../../common/sectionHeader';
+import Container from '../container';
+import SectionHeader from '../sectionHeader';
 import PriceCards from './priceCards';
-import { content } from './pricingData';
+import { content, priceHeaderContent } from '../../party/partyData';
 
 const Price = () => {
   return (
     <section className="mt-10">
       <Container>
-        <SectionHeader content={content} />
+        <SectionHeader content={priceHeaderContent} />
         <PriceCards />
       </Container>
     </section>

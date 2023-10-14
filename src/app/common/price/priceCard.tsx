@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { textFont, titleFont } from '../../common/fonts';
+import { textFont, titleFont } from '../fonts';
 import { IconType } from 'react-icons';
 import { LucideIcon } from 'lucide-react';
 

@@ -1,8 +1,30 @@
 import { HeartHandshake } from 'lucide-react';
 import { RiHomeHeartLine } from 'react-icons/ri';
 import { LuSchool } from 'react-icons/lu';
+import partyHero from '/Users/mykhailo/Desktop/labokids/public/partyHero.jpg';
 
 export const content = {
+  kidFontText: 'Birthday with LaboKids',
+  header: 'A bright future for all',
+  paragraph:
+    'The Universe is one great kindergarten for man. Everything that exists has ' +
+    'brought with it its own peculiar lesson.',
+  image: partyHero,
+  buttonsPosition: 'justify-start',
+  textPosition: 'text-left',
+  flexPosition: 'items-start',
+};
+
+export const partyHeroContent = {
+  image: partyHero,
+  kidFontText: 'Montessori with LaboKids',
+  header: 'A bright future for all.',
+  paragraph:
+    'The Universe is one great kindergarten for man. Everything that exists has brought with it its own peculiar lesson.',
+  buttonsPosition: 'Birthday with LaboKids',
+};
+
+export const priceHeaderContent = {
   kidFontText: 'BEST PRICE FOR PARENTS',
   header: 'Pricing',
   paragraph:
