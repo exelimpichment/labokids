@@ -2,6 +2,7 @@ import ImageGallery from '../common/ImageGallery/ImageGallery';
 import OurTeachers from '../common/TeachersGallery/ourTeachers';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
+import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
 import {
   aboutMontessoriHeaderContent,
@@ -17,6 +18,7 @@ const Bilingual = () => {
   return (
     <>
       <PageHero content={bilingualHeroContent} />
+      <ScrollToComponent />
       <SectionHeader content={imagesHeaderContent} />
       <ImageGallery />
       <SectionHeader content={bilingualTeachersHeader} />

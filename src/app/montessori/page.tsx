@@ -1,6 +1,7 @@
 import ImageGallery from '../common/ImageGallery/ImageGallery';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
+import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
 import OurTeachers from '../common/TeachersGallery/ourTeachers';
 import { priceHeaderContent } from '../party/partyData';
@@ -17,6 +18,7 @@ const Montessori = () => {
   return (
     <>
       <PageHero content={montessoriHeroContent} />
+      <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
       <MontessoriMethodsList />
       <SectionHeader content={imagesHeaderContent} />

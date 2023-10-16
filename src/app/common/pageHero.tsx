@@ -7,6 +7,7 @@ import labokidsLogo from 'public/labokids-logo.png';
 import montessoriHero from 'public/montessoriHero.jpg';
 import ButtonsHero from './buttonsHero';
 import { StaticImageData } from 'next/dist/shared/lib/get-img-props';
+import Navbar from '../navbar';
 
 interface IPageHero {
   content: {

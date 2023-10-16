@@ -11,10 +11,10 @@ import montessoriGalleryListOfImage5 from '@/public/montessoriGallery/montessori
 import montessoriGalleryListOfImage6 from '@/public/montessoriGallery/montessoriGallery6.jpg';
 
 import montessoriMethodsListOfImage1 from '@/public/montessoriMethodsListOfImage1.jpg';
-import montessoriMethodsListOfImage2 from '@/public/montessoriMethodsListOfImage1.jpg';
-import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage1.jpg';
+import montessoriMethodsListOfImage2 from '@/public/montessoriMethodsListOfImage2.jpg';
+import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage3.jpg';
 import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage1.jpg';
-import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage1.jpg';
+import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage5.jpg';
 
 export const montessoriHeroContent = {
   image: montessoriHero,
@@ -82,7 +82,7 @@ export const montessoriMethodsList = [
   },
   {
     id: 1,
-    image: montessoriMethodsListOfImage1,
+    image: montessoriMethodsListOfImage2,
     paragraph:
       'The Montessori classroom is meticulously arranged to organically foster the acquisition of skills vital for both spoken and written language. Children employ sandpaper letters to grasp the phonetics of the alphabet and the precise formation of each letter.',
     header: 'Language',

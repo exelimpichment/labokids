@@ -9,7 +9,6 @@ interface IButtonsHero {
 
 const ButtonsHero: React.FC<IButtonsHero> = ({ buttonsPosition = 'start' }) => {
   const { scrollToTopics } = useGlobalContext();
-  console.log(buttonsPosition);
 
   return (
     <div

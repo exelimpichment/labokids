@@ -1,47 +1,28 @@
 'use client';
 
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from '@/components/ui/navigation-menu';
-import { Smartphone } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Menu, Phone, PhoneCall } from 'lucide-react';
+import NavbarLinkList from './navbarLinkList';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <NavigationMenu className="sticky left-1/2 right-1/2 top-10 h-0 -translate-x-1/2">
-      <NavigationMenuList className="h-12 rounded-3xl bg-black bg-opacity-10 px-2 backdrop-blur-lg">
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink>Link</NavigationMenuLink>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink>Link</NavigationMenuLink>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink>Link</NavigationMenuLink>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink>Link</NavigationMenuLink>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+    <nav className="absolute right-5 top-5 z-50 lg:hidden">
+      <div>
+        <Sheet>
+          <SheetTrigger asChild>
+            <Menu size={32} />
+          </SheetTrigger>
+          <SheetContent className="w-[100%] border-0 sm:w-[100%]">
+            <NavbarLinkList />
+            <div className="absolute bottom-3 flex w-full items-center gap-3 pt-60 text-xl">
+              <PhoneCall />
+              <Link href="tel:+48 503 038 500">+48 503 038 500</Link>
+            </div>
+          </SheetContent>
+        </Sheet>
+      </div>
+    </nav>
   );
 };
 

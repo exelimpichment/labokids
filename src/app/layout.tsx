@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={prompt.className}>
-        {/* <Navbar /> */}
+        <Navbar />
         <GlobalContextProvider>{children}</GlobalContextProvider>
       </body>
     </html>
