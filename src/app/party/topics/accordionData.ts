@@ -2,13 +2,6 @@ import { FaSoap } from 'react-icons/fa';
 import { GiBalloons, GiFoam } from 'react-icons/gi';
 import { SlChemistry } from 'react-icons/sl';
 
-export const content = {
-  kidFontText: 'HAPPINESS FOR KIDS',
-  header: 'Birthday topics',
-  paragraph:
-    'Experience the magic of science and amaze your little ones with thrilling experiments! Book a birthday party they’ll never forget.',
-};
-
 export const accordionData = [
   {
     key: 0,

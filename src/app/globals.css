@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.equalFlexPart {
+        flex: 1 1 0px
+}

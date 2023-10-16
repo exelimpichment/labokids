@@ -12,7 +12,9 @@ const ButtonsHero: React.FC<IButtonsHero> = ({ buttonsPosition = 'start' }) => {
   console.log(buttonsPosition);
 
   return (
-    <div className={`flex w-full flex-row ${buttonsPosition} gap-3 py-5`}>
+    <div
+      className={`flex w-full flex-row ${buttonsPosition} justify-center gap-3 py-5`}
+    >
       <Button
         variant="outline"
         className="rounded border-transparent bg-laboBlue transition-all duration-500 hover:bg-white"

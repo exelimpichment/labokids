@@ -2,22 +2,37 @@ import montessoriHero from 'public/montessoriHero.jpg';
 import team1 from '/Users/mykhailo/Desktop/labokids/public/team-1.webp';
 import team2 from '/Users/mykhailo/Desktop/labokids/public/team-2.webp';
 import team3 from '/Users/mykhailo/Desktop/labokids/public/team-3.webp';
-import montessoriGallery1 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery1.jpg';
-import montessoriGallery2 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery2.jpg';
-import montessoriGallery3 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery3.jpg';
-import montessoriGallery4 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery4.jpg';
-import montessoriGallery5 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery5.jpg';
-import montessoriGallery6 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery6.jpg';
+
+import montessoriGalleryListOfImage1 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery1.jpg';
+import montessoriGalleryListOfImage2 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery2.jpg';
+import montessoriGalleryListOfImage3 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery3.jpg';
+import montessoriGalleryListOfImage4 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery4.jpg';
+import montessoriGalleryListOfImage5 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery5.jpg';
+import montessoriGalleryListOfImage6 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery6.jpg';
+
+import montessoriMethodsListOfImage1 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage1.jpg';
+// import montessoriMethodsListOfImage2 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage2.jpg';
+import montessoriMethodsListOfImage3 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage3.jpg';
+import montessoriMethodsListOfImage4 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage4.jpg';
+import montessoriMethodsListOfImage5 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage5.jpg';
 
 export const montessoriHeroContent = {
   image: montessoriHero,
-  buttonsPosition: 'justify-end',
+  buttonsPosition: 'lg:justify-end',
   kidFontText: 'Montessori with LaboKids',
   header: 'A bright future for all.',
-  textPosition: 'text-right',
+  textPosition: 'lg:text-right',
   flexPosition: 'items-end',
   paragraph:
     'The Universe is one great kindergarten for man. Everything that exists has brought with it its own peculiar lesson.',
+};
+
+export const priceHeaderContent = {
+  kidFontText: 'BEST PRICE FOR PARENTS',
+  header: 'Pricing',
+  paragraph:
+    'Discover unbeatable prices for unforgettable parties - our commitment to ' +
+    'affordability ensures you get the best value for your celebrations.',
 };
 
 export const teachersHeaderContent = {
@@ -34,6 +49,13 @@ export const imagesHeaderContent = {
     'Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery.',
 };
 
+export const aboutMontessoriHeaderContent = {
+  kidFontText: 'ABOUT OUR EDUCATION PROGRAM',
+  header: 'Montessori Method',
+  paragraph:
+    'Our goal is the comprehensive development of the child, teaching independence and tolerance. According to the Montessori method, we have 5 subject areas:',
+};
+
 export const OurTeachersInfoList = [
   { id: 0, name: 'Alie Bohm', position: 'Senior Educator', image: team1 },
   { id: 1, name: 'Alie Bohm', position: 'Senior Educator', image: team2 },
@@ -41,11 +63,49 @@ export const OurTeachersInfoList = [
   { id: 3, name: 'Alie Bohm', position: 'Senior Educator', image: team3 },
 ];
 
-export const listOfImages = [
-  { id: 0, image: montessoriGallery1 },
-  { id: 0, image: montessoriGallery2 },
-  { id: 0, image: montessoriGallery3 },
-  { id: 0, image: montessoriGallery4 },
-  { id: 0, image: montessoriGallery5 },
-  { id: 0, image: montessoriGallery6 },
+export const montessoriGalleryListOfImages = [
+  { id: 0, image: montessoriGalleryListOfImage1 },
+  { id: 1, image: montessoriGalleryListOfImage2 },
+  { id: 2, image: montessoriGalleryListOfImage3 },
+  { id: 3, image: montessoriGalleryListOfImage4 },
+  { id: 4, image: montessoriGalleryListOfImage5 },
+  { id: 5, image: montessoriGalleryListOfImage6 },
+];
+
+export const montessoriMethodsList = [
+  {
+    id: 0,
+    image: montessoriMethodsListOfImage1,
+    paragraph:
+      'Practical life activities encompass a progressively demanding set of fine motor tasks with real-world purposes, like tidying a table or washing dishes. These activities not only aid children in mastering everyday chores but also cultivate independence, physical dexterity, coordination, focus, and a notion of organization.',
+    header: 'Practical Life',
+  },
+  {
+    id: 1,
+    image: montessoriMethodsListOfImage1,
+    paragraph:
+      'The Montessori classroom is meticulously arranged to organically foster the acquisition of skills vital for both spoken and written language. Children employ sandpaper letters to grasp the phonetics of the alphabet and the precise formation of each letter.',
+    header: 'Language',
+  },
+  {
+    id: 2,
+    image: montessoriMethodsListOfImage3,
+    paragraph:
+      'Through the use of hands-on materials designed\naround the decimal system, children learn important\nmathematical principles. Dr Montessori demonstrated\nthat if a child is able to learn during the stage\nwhen they enjoy manipulating materials, they will be able\nto more easily and successfully assimilate\nthe skills and knowledge of arithmetic.',
+    header: 'Mathematics',
+  },
+  {
+    id: 3,
+    image: montessoriMethodsListOfImage4,
+    paragraph:
+      "Montessori's sensorial education focuses on honing a child's sensory perception by consistently engaging with purposefully crafted materials.\nThis approach aims to offer tangible instances that illustrate otherwise abstract notions, including elements like color, texture, sound, and fragrance.",
+    header: 'Sensorial',
+  },
+  {
+    id: 4,
+    image: montessoriMethodsListOfImage5,
+    paragraph:
+      "In this domain, children delve into a range of subjects, including Geography, History, Biology, Art, and Music. This broad exploration provides them with the chance to gain a deeper understanding of their surroundings. This facet of children's education empowers our students to uncover the richness of both historical and contemporary cultures while also examining the realms of living and non-living entities.",
+    header: 'Culture and Science',
+  },
 ];

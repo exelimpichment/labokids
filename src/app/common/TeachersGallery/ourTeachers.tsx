@@ -7,7 +7,6 @@ const OurTeachers = () => {
   return (
     <section>
       <Container>
-        <SectionHeader content={teachersHeaderContent} />
         <OurTeachersList />
       </Container>
     </section>
