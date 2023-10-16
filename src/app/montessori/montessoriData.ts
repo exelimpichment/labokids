@@ -1,20 +1,20 @@
 import montessoriHero from 'public/montessoriHero.jpg';
-import team1 from '/Users/mykhailo/Desktop/labokids/public/team-1.webp';
-import team2 from '/Users/mykhailo/Desktop/labokids/public/team-2.webp';
-import team3 from '/Users/mykhailo/Desktop/labokids/public/team-3.webp';
+import team1 from '@/public/team-1.webp';
+import team2 from '@/public/team-2.webp';
+import team3 from '@/public/team-3.webp';
 
-import montessoriGalleryListOfImage1 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery1.jpg';
-import montessoriGalleryListOfImage2 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery2.jpg';
-import montessoriGalleryListOfImage3 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery3.jpg';
-import montessoriGalleryListOfImage4 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery4.jpg';
-import montessoriGalleryListOfImage5 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery5.jpg';
-import montessoriGalleryListOfImage6 from '/Users/mykhailo/Desktop/labokids/public/montessoriGallery/montessoriGallery6.jpg';
+import montessoriGalleryListOfImage1 from '@/public/montessoriGallery/montessoriGallery1.jpg';
+import montessoriGalleryListOfImage2 from '@/public/montessoriGallery/montessoriGallery2.jpg';
+import montessoriGalleryListOfImage3 from '@/public/montessoriGallery/montessoriGallery3.jpg';
+import montessoriGalleryListOfImage4 from '@/public/montessoriGallery/montessoriGallery4.jpg';
+import montessoriGalleryListOfImage5 from '@/public/montessoriGallery/montessoriGallery5.jpg';
+import montessoriGalleryListOfImage6 from '@/public/montessoriGallery/montessoriGallery6.jpg';
 
-import montessoriMethodsListOfImage1 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage1.jpg';
-// import montessoriMethodsListOfImage2 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage2.jpg';
-import montessoriMethodsListOfImage3 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage3.jpg';
-import montessoriMethodsListOfImage4 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage4.jpg';
-import montessoriMethodsListOfImage5 from '/Users/mykhailo/Desktop/labokids/public/montessoriMethodsListOfImage5.jpg';
+import montessoriMethodsListOfImage1 from '@/public/montessoriMethodsListOfImage1.jpg';
+import montessoriMethodsListOfImage2 from '@/public/montessoriMethodsListOfImage1.jpg';
+import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage1.jpg';
+import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage1.jpg';
+import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage1.jpg';
 
 export const montessoriHeroContent = {
   image: montessoriHero,

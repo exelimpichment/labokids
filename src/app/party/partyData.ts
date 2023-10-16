@@ -1,7 +1,7 @@
 import { HeartHandshake } from 'lucide-react';
 import { RiHomeHeartLine } from 'react-icons/ri';
 import { LuSchool } from 'react-icons/lu';
-import partyHero from '/Users/mykhailo/Desktop/labokids/public/partyHero.jpg';
+import partyHero from '@/public/partyHero.jpg';
 
 export const priceHeaderContent = {
   kidFontText: 'BEST PRICE FOR PARENTS',
