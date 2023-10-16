@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="absolute right-5 top-5 z-50 lg:hidden">
+    <nav className="absolute right-5 top-5 z-20 lg:hidden">
       <div>
         <Sheet>
           <SheetTrigger asChild>
