@@ -16,10 +16,10 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
 }) => {
   return (
     <Container>
-      <div className="flex flex-row gap-10">
+      <div className="flex flex-col gap-3 lg:flex-row lg:gap-10">
         <div
           className={`equalFlexPart relative min-h-[350px] ${
-            id % 2 !== 0 ? 'order-1' : null
+            id % 2 !== 0 ? 'lg:order-1' : null
           } overflow-hidden`}
         >
           <Image
@@ -35,7 +35,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
             }}
           />
         </div>
-        <div className="equalFlexPart min-h-[350px]">
+        <div className="equalFlexPart lg:min-h-[350px]">
           <h2 className={`${titleFont.className} text-center text-2xl`}>
             {header}
           </h2>

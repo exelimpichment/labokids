@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .equalFlexPart {
-        flex: 1 1 0px
+        @media (min-width: 768px) {
+                flex: 1 1 0px
+                }
+        
 }
