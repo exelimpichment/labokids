@@ -19,12 +19,12 @@ import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage
 export const montessoriHeroContent = {
   image: montessoriHero,
   buttonsPosition: 'lg:justify-end',
-  kidFontText: 'Montessori with LaboKids',
+  kidFontText: 'LaboKids montessori kindergarten',
   header: 'A bright future for all.',
   textPosition: 'lg:text-right',
   flexPosition: 'items-end',
   paragraph:
-    'The Universe is one great kindergarten for man. Everything that exists has brought with it its own peculiar lesson.',
+    'We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness.',
 };
 
 export const priceHeaderContent = {

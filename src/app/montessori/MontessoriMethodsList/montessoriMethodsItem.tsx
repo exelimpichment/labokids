@@ -23,6 +23,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
           } overflow-hidden`}
         >
           <Image
+            loading="lazy"
             src={image}
             alt="method image"
             fill

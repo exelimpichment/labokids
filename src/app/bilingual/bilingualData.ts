@@ -3,12 +3,12 @@ import bilingualHero from '../../../public/bilingualHero.jpg';
 export const bilingualHeroContent = {
   image: bilingualHero,
   buttonsPosition: 'lg:justify-end',
-  kidFontText: 'Montessori with LaboKids',
+  kidFontText: 'LaboKids bilingual kindergarten',
   header: 'A bright future for all.',
   textPosition: 'lg:text-right',
   flexPosition: 'items-end',
   paragraph:
-    'The Universe is one great kindergarten for man. Everything that exists has brought with it its own peculiar lesson.',
+    'Family-style kindergartens, where caring professional teachers envelop each child with love.',
 };
 
 export const bilingualTeachersHeader = {

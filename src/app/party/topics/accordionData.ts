@@ -9,7 +9,7 @@ export const accordionData = [
     borderColor: 'before:border-laboBlue',
     fontColor: 'text-laboBlue',
     backgroundColor: 'bg-laboBlue',
-    heading: 'W krainie lodu',
+    heading: 'Balonowe Party',
     icon: GiBalloons,
     description:
       'Czy wiesz, że balon powstał praktycznie przez przypadek, ' +

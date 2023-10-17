@@ -69,7 +69,7 @@ const PageHero: React.FC<IPageHero> = ({
           </div> */}
           <div className={`flex flex-col ${flexPosition} pb-5`}>
             <div
-              className={`mt-[10vh] sm:mt-[25vh] lg:mt-[40vh] lg:max-w-[60%] ${textPosition} text-center`}
+              className={`mt-[10vh] sm:mt-[25vh] lg:mt-[40vh] lg:max-w-[60%] landscape:sm:mt-[10vh] landscape:lg:mt-[25vh] landscape:xl:mt-[45vh]  ${textPosition} text-center `}
             >
               <p
                 className={`${kidFont.className} pb-5 text-2xl text-white lg:pb-3`}
@@ -77,7 +77,7 @@ const PageHero: React.FC<IPageHero> = ({
                 {kidFontText}
               </p>
               <h1
-                className={`${titleFont.className} pb-5 text-5xl  text-white lg:pb-5`}
+                className={`${titleFont.className} pb-5 text-5xl text-white lg:pb-5 `}
               >
                 {header}
               </h1>
