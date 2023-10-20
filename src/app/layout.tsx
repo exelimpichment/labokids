@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { Prompt } from 'next/font/google';
 import { GlobalContextProvider } from './context/globalContext';
 import Navbar from './navbar';
+import ContactUsDialog from './common/contactUsDialog/contactUsDialog';
+import { Toaster } from 'sonner';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -23,7 +25,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={prompt.className}>
         <Navbar />
-        <GlobalContextProvider>{children}</GlobalContextProvider>
+        <GlobalContextProvider>
+          {children}
+          <ContactUsDialog />
+          <Toaster />
+        </GlobalContextProvider>
       </body>
     </html>
   );

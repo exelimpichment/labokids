@@ -1,8 +1,10 @@
 'use client';
 
 import {
+  Dispatch,
   MutableRefObject,
   ReactNode,
+  SetStateAction,
   createContext,
   useContext,
   useRef,
@@ -12,6 +14,8 @@ import {
 type GlobalContextType = {
   topicsRef: MutableRefObject<HTMLDivElement | null>;
   scrollToTopics: () => void;
+  contactUsDialogOpen: boolean;
+  setContactUsDialog: Dispatch<SetStateAction<boolean>>;
 };
 
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
@@ -20,6 +24,7 @@ export const GlobalContextProvider: React.FC<{
   children: ReactNode;
 }> = ({ children }) => {
   // hooks
+  const [contactUsDialogOpen, setContactUsDialog] = useState<boolean>(false);
   const topicsRef = useRef<HTMLDivElement | null>(null);
   // functions
   const scrollToTopics = () => {
@@ -29,7 +34,14 @@ export const GlobalContextProvider: React.FC<{
   };
 
   return (
-    <GlobalContext.Provider value={{ topicsRef, scrollToTopics }}>
+    <GlobalContext.Provider
+      value={{
+        topicsRef,
+        scrollToTopics,
+        contactUsDialogOpen,
+        setContactUsDialog,
+      }}
+    >
       {children}
     </GlobalContext.Provider>
   );

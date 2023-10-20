@@ -30,6 +30,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
             className="rounded-3xl"
             quality={100}
             placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 50vw"
             style={{
               objectFit: 'cover',
               objectPosition: 'top center',
