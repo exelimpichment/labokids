@@ -50,7 +50,7 @@ const PageHero: React.FC<IPageHero> = ({
                 {kidFontText}
               </p>
               <h1
-                className={`${titleFont.className} pb-5 text-5xl text-blue-100 lg:pb-5 `}
+                className={`${titleFont.className} pb-5 text-4xl text-blue-100 lg:pb-5 xl:text-5xl`}
               >
                 {header}
               </h1>
