@@ -4,11 +4,18 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Phone, PhoneCall } from 'lucide-react';
 import NavbarLinkList from './mobileNavbarLinkList';
 import Link from 'next/link';
+import React, { useState } from 'react';
+import { Menu as HeadlessUiMenu } from '@headlessui/react';
 
 const MobileNav = () => {
   return (
-    <>
-      <div className="absolute right-5 top-5 z-20 cursor-pointer lg:hidden">
+    <div className="absolute right-5 top-5 z-20 cursor-pointer lg:hidden"></div>
+  );
+};
+
+export default MobileNav;
+
+/* <div className="absolute right-5 top-5 z-20 cursor-pointer lg:hidden">
         <Menu size={32} />
       </div>
       <nav className="absolute right-5 top-5 z-20 lg:hidden">
@@ -28,9 +35,4 @@ const MobileNav = () => {
             </SheetContent>
           </Sheet>
         </div>
-      </nav>
-    </>
-  );
-};
-
-export default MobileNav;
+      </nav> */
