@@ -6,6 +6,7 @@ import Navbar from './navbar';
 import ContactUsDialog from './common/contactUsDialog/contactUsDialog';
 import { Toaster } from 'sonner';
 import Backdrop from './common/backdrop';
+import SlidingDownNavigationMenu from './navbar/hamburgerMenu/slidingDownNavigationMenu';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -26,6 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={prompt.className}>
         <GlobalContextProvider>
+          <SlidingDownNavigationMenu />
           <Navbar />
           {children}
           <Toaster />

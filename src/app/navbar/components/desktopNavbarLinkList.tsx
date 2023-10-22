@@ -7,7 +7,9 @@ import DesktopNavbarLink from './desktopNavbarLink';
 const DesktopNavbarLinkList = () => {
   const routes = useRoutes();
   return (
-    <ul className={`${titleFont.className} flex gap-5 text-lg xl:gap-7 `}>
+    <ul
+      className={`${titleFont.className} flex gap-5 text-lg xl:gap-7 xl:text-2xl 2xl:text-3xl`}
+    >
       {routes.map((route) => (
         <DesktopNavbarLink key={route.id} route={route}></DesktopNavbarLink>
       ))}

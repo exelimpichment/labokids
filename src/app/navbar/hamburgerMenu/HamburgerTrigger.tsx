@@ -1,7 +1,6 @@
 'use client';
 
 import { useGlobalContext } from '../../context/globalContext';
-import HamburgerFallDown from './HamburgerFallDown';
 
 const HamburgerTrigger = () => {
   const { burgerMenuOpen, setBurgerMenuOpen } = useGlobalContext();
