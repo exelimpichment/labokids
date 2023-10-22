@@ -5,6 +5,7 @@ import { GlobalContextProvider } from './context/globalContext';
 import Navbar from './navbar';
 import ContactUsDialog from './common/contactUsDialog/contactUsDialog';
 import { Toaster } from 'sonner';
+import Backdrop from './common/backdrop';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -24,11 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={prompt.className}>
-        <Navbar />
         <GlobalContextProvider>
+          <Navbar />
           {children}
-          <ContactUsDialog />
           <Toaster />
+          <ContactUsDialog />
+          <Backdrop />
         </GlobalContextProvider>
       </body>
     </html>

@@ -16,6 +16,8 @@ type GlobalContextType = {
   scrollToTopics: () => void;
   contactUsDialogOpen: boolean;
   setContactUsDialog: Dispatch<SetStateAction<boolean>>;
+  burgerMenuOpen: boolean;
+  setBurgerMenuOpen: Dispatch<SetStateAction<boolean>>;
 };
 
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
@@ -25,6 +27,7 @@ export const GlobalContextProvider: React.FC<{
 }> = ({ children }) => {
   // hooks
   const [contactUsDialogOpen, setContactUsDialog] = useState<boolean>(false);
+  const [burgerMenuOpen, setBurgerMenuOpen] = useState<boolean>(false);
   const topicsRef = useRef<HTMLDivElement | null>(null);
   // functions
   const scrollToTopics = () => {
@@ -40,6 +43,8 @@ export const GlobalContextProvider: React.FC<{
         scrollToTopics,
         contactUsDialogOpen,
         setContactUsDialog,
+        burgerMenuOpen,
+        setBurgerMenuOpen,
       }}
     >
       {children}

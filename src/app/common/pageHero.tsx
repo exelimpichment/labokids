@@ -61,7 +61,6 @@ const PageHero: React.FC<IPageHero> = ({
               </p>
             </div>
           </div>
-
           <ButtonsHero buttonsPosition={buttonsPosition} />
         </Container>
       </div>
