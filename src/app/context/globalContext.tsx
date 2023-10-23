@@ -18,6 +18,10 @@ type GlobalContextType = {
   setContactUsDialog: Dispatch<SetStateAction<boolean>>;
   burgerMenuOpen: boolean;
   setBurgerMenuOpen: Dispatch<SetStateAction<boolean>>;
+  activeGalleryCollection: 'baloniki' | 'chemia' | 'mydlo' | 'lod';
+  setActiveGalleryCollection: Dispatch<
+    SetStateAction<'baloniki' | 'chemia' | 'mydlo' | 'lod'>
+  >;
 };
 
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
@@ -28,6 +32,9 @@ export const GlobalContextProvider: React.FC<{
   // hooks
   const [contactUsDialogOpen, setContactUsDialog] = useState<boolean>(false);
   const [burgerMenuOpen, setBurgerMenuOpen] = useState<boolean>(false);
+  const [activeGalleryCollection, setActiveGalleryCollection] = useState<
+    'baloniki' | 'chemia' | 'mydlo' | 'lod'
+  >('baloniki');
   const topicsRef = useRef<HTMLDivElement | null>(null);
   // functions
   const scrollToTopics = () => {
@@ -45,6 +52,8 @@ export const GlobalContextProvider: React.FC<{
         setContactUsDialog,
         burgerMenuOpen,
         setBurgerMenuOpen,
+        activeGalleryCollection,
+        setActiveGalleryCollection,
       }}
     >
       {children}

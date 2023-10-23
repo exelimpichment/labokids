@@ -1,7 +1,7 @@
 import { Accordion } from '@/components/ui/accordion';
 
-import { accordionData } from './accordionData';
 import AccordionCollapsibleItem from './accordionCollapsibleItem';
+import { accordionPartyData } from '../partyData';
 
 const AccordionCollapsibleItemsList = () => {
   return (
@@ -10,7 +10,7 @@ const AccordionCollapsibleItemsList = () => {
       className="mx-auto mt-10 w-full max-w-[100vw] lg:max-w-[75vw] xl:max-w-[55vw]"
       collapsible
     >
-      {accordionData.map((item) => (
+      {accordionPartyData.map((item) => (
         <AccordionCollapsibleItem key={item.key} item={item} />
       ))}
     </Accordion>

@@ -33,10 +33,10 @@ const PageHero: React.FC<IPageHero> = ({
         <div className="absolute -z-10 h-full w-full">
           <Image
             src={image}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             quality={100}
-            alt="tst"
+            alt="hero image"
           />
         </div>
         <Container>

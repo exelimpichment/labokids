@@ -19,9 +19,9 @@ const OurTeachersListItem: React.FC<IOurTeachersListItem> = ({
         <Image
           src={image}
           alt="teacher image"
-          width={225}
-          height={300}
+          height={150}
           className="rounded-xl"
+          style={{ width: 'auto' }}
         />
         <p className={`${titleFont.className} pt-3 text-xl`}>{name}</p>
         <p className="pt-1 text-gray-600">{position}</p>

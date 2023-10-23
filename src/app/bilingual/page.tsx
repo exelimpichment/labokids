@@ -4,12 +4,8 @@ import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
-// import { SwiperTeacherGallery } from '../common/swiper/swiperTeacherGallery';
 
-import {
-  aboutMontessoriHeaderContent,
-  imagesHeaderContent,
-} from '../montessori/montessoriData';
+import { imagesHeaderContent } from '../montessori/montessoriData';
 import {
   bilingualHeroContent,
   bilingualTeachersHeader,
@@ -27,7 +23,6 @@ const Bilingual = () => {
       <OurTeachers />
       <SectionHeader content={priceHeaderContent} />
       <Price />
-      {/* <SwiperTeacherGallery /> */}
 
       <div className="mt-96"></div>
     </>

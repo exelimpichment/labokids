@@ -1,7 +1,7 @@
 import PageHero from '../common/pageHero';
 import {
-  content,
   partyAccordionHeaderData,
+  partyHeroContent,
   priceHeaderContent,
 } from './partyData';
 import Price from '../common/price/price';
@@ -11,16 +11,17 @@ import ImageGallery from '../common/ImageGallery/ImageGallery';
 import { imagesHeaderContent } from '../montessori/montessoriData';
 import ScrollToComponent from '../common/scrollToComponent';
 import { useGlobalContext } from '../context/globalContext';
+import Gallery from '../common/gallery/gallery';
 
 const Party = () => {
   return (
     <>
-      <PageHero content={content} />
+      <PageHero content={partyHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={partyAccordionHeaderData} />
       <Topics />
       <SectionHeader content={imagesHeaderContent} />
-      <ImageGallery />
+      <Gallery />
       <SectionHeader content={priceHeaderContent} />
       <Price />
     </>
