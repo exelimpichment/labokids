@@ -1,9 +1,10 @@
+'use client';
 import Image from 'next/image';
 import Container from './container';
 import { kidFont, textFont, titleFont } from '../common/fonts';
 import ButtonsHero from './buttonsHero';
 import { StaticImageData } from 'next/dist/shared/lib/get-img-props';
-
+import { motion, AnimatePresence } from 'framer-motion';
 interface IPageHero {
   content: {
     image: StaticImageData;
