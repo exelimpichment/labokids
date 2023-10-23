@@ -20,7 +20,6 @@ const DropdownItem: React.FC<INavbarLink> = ({
 }) => {
   const { setBurgerMenuOpen } = useGlobalContext();
   const router = useRouter();
-
   router.prefetch(href);
 
   const handleClick = () => {
