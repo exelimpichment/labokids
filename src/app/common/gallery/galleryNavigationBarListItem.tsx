@@ -21,14 +21,14 @@ const GalleryNavigationBarListItem: React.FC<IGalleryNavigationBarList> = ({
     <button
       onClick={() => setActiveGalleryCollection(buttonName)}
       type="button"
-      className={`relative flex h-[40px] w-[40px] items-center ${
+      className={`relative flex h-[55px] w-[55px] items-center ${
         active ? backgroundColor : 'bg-gray-300'
-      } justify-center rounded-full  text-white before:absolute before:left-1/2  before:top-1/2 before:h-[45px] before:w-[45px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-dashed ${
+      } justify-center rounded-full  text-white before:absolute before:left-1/2  before:top-1/2 before:h-[60px] before:w-[60px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-dashed ${
         active ? borderColor : 'border-gray-300'
       }  hover:before:left-auto hover:before:top-auto before:hover:animate-[rotating_5s_linear_infinite]`}
     >
       <div className={`mx-5`}>
-        <Icon size={20} />
+        <Icon size={30} />
       </div>
     </button>
   );

@@ -1,4 +1,4 @@
-import ImageGallery from '../common/ImageGallery/ImageGallery';
+import ImageGallery from '../common/gallery/ImageGallery';
 import OurTeachers from '../common/TeachersGallery/ourTeachers';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
@@ -14,7 +14,7 @@ import {
 
 const Bilingual = () => {
   return (
-    <>
+    <main>
       <PageHero content={bilingualHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={imagesHeaderContent} />
@@ -23,9 +23,8 @@ const Bilingual = () => {
       <OurTeachers />
       <SectionHeader content={priceHeaderContent} />
       <Price />
-
       <div className="mt-96"></div>
-    </>
+    </main>
   );
 };
 

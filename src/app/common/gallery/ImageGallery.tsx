@@ -1,12 +1,17 @@
+'use client';
+
 import Image from 'next/image';
-import { montessoriGalleryListOfImages } from '../../montessori/montessoriData';
+
 import Container from '../container';
+import { useGlobalContext } from '../../context/globalContext';
+import { workshopGalleryPhotoSets } from '../../workshops/workshopData';
 
 const ImageGallery = () => {
+  const { activeGalleryCollection } = useGlobalContext();
   return (
     <Container>
       <div className="mt-10 flex flex-wrap justify-center gap-5">
-        {montessoriGalleryListOfImages.map((item) => (
+        {workshopGalleryPhotoSets[activeGalleryCollection].map((item) => (
           <Image
             src={item.image}
             key={item.id}

@@ -15,12 +15,12 @@ export const priceHeaderContent = {
 };
 
 export const partyHeroContent = {
+  image: partyHero,
   kidFontText: 'Birthday with LaboKids',
   header: 'A bright future for all',
   paragraph:
     'The Universe is one great kindergarten for man. Everything that exists has ' +
     'brought with it its own peculiar lesson.',
-  image: partyHero,
   buttonsPosition: 'lg:justify-start',
   textPosition: 'lg:text-left',
   flexPosition: 'items-start',
@@ -137,3 +137,10 @@ export const accordionPartyData = [
       'sprawdzimy czy rzeczywiście jest taki zimny oraz zrobimy tajemniczą mgłę.',
   },
 ];
+
+const partyGallery = {
+  baloniki: [],
+  chemia: [],
+  mydlo: [],
+  lod: [],
+};

@@ -1,4 +1,4 @@
-import ImageGallery from '../common/ImageGallery/ImageGallery';
+import ImageGallery from '../common/gallery/ImageGallery';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
@@ -16,7 +16,7 @@ import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList
 
 const Montessori = () => {
   return (
-    <>
+    <main>
       <PageHero content={montessoriHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
@@ -28,7 +28,7 @@ const Montessori = () => {
       <SectionHeader content={priceHeaderContent} />
       <Price />
       <div className="mt-96"></div>
-    </>
+    </main>
   );
 };
 
