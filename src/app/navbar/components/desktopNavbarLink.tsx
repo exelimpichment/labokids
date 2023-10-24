@@ -15,7 +15,11 @@ const DesktopNavbarLink: React.FC<INavbarLink> = ({
   route: { href, label, active, icon: Icon },
 }) => {
   return (
-    <li className={`${active ? 'text-black' : 'text-white'}`}>
+    <li
+      className={`${active ? 'text-black' : 'text-white'} ${
+        !active ? ' hover:text-gray-300' : null
+      }`}
+    >
       <Link href={href}>{label}</Link>
     </li>
   );
