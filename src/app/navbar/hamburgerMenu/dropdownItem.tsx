@@ -1,6 +1,9 @@
-import Link from 'next/link';
+'use client';
+
+// import Link from 'next/link';
 import { IconType } from 'react-icons';
 import { useGlobalContext } from '../../context/globalContext';
+import { useRouter } from 'next/navigation';
 
 interface INavbarLink {
   route: {
@@ -15,17 +18,26 @@ interface INavbarLink {
 const DropdownItem: React.FC<INavbarLink> = ({
   route: { id, href, label, icon: Icon, active },
 }) => {
-  const { burgerMenuOpen, setBurgerMenuOpen } = useGlobalContext();
+  const { setBurgerMenuOpen } = useGlobalContext();
+  const router = useRouter();
+  router.prefetch(href);
+
+  const handleClick = () => {
+    setBurgerMenuOpen(false);
+    setTimeout(() => {
+      router.push(href);
+    }, 300);
+  };
   return (
     <li>
-      <Link
-        href={href}
+      <button
+        type="button"
+        onClick={handleClick}
         className={`flex gap-2 ${active ? 'text-black' : 'text-gray-600'}`}
-        onClick={() => setBurgerMenuOpen(false)}
       >
         <Icon size={24} />
         <span>{label}</span>
-      </Link>
+      </button>
     </li>
   );
 };

@@ -19,6 +19,21 @@ export const workshopHeroContent = {
     'We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness.',
 };
 
+export const imagesWorkshopHeaderContent = {
+  kidFontText: 'EXPLORE LABOKIDS',
+  header: 'Gallery',
+  paragraph:
+    'Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery.',
+};
+
+export const priceWorkshopHeaderContent = {
+  kidFontText: 'BEST PRICE FOR PARENTS',
+  header: 'Pricing',
+  paragraph:
+    'Discover unbeatable prices for unforgettable parties - our commitment to ' +
+    'affordability ensures you get the best value for your celebrations.',
+};
+
 export const workshopGalleryPhotoSets = {
   baloniki: [
     { id: 0, image: montessoriGalleryListOfImage1, alt: 'alt' },
