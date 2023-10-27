@@ -10,21 +10,22 @@ const ImageGallery = () => {
   const { activeGalleryCollection } = useGlobalContext();
   return (
     <Container>
-      <div className="mt-10 flex flex-wrap justify-center gap-5">
+      <div className=" mt-10 flex  flex-wrap justify-center gap-5">
         {workshopGalleryPhotoSets[activeGalleryCollection].map((item) => (
-          <Image
-            src={item.image}
-            key={item.id}
-            width={300}
-            alt="gallery image"
-            placeholder="blur"
-            quality={100}
-            style={{
-              objectFit: 'cover',
-              objectPosition: 'top center',
-            }}
-            className="rounded-xl"
-          />
+          <div className="relative h-56 w-96" key={item.id}>
+            <Image
+              src={item.image}
+              fill
+              alt="gallery image"
+              placeholder="blur"
+              quality={100}
+              style={{
+                objectFit: 'cover',
+                objectPosition: 'center center',
+              }}
+              className="rounded-xl"
+            />
+          </div>
         ))}
       </div>
     </Container>

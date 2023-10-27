@@ -1,4 +1,5 @@
-import ImageGallery from '../common/gallery/ImageGallery';
+import { Suspense } from 'react';
+import ImageGallery from '../common/navigatedGallery/ImageGallery';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
@@ -13,6 +14,8 @@ import {
   teachersHeaderContent,
 } from './montessoriData';
 import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
+import StaticGallery from '../common/staticGallery/staticGallery';
+import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 const Montessori = () => {
   return (
@@ -22,7 +25,7 @@ const Montessori = () => {
       <SectionHeader content={aboutMontessoriHeaderContent} />
       <MontessoriMethodsList />
       <SectionHeader content={imagesHeaderContent} />
-      <ImageGallery />
+      <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={teachersHeaderContent} />
       <OurTeachers />
       <SectionHeader content={priceHeaderContent} />

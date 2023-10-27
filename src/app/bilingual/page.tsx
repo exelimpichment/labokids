@@ -1,4 +1,4 @@
-import ImageGallery from '../common/gallery/ImageGallery';
+import ImageGallery from '../common/navigatedGallery/ImageGallery';
 import OurTeachers from '../common/TeachersGallery/ourTeachers';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
@@ -11,6 +11,8 @@ import {
   bilingualTeachersHeader,
   priceHeaderContent,
 } from './bilingualData';
+import StaticGallery from '../common/staticGallery/staticGallery';
+import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 const Bilingual = () => {
   return (
@@ -18,7 +20,7 @@ const Bilingual = () => {
       <PageHero content={bilingualHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={imagesHeaderContent} />
-      <ImageGallery />
+      <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={bilingualTeachersHeader} />
       <OurTeachers />
       <SectionHeader content={priceHeaderContent} />

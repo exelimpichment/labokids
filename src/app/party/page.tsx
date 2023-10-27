@@ -7,11 +7,11 @@ import {
 import Price from '../common/price/price';
 import Topics from './topics/topics';
 import SectionHeader from '../common/sectionHeader';
-import ImageGallery from '../common/gallery/ImageGallery';
+import ImageGallery from '../common/navigatedGallery/ImageGallery';
 import { imagesHeaderContent } from '../montessori/montessoriData';
 import ScrollToComponent from '../common/scrollToComponent';
 import { useGlobalContext } from '../context/globalContext';
-import Gallery from '../common/gallery/gallery';
+import Gallery from '../common/navigatedGallery/gallery';
 
 const Party = () => {
   return (

@@ -1,3 +1,9 @@
+import HomeHero from './home/homeHero';
+
 export default function Home() {
-  return <div className="h-10">test</div>;
+  return (
+    <>
+      <HomeHero />
+    </>
+  );
 }
