@@ -4,11 +4,16 @@ import { useGlobalContext } from '../../context/globalContext';
 
 const HamburgerTrigger = () => {
   const { burgerMenuOpen, setBurgerMenuOpen } = useGlobalContext();
+
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
+    setBurgerMenuOpen(!burgerMenuOpen);
+  };
   return (
     <button
       type="button"
       className={`z-50 mb-2 flex h-6  w-7 flex-col justify-between lg:hidden`}
-      onClick={() => setBurgerMenuOpen(!burgerMenuOpen)}
+      onClick={handleClick}
     >
       <div
         className={`h-1 w-7 origin-right rounded-xl bg-black transition-all duration-500 ${

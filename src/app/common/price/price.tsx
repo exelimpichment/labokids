@@ -1,5 +1,4 @@
 import Container from '../container';
-import SectionHeader from '../sectionHeader';
 import PriceCards from './priceCards';
 
 const Price = () => {

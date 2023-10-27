@@ -1,5 +1,5 @@
-import ImageGallery from '../common/navigatedGallery/ImageGallery';
-import OurTeachers from '../common/TeachersGallery/ourTeachers';
+import ImageGallery from '../common/dynamicGallery/dynamicImageGallery';
+import OurTeachers from '../common/teachersGallery/ourTeachers';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
@@ -16,7 +16,7 @@ import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 const Bilingual = () => {
   return (
-    <main>
+    <main className="content">
       <PageHero content={bilingualHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={imagesHeaderContent} />

@@ -1,12 +1,9 @@
-'use client';
-
 import {
-  Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { titleFont } from '../../common/fonts';
+import { titleFont } from '../fonts';
 import { LucideIcon } from 'lucide-react';
 import { IconType } from 'react-icons';
 

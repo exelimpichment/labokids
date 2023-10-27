@@ -1,10 +1,10 @@
 import { Suspense } from 'react';
-import ImageGallery from '../common/navigatedGallery/ImageGallery';
+import ImageGallery from '../common/dynamicGallery/dynamicImageGallery';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
-import OurTeachers from '../common/TeachersGallery/ourTeachers';
+import OurTeachers from '../common/teachersGallery/ourTeachers';
 import { priceHeaderContent } from '../party/partyData';
 
 import {
@@ -19,7 +19,7 @@ import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 const Montessori = () => {
   return (
-    <main>
+    <main className="content">
       <PageHero content={montessoriHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
@@ -30,7 +30,6 @@ const Montessori = () => {
       <OurTeachers />
       <SectionHeader content={priceHeaderContent} />
       <Price />
-      <div className="mt-96"></div>
     </main>
   );
 };

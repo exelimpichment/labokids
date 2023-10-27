@@ -1,7 +1,9 @@
-import { Button } from '@/components/ui/button';
+'use client';
+
 import { textFont, titleFont } from '../fonts';
 import { IconType } from 'react-icons';
 import { LucideIcon } from 'lucide-react';
+import { useGlobalContext } from '../../context/globalContext';
 
 interface IPriceCard {
   item: {
@@ -17,8 +19,16 @@ interface IPriceCard {
 const PriceCard: React.FC<IPriceCard> = ({
   item: { id, header, paragraph, price, advantages, icon: Icon },
 }) => {
+  const { setContactUsDialog } = useGlobalContext();
+
+  const handleClick = () => {
+    setContactUsDialog((prev) => !prev);
+  };
   return (
-    <div className="flex max-w-[270px] cursor-pointer flex-col items-center justify-between rounded-2xl border border-gray-200 p-5 hover:rounded-2xl hover:border-transparent hover:bg-slate-100">
+    <div
+      onClick={handleClick}
+      className="flex max-w-[270px] cursor-pointer flex-col items-center justify-between rounded-2xl border border-gray-200 p-5 hover:rounded-2xl hover:border-transparent hover:bg-slate-100"
+    >
       <div className="text-laboBlue">
         <Icon size={32} />
       </div>

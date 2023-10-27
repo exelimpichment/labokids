@@ -6,7 +6,7 @@ import Container from '../container';
 import { useGlobalContext } from '../../context/globalContext';
 import { workshopGalleryPhotoSets } from '../../workshops/workshopData';
 
-const ImageGallery = () => {
+const DynamicImageGallery = () => {
   const { activeGalleryCollection } = useGlobalContext();
   return (
     <Container>
@@ -32,4 +32,4 @@ const ImageGallery = () => {
   );
 };
 
-export default ImageGallery;
+export default DynamicImageGallery;

@@ -5,9 +5,9 @@ import clickMe from '@/public/clickMe.png';
 import Image from 'next/image';
 import useGalleryButtons from '../../hooks/useGalleryButtons';
 
-import GalleryNavigationBarListItem from './galleryNavigationBarListItem';
+import GalleryNavigationBarListItem from './dynamicGalleryNavigationBarListItem';
 
-const GalleryNavigationBarList = () => {
+const DynamicGalleryNavigationBarList = () => {
   const galleryButtons = useGalleryButtons();
   return (
     <div className="mt-10 flex w-full  justify-center">
@@ -38,4 +38,4 @@ const GalleryNavigationBarList = () => {
   );
 };
 
-export default GalleryNavigationBarList;
+export default DynamicGalleryNavigationBarList;

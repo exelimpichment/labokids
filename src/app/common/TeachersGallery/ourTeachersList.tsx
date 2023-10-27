@@ -1,4 +1,3 @@
-import Container from '../container';
 import { OurTeachersInfoList } from '../../montessori/montessoriData';
 import OurTeachersListItem from './ourTeachersListItem';
 

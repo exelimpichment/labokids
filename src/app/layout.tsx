@@ -7,6 +7,7 @@ import ContactUsDialog from './common/contactUsDialog/contactUsDialog';
 import { Toaster } from 'sonner';
 import Backdrop from './common/backdrop';
 import SlidingDownNavigationMenu from './navbar/hamburgerMenu/slidingDownNavigationMenu';
+import Footer from './footer/footer';
 
 {
   /* <link rel="preload" href="./globals.css" as="style" />; */
@@ -33,6 +34,7 @@ export default function RootLayout({
           <SlidingDownNavigationMenu />
           <Navbar />
           {children}
+          <Footer />
           <Toaster />
           <ContactUsDialog />
           <Backdrop />

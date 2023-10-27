@@ -1,8 +1,8 @@
 import Container from '../container';
-import ImageGallery from './ImageGallery';
-import GalleryNavigationBarList from './galleryNavigationBarList';
+import ImageGallery from './dynamicImageGallery';
+import GalleryNavigationBarList from './dynamicGalleryNavigationBarList';
 
-const Gallery = () => {
+const DynamicGallery = () => {
   return (
     <section>
       <Container>
@@ -13,4 +13,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default DynamicGallery;

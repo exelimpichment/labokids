@@ -1,9 +1,23 @@
 import { Accordion } from '@/components/ui/accordion';
-
 import AccordionCollapsibleItem from './accordionCollapsibleItem';
-import { accordionPartyData } from '../partyData';
+import { IconType } from 'react-icons';
 
-const AccordionCollapsibleItemsList = () => {
+interface IAccordionCollapsibleItemsList {
+  accordionPartyData: {
+    key: number;
+    value: string;
+    borderColor: string;
+    fontColor: string;
+    backgroundColor: string;
+    heading: string;
+    icon: IconType;
+    description: string;
+  }[];
+}
+
+const AccordionCollapsibleItemsList: React.FC<
+  IAccordionCollapsibleItemsList
+> = ({ accordionPartyData }) => {
   return (
     <Accordion
       type="single"

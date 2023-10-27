@@ -1,4 +1,3 @@
-import Container from '../../common/container';
 import { montessoriMethodsList } from '../montessoriData';
 import MontessoriMethodsItem from './montessoriMethodsItem';
 

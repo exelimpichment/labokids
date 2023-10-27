@@ -13,7 +13,9 @@ interface IGalleryNavigationBarList {
   };
 }
 
-const GalleryNavigationBarListItem: React.FC<IGalleryNavigationBarList> = ({
+const DynamicGalleryNavigationBarListItem: React.FC<
+  IGalleryNavigationBarList
+> = ({
   button: { icon: Icon, backgroundColor, borderColor, active, buttonName },
 }) => {
   const { setActiveGalleryCollection } = useGlobalContext();
@@ -34,4 +36,4 @@ const GalleryNavigationBarListItem: React.FC<IGalleryNavigationBarList> = ({
   );
 };
 
-export default GalleryNavigationBarListItem;
+export default DynamicGalleryNavigationBarListItem;
