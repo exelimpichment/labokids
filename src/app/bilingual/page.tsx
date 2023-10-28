@@ -11,7 +11,7 @@ import {
 } from './bilingualData';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
-import OurTeachers from '../common/teachersGallery/ourTeachers';
+import OurTeachers from '@/src/app/common/teachersGallery/ourTeachers';
 
 const Bilingual = () => {
   return (
