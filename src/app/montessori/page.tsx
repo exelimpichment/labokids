@@ -1,10 +1,8 @@
-import { Suspense } from 'react';
-import ImageGallery from '../common/dynamicGallery/dynamicImageGallery';
 import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
-import OurTeachers from '../common/teachersGallery/ourTeachers';
+
 import { priceHeaderContent } from '../party/partyData';
 
 import {
@@ -16,6 +14,7 @@ import {
 import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
+import OurTeachers from '../common/teachersGallery/ourTeachers';
 
 const Montessori = () => {
   return (

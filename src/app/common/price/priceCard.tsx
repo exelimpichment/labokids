@@ -24,6 +24,7 @@ const PriceCard: React.FC<IPriceCard> = ({
   const handleClick = () => {
     setContactUsDialog((prev) => !prev);
   };
+
   return (
     <div
       onClick={handleClick}

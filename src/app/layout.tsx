@@ -9,9 +9,6 @@ import Backdrop from './common/backdrop';
 import SlidingDownNavigationMenu from './navbar/hamburgerMenu/slidingDownNavigationMenu';
 import Footer from './footer/footer';
 
-{
-  /* <link rel="preload" href="./globals.css" as="style" />; */
-}
 const prompt = Prompt({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],

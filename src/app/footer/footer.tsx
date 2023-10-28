@@ -1,9 +1,12 @@
 import Container from '../common/container';
+import FooterNavigationList from './footerNavigationList';
 
 const Footer = () => {
   return (
-    <footer className="border- h-14 shrink-0 border-gray-600 bg-red-600">
-      <Container>dddd</Container>
+    <footer className="hover: h-14 shrink-0 border-t border-gray-200">
+      <Container>
+        <FooterNavigationList />
+      </Container>
     </footer>
   );
 };

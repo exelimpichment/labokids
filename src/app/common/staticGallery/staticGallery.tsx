@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from 'next/image';
 import Container from '../container';
+import movingSun from '@/public/movingSun.webp';
 
 interface IStaticGallery {
   galleryImages: { id: number; image: StaticImageData; alt: string }[];
@@ -8,7 +9,7 @@ interface IStaticGallery {
 const StaticGallery: React.FC<IStaticGallery> = ({ galleryImages }) => {
   return (
     <Container>
-      <div className=" mt-10 flex  flex-wrap justify-center gap-5">
+      <div className="relative mt-10 flex flex-wrap justify-center gap-5">
         {galleryImages.map((item) => (
           <div className="relative h-56 w-96" key={item.id}>
             <Image
@@ -25,6 +26,14 @@ const StaticGallery: React.FC<IStaticGallery> = ({ galleryImages }) => {
             />
           </div>
         ))}
+        <div className="absolute bottom-[-90px] right-0  z-50 animate-reciprocal-horizontal xl:bottom-[-132px] xl:right-[10%]">
+          <Image
+            width={133}
+            height={137}
+            src={movingSun}
+            alt="moving crab image"
+          />
+        </div>
       </div>
     </Container>
   );

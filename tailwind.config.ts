@@ -11,7 +11,7 @@ module.exports = {
     screens: {
       '2sm': '320px',
       sm: '375px',
-      md: '465px',
+      md: '425px',
       lg: '768px',
       xl: '1024px',
       '2xl': '1440px',
@@ -72,9 +72,17 @@ module.exports = {
           '0%, 100%': { transform: 'translateX(0)' },
           '50%': { transform: 'translateX(-20px)' },
         },
-        reciprocal: {
-          '0%, 100%': { transform: 'translateY(100px)' },
-          '50%': { transform: 'translateY(120px)' },
+
+        'move-in-circle': {
+          '0%': { transform: ' translate(0, 0) ' },
+          '25%': { transform: 'translate(30px, 0)' },
+          '50%': { transform: ' translate(0, 30px) ' },
+          '75%': { transform: ' translate(-30px, 0) ' },
+          '100%': { transform: ' translate(0, 0) ' },
+        },
+        'reciprocal-vertical': {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(20px)' },
         },
         'accordion-down': {
           from: { height: 0 },
@@ -88,9 +96,11 @@ module.exports = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        reciprocal: 'reciprocal 2s linear infinite alternate',
+        'reciprocal-vertical':
+          'reciprocal-vertical 2s linear infinite alternate',
         'reciprocal-horizontal':
           'reciprocal-horizontal 2s linear infinite alternate',
+        'move-in-circle': 'move-in-circle 5s infinite',
       },
     },
   },
