@@ -22,6 +22,9 @@ type GlobalContextType = {
   setActiveGalleryCollection: Dispatch<
     SetStateAction<'baloniki' | 'chemia' | 'mydlo' | 'lod'>
   >;
+  scrolledView: boolean;
+  setScrolledView: Dispatch<SetStateAction<boolean>>;
+  topRef: MutableRefObject<HTMLDivElement | null>;
 };
 
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
@@ -35,7 +38,9 @@ export const GlobalContextProvider: React.FC<{
   const [activeGalleryCollection, setActiveGalleryCollection] = useState<
     'baloniki' | 'chemia' | 'mydlo' | 'lod'
   >('baloniki');
+  const [scrolledView, setScrolledView] = useState<boolean>(false);
   const topicsRef = useRef<HTMLDivElement | null>(null);
+  const topRef = useRef<HTMLDivElement | null>(null);
   // functions
   const scrollToTopics = () => {
     if (topicsRef.current) {
@@ -54,6 +59,9 @@ export const GlobalContextProvider: React.FC<{
         setBurgerMenuOpen,
         activeGalleryCollection,
         setActiveGalleryCollection,
+        scrolledView,
+        setScrolledView,
+        topRef,
       }}
     >
       {children}

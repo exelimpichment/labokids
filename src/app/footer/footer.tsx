@@ -3,7 +3,7 @@ import FooterNavigationList from './footerNavigationList';
 
 const Footer = () => {
   return (
-    <footer className="hover: h-14 shrink-0 border-t border-gray-200">
+    <footer className="hover: h-16 shrink-0 border-t border-gray-200">
       <Container>
         <FooterNavigationList />
       </Container>

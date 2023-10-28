@@ -7,20 +7,25 @@ import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 import {
+  aboutBilingualHeaderContent,
   bilingualHeroContent,
+  bilingualPricingData,
   bilingualTeachersHeader,
   priceHeaderContent,
 } from './bilingualData';
+import ScrollToTopComponent from '../common/scrollToTopComponent';
 
 const Bilingual = () => {
   return (
     <main className="content">
+      <ScrollToTopComponent />
       <PageHero content={bilingualHeroContent} />
       <ScrollToComponent />
+      <SectionHeader content={aboutBilingualHeaderContent} />
+      {/* anny s phot  goe here*/}
       <SectionHeader content={imagesHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={bilingualTeachersHeader} />
-      {/* <OurTeachers /> */}
       <SectionHeader content={priceHeaderContent} />
       <Price />
     </main>

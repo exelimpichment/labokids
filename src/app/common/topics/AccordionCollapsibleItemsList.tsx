@@ -1,6 +1,7 @@
 import { Accordion } from '@/components/ui/accordion';
 import AccordionCollapsibleItem from './accordionCollapsibleItem';
 import { IconType } from 'react-icons';
+import { LucideIcon } from 'lucide-react';
 
 interface IAccordionCollapsibleItemsList {
   accordionPartyData: {
@@ -10,7 +11,7 @@ interface IAccordionCollapsibleItemsList {
     fontColor: string;
     backgroundColor: string;
     heading: string;
-    icon: IconType;
+    icon: IconType | LucideIcon;
     description: string;
   }[];
 }

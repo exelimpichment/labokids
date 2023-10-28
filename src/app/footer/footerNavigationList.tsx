@@ -6,7 +6,7 @@ import FooterNavigationListItem from './footerNavigationListItem';
 const FooterNavigationList = () => {
   const routes = useRoutes();
   return (
-    <ul className="flex h-14 items-center justify-center px-2">
+    <ul className="flex h-16 items-center justify-center px-2">
       <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-10">
         {routes.map((route) => (
           <FooterNavigationListItem

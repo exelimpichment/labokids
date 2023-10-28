@@ -10,7 +10,7 @@ interface IPriceCard {
     id: number;
     header: string;
     paragraph: string;
-    price: number;
+    price: number | string;
     advantages: string[];
     icon: IconType | LucideIcon;
   };

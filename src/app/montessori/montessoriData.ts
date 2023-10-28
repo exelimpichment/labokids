@@ -15,11 +15,14 @@ import montessoriMethodsListOfImage2 from '@/public/montessoriMethodsListOfImage
 import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage3.jpg';
 import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage1.jpg';
 import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage5.jpg';
+import { HeartHandshake } from 'lucide-react';
+import { LuSchool } from 'react-icons/lu';
+import { RiHomeHeartLine } from 'react-icons/ri';
 
 export const montessoriHeroContent = {
   image: montessoriHero,
   buttonsPosition: 'lg:justify-end',
-  kidFontText: 'LaboKids montessori kindergarten',
+  kidFontText: 'LaboKids Montessori kindergarten',
   header: 'A bright future for all.',
   textPosition: 'lg:text-right',
   flexPosition: 'items-end',
@@ -31,8 +34,7 @@ export const priceHeaderContent = {
   kidFontText: 'BEST PRICE FOR PARENTS',
   header: 'Pricing',
   paragraph:
-    'Discover unbeatable prices for unforgettable parties - our commitment to ' +
-    'affordability ensures you get the best value for your celebrations.',
+    "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them.",
 };
 
 export const teachersHeaderContent = {
@@ -47,13 +49,14 @@ export const imagesHeaderContent = {
   header: 'Gallery',
   paragraph:
     'Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery.',
+  animatedPicture: true,
 };
 
 export const aboutMontessoriHeaderContent = {
   kidFontText: 'ABOUT OUR EDUCATION PROGRAM',
   header: 'Montessori Method',
   paragraph:
-    'Our goal is the comprehensive development of the child, teaching independence and tolerance. According to the Montessori method, we have 5 subject areas:',
+    'Our aim is to promote the well-rounded growth of each child, emphasizing independence and tolerance, following the Montessori approach with five subject areas.',
 };
 
 export const OurTeachersInfoList = [
@@ -107,5 +110,41 @@ export const montessoriMethodsList = [
     paragraph:
       "In this domain, children delve into a range of subjects, including Geography, History, Biology, Art, and Music. This broad exploration provides them with the chance to gain a deeper understanding of their surroundings. This facet of children's education empowers our students to uncover the richness of both historical and contemporary cultures while also examining the realms of living and non-living entities.",
     header: 'Culture and Science',
+  },
+];
+
+export const partyPricingData = [
+  {
+    id: 1,
+    header: 'Monthly payment',
+    paragraph: 'Affordable monthly payment plans to suit your budget.',
+    price: 800,
+    advantages: [
+      'Personalized Approach',
+      'Experienced Teachers',
+      'Engaging Curriculum',
+    ],
+    icon: RiHomeHeartLine,
+  },
+  {
+    id: 2,
+    header: 'Meals',
+    paragraph:
+      'Nutritious meals provided for your child during their time with us.',
+    price: '17 / day',
+    advantages: [
+      'Healthy Food',
+      'Dietary Accommodations',
+      'Mealtime Education',
+    ],
+    icon: LuSchool,
+  },
+  {
+    id: 3,
+    header: 'Special offers',
+    paragraph: 'Enjoy financial benefits with our exclusive offers!',
+    price: 0,
+    advantages: ['Additional Lessons', 'Bring a Friend', 'Offers for Siblings'],
+    icon: HeartHandshake,
   },
 ];

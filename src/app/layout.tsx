@@ -8,6 +8,7 @@ import { Toaster } from 'sonner';
 import Backdrop from './common/backdrop';
 import SlidingDownNavigationMenu from './navbar/hamburgerMenu/slidingDownNavigationMenu';
 import Footer from './footer/footer';
+import ScrollToTopButton from './common/scrollToTopButton';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({
           <Toaster />
           <ContactUsDialog />
           <Backdrop />
+          <ScrollToTopButton />
         </GlobalContextProvider>
       </body>
     </html>

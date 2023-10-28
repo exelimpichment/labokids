@@ -1,6 +1,7 @@
 import { IconType } from 'react-icons';
 import AccordionTopicsList from './AccordionCollapsibleItemsList';
 import Container from '../container';
+import { LucideIcon } from 'lucide-react';
 
 interface ITopics {
   accordionData: {
@@ -10,7 +11,7 @@ interface ITopics {
     fontColor: string;
     backgroundColor: string;
     heading: string;
-    icon: IconType;
+    icon: IconType | LucideIcon;
     description: string;
   }[];
 }

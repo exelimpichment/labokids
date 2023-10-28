@@ -19,8 +19,7 @@ export const partyHeroContent = {
   kidFontText: 'Birthday with LaboKids',
   header: 'A bright future for all',
   paragraph:
-    'The Universe is one great kindergarten for man. Everything that exists has ' +
-    'brought with it its own peculiar lesson.',
+    'Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments.',
   buttonsPosition: 'lg:justify-start',
   textPosition: 'lg:text-left',
   flexPosition: 'items-start',
@@ -44,33 +43,33 @@ export const partyAccordionHeaderData = {
 export const partyPricingData = [
   {
     id: 1,
-    header: 'Party-at-Your-Place',
+    header: 'At our kindergarten', // Paket Labo
     paragraph:
-      'Bring the birthday magic to your doorstep with our at-home party experience!',
-    price: 123,
-    advantages: ['Convenience', 'Personalized Experience', 'Intimate'],
-    icon: RiHomeHeartLine,
+      'Bring the birthday excitement to our kindergarten for a memorable celebration!',
+    price: 650,
+    advantages: [
+      'Our Catered Cuisine',
+      'Hassle-Free Experience',
+      '2 hours of Fun',
+    ],
+    icon: LuSchool,
   },
   {
     id: 2,
-    header: 'At our kindergarten',
+    header: 'Party-at-Your-Place', // paket domowy
     paragraph:
-      'Bring the birthday excitement to our kindergarten for a memorable celebration!',
-    price: 123,
-    advantages: [
-      'Our Catered Cuisine',
-      'Educational Fun',
-      'Hassle-Free Experience',
-    ],
-    icon: LuSchool,
+      'Bring the birthday magic to your doorstep with our at-home party experience!',
+    price: 550,
+    advantages: ['Convenience', 'Personalized Experience', '1.5 hours of Fun'],
+    icon: RiHomeHeartLine,
   },
   {
     id: 3,
     header: 'Tailored Experience',
     paragraph:
       'Completely customizable celebration, negotiate and arrange the ideal birthday.',
-    price: 123,
-    advantages: ['Personalized Party', 'Flexibility', 'Memorable and Unique'],
+    price: 'on request',
+    advantages: ['Personalized Party', 'Large Group', 'Far From Poznan'],
     icon: HeartHandshake,
   },
 ];
