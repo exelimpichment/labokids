@@ -1,18 +1,11 @@
-import { HeartHandshake } from 'lucide-react';
-import { RiHomeHeartLine } from 'react-icons/ri';
-import { LuSchool } from 'react-icons/lu';
 import partyHero from '@/public/partyHero.jpg';
 import { FaSoap } from 'react-icons/fa';
 import { GiBalloons, GiFoam } from 'react-icons/gi';
 import { SlChemistry } from 'react-icons/sl';
 
-export const priceHeaderContent = {
-  kidFontText: 'BEST PRICE FOR PARENTS',
-  header: 'Pricing',
-  paragraph:
-    'Discover unbeatable prices for unforgettable parties - our commitment to ' +
-    'affordability ensures you get the best value for your celebrations.',
-};
+import school from '@/public/projectSvg/school.svg';
+import dimond from '@/public/projectSvg/dimond.svg';
+import home from '@/public/projectSvg/home.svg';
 
 export const partyHeroContent = {
   image: partyHero,
@@ -52,7 +45,7 @@ export const partyPricingData = [
       'Hassle-Free Experience',
       '2 hours of Fun',
     ],
-    icon: LuSchool,
+    icon: school,
   },
   {
     id: 2,
@@ -61,16 +54,16 @@ export const partyPricingData = [
       'Bring the birthday magic to your doorstep with our at-home party experience!',
     price: 550,
     advantages: ['Convenience', 'Personalized Experience', '1.5 hours of Fun'],
-    icon: RiHomeHeartLine,
+    icon: home,
   },
   {
     id: 3,
     header: 'Tailored Experience',
     paragraph:
-      'Completely customizable celebration, negotiate and arrange the ideal birthday.',
+      'Customizable celebration, negotiate and arrange the ideal birthday.',
     price: 'on request',
     advantages: ['Personalized Party', 'Large Group', 'Far From Poznan'],
-    icon: HeartHandshake,
+    icon: dimond,
   },
 ];
 
@@ -137,9 +130,10 @@ export const accordionPartyData = [
   },
 ];
 
-const partyGallery = {
-  baloniki: [],
-  chemia: [],
-  mydlo: [],
-  lod: [],
+export const galleryPartyHeaderContent = {
+  kidFontText: 'EXPLORE LABOKIDS',
+  header: 'Gallery',
+  paragraph:
+    'Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery.',
+  animatedPicture: true,
 };

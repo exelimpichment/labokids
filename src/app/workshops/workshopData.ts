@@ -1,18 +1,16 @@
 import workshopHeroBig from '@/public/workshopHero.jpg';
-// temp source of images
+
 import montessoriGalleryListOfImage1 from '@/public/montessoriGallery/montessoriGallery1.jpg';
 import montessoriGalleryListOfImage2 from '@/public/montessoriGallery/montessoriGallery2.jpg';
 import montessoriGalleryListOfImage3 from '@/public/montessoriGallery/montessoriGallery3.jpg';
 import montessoriGalleryListOfImage4 from '@/public/montessoriGallery/montessoriGallery4.jpg';
 import montessoriGalleryListOfImage5 from '@/public/montessoriGallery/montessoriGallery5.jpg';
 import montessoriGalleryListOfImage6 from '@/public/montessoriGallery/montessoriGallery6.jpg';
-import { GiBalloons, GiFoam } from 'react-icons/gi';
-import { SlChemistry } from 'react-icons/sl';
-import { FaSoap } from 'react-icons/fa';
-import { HeartHandshake, PartyPopper, RotateCw, TentTree } from 'lucide-react';
-import { LuSchool } from 'react-icons/lu';
-import { RiHomeHeartLine } from 'react-icons/ri';
-// temp source of images
+
+import user from '@/public/projectSvg/user.svg';
+import users from '@/public/projectSvg/users.svg';
+import userPlus from '@/public/projectSvg/userPlus.svg';
+import { PartyPopper, RotateCw, TentTree } from 'lucide-react';
 
 export const workshopHeroContent = {
   image: workshopHeroBig,
@@ -136,34 +134,34 @@ export const workshopPricingData = [
     header: 'One Group',
     paragraph:
       'Perfect for small gatherings or individual groups, ensuring personalized attention and a memorable experience.',
-    price: '450 / group',
+    price: '450/group',
     advantages: [
       '25 Kids Maximum',
       'Flexible Scheduling',
       'Experienced Teachers',
     ],
-    icon: LuSchool,
+    icon: user,
   },
   {
     id: 2,
     header: 'Two - Three Groups',
     paragraph:
       'Ideal for multiple groups or classes, providing a well-balanced combination of learning and fun.',
-    price: '350 / group',
+    price: '350/group',
     advantages: [
       '25 Kids Max per group',
       'Customizable Curriculum',
       'Engaging Activities',
     ],
-    icon: RiHomeHeartLine,
+    icon: users,
   },
   {
     id: 3,
     header: 'Four and More',
     paragraph:
       'Our best value option for larger gatherings, ensuring affordability without compromising on quality.',
-    price: '300 / group',
+    price: '300/group',
     advantages: ['25 Kids Max per group', 'Endless Fun', 'Best Value'],
-    icon: HeartHandshake,
+    icon: userPlus,
   },
 ];

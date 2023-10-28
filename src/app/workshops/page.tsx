@@ -12,6 +12,7 @@ import {
   workshopAccordionHeaderData,
   workshopGalleryPhotoSets,
   workshopHeroContent,
+  workshopPricingData,
 } from './workshopData';
 
 const Workshops = () => {
@@ -24,7 +25,7 @@ const Workshops = () => {
       <SectionHeader content={imagesWorkshopHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={priceWorkshopHeaderContent} />
-      <Price />
+      <Price priceData={workshopPricingData} />
     </main>
   );
 };

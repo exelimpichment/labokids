@@ -15,9 +15,7 @@ import montessoriMethodsListOfImage2 from '@/public/montessoriMethodsListOfImage
 import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage3.jpg';
 import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage1.jpg';
 import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage5.jpg';
-import { HeartHandshake } from 'lucide-react';
-import { LuSchool } from 'react-icons/lu';
-import { RiHomeHeartLine } from 'react-icons/ri';
+import school from '@/public/projectSvg/school.svg';
 
 export const montessoriHeroContent = {
   image: montessoriHero,
@@ -30,21 +28,21 @@ export const montessoriHeroContent = {
     'We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness.',
 };
 
-export const priceHeaderContent = {
+export const priceMontessoriHeaderContent = {
   kidFontText: 'BEST PRICE FOR PARENTS',
   header: 'Pricing',
   paragraph:
     "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them.",
 };
 
-export const teachersHeaderContent = {
+export const teachersMontessoriHeaderContent = {
   kidFontText: 'ABOUT THE TEACHERS',
   header: 'Our Teachers',
   paragraph:
     'We have an excellent teacher to child ratio at our Kindergarten to ensure that each child receives the attention he or she needs.',
 };
 
-export const imagesHeaderContent = {
+export const imagesMontessoriHeaderContent = {
   kidFontText: 'EXPLORE LABOKIDS',
   header: 'Gallery',
   paragraph:
@@ -113,18 +111,18 @@ export const montessoriMethodsList = [
   },
 ];
 
-export const partyPricingData = [
+export const montessoriPricingData = [
   {
     id: 1,
     header: 'Monthly payment',
     paragraph: 'Affordable monthly payment plans to suit your budget.',
-    price: 800,
+    price: 1100,
     advantages: [
       'Personalized Approach',
       'Experienced Teachers',
       'Engaging Curriculum',
     ],
-    icon: RiHomeHeartLine,
+    icon: school,
   },
   {
     id: 2,
@@ -137,7 +135,7 @@ export const partyPricingData = [
       'Dietary Accommodations',
       'Mealtime Education',
     ],
-    icon: LuSchool,
+    icon: school,
   },
   {
     id: 3,
@@ -145,6 +143,6 @@ export const partyPricingData = [
     paragraph: 'Enjoy financial benefits with our exclusive offers!',
     price: 0,
     advantages: ['Additional Lessons', 'Bring a Friend', 'Offers for Siblings'],
-    icon: HeartHandshake,
+    icon: school,
   },
 ];

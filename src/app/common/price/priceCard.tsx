@@ -1,9 +1,8 @@
 'use client';
 
 import { textFont, titleFont } from '../fonts';
-import { IconType } from 'react-icons';
-import { LucideIcon } from 'lucide-react';
 import { useGlobalContext } from '../../context/globalContext';
+import Image from 'next/image';
 
 interface IPriceCard {
   item: {
@@ -12,12 +11,12 @@ interface IPriceCard {
     paragraph: string;
     price: number | string;
     advantages: string[];
-    icon: IconType | LucideIcon;
+    icon: any;
   };
 }
 
 const PriceCard: React.FC<IPriceCard> = ({
-  item: { id, header, paragraph, price, advantages, icon: Icon },
+  item: { id, header, paragraph, price, advantages, icon },
 }) => {
   const { setContactUsDialog } = useGlobalContext();
 
@@ -31,7 +30,7 @@ const PriceCard: React.FC<IPriceCard> = ({
       className="flex max-w-[270px] cursor-pointer flex-col items-center justify-between rounded-2xl border border-gray-200 p-5 hover:rounded-2xl hover:border-transparent hover:bg-slate-100"
     >
       <div className="text-laboBlue">
-        <Icon size={32} />
+        <Image src={icon} alt="school svg" height={35} width={35} />
       </div>
 
       <h2 className={`${titleFont.className} pt-5 text-xl`}>{header}</h2>
@@ -42,7 +41,13 @@ const PriceCard: React.FC<IPriceCard> = ({
       </p>
       <div className="pt-5">
         <span>
-          <sub>zł</sub>
+          <sub
+            className={`${
+              header === 'Tailored Experience' ? 'hidden' : 'block'
+            }`}
+          >
+            zł
+          </sub>
           <span className={`${titleFont.className}  text-4xl`}>{price}</span>
         </span>
       </div>

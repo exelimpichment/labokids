@@ -1,7 +1,7 @@
-import { RiHomeHeartLine } from 'react-icons/ri';
 import bilingualHero from '../../../public/bilingualHero.jpg';
-import { LuSchool } from 'react-icons/lu';
-import { HeartHandshake } from 'lucide-react';
+import calendar from '@/public/projectSvg/calendar.svg';
+import soup from '@/public/projectSvg/soup.svg';
+import dimond from '@/public/projectSvg/dimond.svg';
 
 export const bilingualHeroContent = {
   image: bilingualHero,
@@ -28,26 +28,18 @@ export const priceBilingualHeaderContent = {
     "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them.",
 };
 
-export const priceHeaderContent = {
-  kidFontText: 'BEST PRICE FOR PARENTS',
-  header: 'Pricing',
-  paragraph:
-    'Discover unbeatable prices for unforgettable parties - our commitment to ' +
-    'affordability ensures you get the best value for your celebrations.',
-};
-
 export const bilingualPricingData = [
   {
     id: 1,
     header: 'Monthly payment',
     paragraph: 'Affordable monthly payment plans to suit your budget.',
-    price: 1100,
+    price: 800,
     advantages: [
       'Personalized Approach',
       'Experienced Teachers',
       'Engaging Curriculum',
     ],
-    icon: RiHomeHeartLine,
+    icon: calendar,
   },
   {
     id: 2,
@@ -60,7 +52,7 @@ export const bilingualPricingData = [
       'Dietary Accommodations',
       'Mealtime Education',
     ],
-    icon: LuSchool,
+    icon: soup,
   },
   {
     id: 3,
@@ -68,7 +60,7 @@ export const bilingualPricingData = [
     paragraph: 'Enjoy financial benefits with our exclusive offers!',
     price: 0,
     advantages: ['Additional Lessons', 'Bring a Friend', 'Offers for Siblings'],
-    icon: HeartHandshake,
+    icon: dimond,
   },
 ];
 
@@ -77,4 +69,12 @@ export const aboutBilingualHeaderContent = {
   header: 'Bilingual Education',
   paragraph:
     'Language immersion introduces young learners to English in an immersive environment, promoting early language acquisition and fluency development.',
+};
+
+export const imagesBilingualHeaderContent = {
+  kidFontText: 'EXPLORE LABOKIDS',
+  header: 'Gallery',
+  paragraph:
+    'Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery.',
+  animatedPicture: true,
 };

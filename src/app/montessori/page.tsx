@@ -2,16 +2,18 @@ import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
-import { priceHeaderContent } from '../party/partyData';
+
 import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 import {
   aboutMontessoriHeaderContent,
-  imagesHeaderContent,
+  imagesMontessoriHeaderContent,
   montessoriHeroContent,
-  teachersHeaderContent,
+  montessoriPricingData,
+  priceMontessoriHeaderContent,
+  teachersMontessoriHeaderContent,
 } from './montessoriData';
 
 const Montessori = () => {
@@ -21,12 +23,12 @@ const Montessori = () => {
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
       <MontessoriMethodsList />
-      <SectionHeader content={imagesHeaderContent} />
+      <SectionHeader content={imagesMontessoriHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
-      <SectionHeader content={teachersHeaderContent} />
+      <SectionHeader content={teachersMontessoriHeaderContent} />
       {/* <OurTeachers /> */}
-      <SectionHeader content={priceHeaderContent} />
-      <Price />
+      <SectionHeader content={priceMontessoriHeaderContent} />
+      <Price priceData={montessoriPricingData} />
     </main>
   );
 };
