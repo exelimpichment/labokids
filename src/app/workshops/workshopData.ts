@@ -133,7 +133,7 @@ export const workshopPricingData = [
     id: 1,
     header: 'One Group',
     paragraph:
-      'Perfect for small gatherings or individual groups, ensuring personalized attention and a memorable experience.',
+      'Perfect for small gatherings or groups, ensuring personalized attention and a memorable experience.',
     price: '450/group',
     advantages: [
       '25 Kids Maximum',

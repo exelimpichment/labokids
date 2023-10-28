@@ -40,16 +40,14 @@ const PriceCard: React.FC<IPriceCard> = ({
         {paragraph}
       </p>
       <div className="pt-5">
-        <span>
-          <sub
-            className={`${
-              header === 'Tailored Experience' ? 'hidden' : 'block'
-            }`}
-          >
-            zł
-          </sub>
-          <span className={`${titleFont.className}  text-4xl`}>{price}</span>
-        </span>
+        <sub
+          className={`${
+            price === 'on request' ? 'hidden' : 'inline'
+          } pr-1 text-lg`}
+        >
+          zł
+        </sub>
+        <span className={`${titleFont.className}  text-4xl`}>{price}</span>
       </div>
       <div className="pt-5">
         <ul className="flex flex-col items-center text-gray-700">

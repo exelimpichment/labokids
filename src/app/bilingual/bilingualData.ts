@@ -44,9 +44,8 @@ export const bilingualPricingData = [
   {
     id: 2,
     header: 'Meals',
-    paragraph:
-      'Nutritious meals provided for your child during their time with us.',
-    price: '17 / day',
+    paragraph: 'Nutritious meals provided for the child during their time.',
+    price: '17/day',
     advantages: [
       'Healthy Food',
       'Dietary Accommodations',
@@ -58,7 +57,7 @@ export const bilingualPricingData = [
     id: 3,
     header: 'Special offers',
     paragraph: 'Enjoy financial benefits with our exclusive offers!',
-    price: 0,
+    price: 'on request',
     advantages: ['Additional Lessons', 'Bring a Friend', 'Offers for Siblings'],
     icon: dimond,
   },
