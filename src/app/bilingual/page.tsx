@@ -5,7 +5,6 @@ import SectionHeader from '../common/sectionHeader';
 import { imagesHeaderContent } from '../montessori/montessoriData';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
-import OurTeachers from '../common/teachersGallery/ourTeachers';
 
 import {
   bilingualHeroContent,
@@ -21,7 +20,7 @@ const Bilingual = () => {
       <SectionHeader content={imagesHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={bilingualTeachersHeader} />
-      <OurTeachers />
+      {/* <OurTeachers /> */}
       <SectionHeader content={priceHeaderContent} />
       <Price />
     </main>

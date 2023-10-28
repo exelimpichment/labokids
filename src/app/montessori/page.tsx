@@ -6,7 +6,6 @@ import { priceHeaderContent } from '../party/partyData';
 import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
-import OurTeachers from '../common/teachersGallery/ourTeachers';
 
 import {
   aboutMontessoriHeaderContent,
@@ -25,7 +24,7 @@ const Montessori = () => {
       <SectionHeader content={imagesHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={teachersHeaderContent} />
-      <OurTeachers />
+      {/* <OurTeachers /> */}
       <SectionHeader content={priceHeaderContent} />
       <Price />
     </main>
