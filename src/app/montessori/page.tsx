@@ -2,8 +2,11 @@ import PageHero from '../common/pageHero';
 import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
-
 import { priceHeaderContent } from '../party/partyData';
+import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
+import StaticGallery from '../common/staticGallery/staticGallery';
+import { workshopGalleryPhotoSets } from '../workshops/workshopData';
+import OurTeachers from '../common/teachersGallery/ourTeachers';
 
 import {
   aboutMontessoriHeaderContent,
@@ -11,10 +14,6 @@ import {
   montessoriHeroContent,
   teachersHeaderContent,
 } from './montessoriData';
-import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
-import StaticGallery from '../common/staticGallery/staticGallery';
-import { workshopGalleryPhotoSets } from '../workshops/workshopData';
-import OurTeachers from '../common/teachersGallery/ourTeachers';
 
 const Montessori = () => {
   return (
