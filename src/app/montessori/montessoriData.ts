@@ -3,6 +3,10 @@ import team1 from '@/public/team-1.webp';
 import team2 from '@/public/team-2.webp';
 import team3 from '@/public/team-3.webp';
 
+import calendar from '@/public/projectSvg/calendar.svg';
+import soup from '@/public/projectSvg/soup.svg';
+import dimond from '@/public/projectSvg/dimond.svg';
+
 import montessoriGalleryListOfImage1 from '@/public/montessoriGallery/montessoriGallery1.jpg';
 import montessoriGalleryListOfImage2 from '@/public/montessoriGallery/montessoriGallery2.jpg';
 import montessoriGalleryListOfImage3 from '@/public/montessoriGallery/montessoriGallery3.jpg';
@@ -15,7 +19,6 @@ import montessoriMethodsListOfImage2 from '@/public/montessoriMethodsListOfImage
 import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage3.jpg';
 import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage1.jpg';
 import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage5.jpg';
-import school from '@/public/projectSvg/school.svg';
 
 export const montessoriHeroContent = {
   image: montessoriHero,
@@ -122,7 +125,7 @@ export const montessoriPricingData = [
       'Experienced Teachers',
       'Engaging Curriculum',
     ],
-    icon: school,
+    icon: calendar,
   },
   {
     id: 2,
@@ -134,7 +137,7 @@ export const montessoriPricingData = [
       'Dietary Accommodations',
       'Mealtime Education',
     ],
-    icon: school,
+    icon: soup,
   },
   {
     id: 3,
@@ -142,6 +145,6 @@ export const montessoriPricingData = [
     paragraph: 'Enjoy financial benefits with our exclusive offers!',
     price: 'on request',
     advantages: ['Additional Lessons', 'Bring a Friend', 'Offers for Siblings'],
-    icon: school,
+    icon: dimond,
   },
 ];

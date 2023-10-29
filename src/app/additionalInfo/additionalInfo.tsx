@@ -34,8 +34,8 @@ const AdditionalInfo = () => {
       <button
         type="button"
         onClick={handleClick}
-        className={`absolute bottom-[3.5px] left-[-21px] cursor-pointer rounded-full  hover:bg-slate-200 ${
-          open ? 'transparent' : 'bg-slate-300'
+        className={`absolute bottom-[3.5px] left-[-21px] cursor-pointer rounded-full  hover:bg-slate-300 ${
+          !open ? 'transparent' : 'bg-slate-300'
         }`}
       >
         <HelpCircle size={18} />

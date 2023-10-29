@@ -26,7 +26,12 @@ type GlobalContextType = {
   setScrolledView: Dispatch<SetStateAction<boolean>>;
   topRef: MutableRefObject<HTMLDivElement | null>;
   scrollToTop: () => void;
+  isIntersectingRef: MutableRefObject<null>;
+  isIntersecting: boolean;
+  setIsIntersecting: Dispatch<SetStateAction<boolean>>;
 };
+
+type ActiveGalleryConnectionType = 'baloniki' | 'chemia' | 'mydlo' | 'lod';
 
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
 
@@ -36,12 +41,13 @@ export const GlobalContextProvider: React.FC<{
   // hooks
   const [contactUsDialogOpen, setContactUsDialog] = useState<boolean>(false);
   const [burgerMenuOpen, setBurgerMenuOpen] = useState<boolean>(false);
-  const [activeGalleryCollection, setActiveGalleryCollection] = useState<
-    'baloniki' | 'chemia' | 'mydlo' | 'lod'
-  >('baloniki');
+  const [activeGalleryCollection, setActiveGalleryCollection] =
+    useState<ActiveGalleryConnectionType>('baloniki');
   const [scrolledView, setScrolledView] = useState<boolean>(false);
   const topicsRef = useRef<HTMLDivElement | null>(null);
   const topRef = useRef<HTMLDivElement | null>(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const isIntersectingRef = useRef(null);
 
   // functions
   const scrollToTopics = () => {
@@ -51,8 +57,6 @@ export const GlobalContextProvider: React.FC<{
   };
 
   const scrollToTop = () => {
-    console.log('click');
-
     if (topRef.current) {
       topRef.current.scrollIntoView({ behavior: 'smooth' });
     }
@@ -73,6 +77,9 @@ export const GlobalContextProvider: React.FC<{
         setScrolledView,
         topRef,
         scrollToTop,
+        isIntersecting,
+        setIsIntersecting,
+        isIntersectingRef,
       }}
     >
       {children}

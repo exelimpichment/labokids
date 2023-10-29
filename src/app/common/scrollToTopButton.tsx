@@ -1,20 +1,27 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronUp } from 'lucide-react';
 import { useGlobalContext } from '../context/globalContext';
 
 const ScrollToTopButton = () => {
-  const { scrolledView, setScrolledView, scrollToTop } = useGlobalContext();
+  const { scrollToTop, isIntersecting } = useGlobalContext();
   return (
-    <Button
-      type="button"
-      variant={'outline'}
-      className="fixed bottom-4 right-4 h-12 w-12 rounded-full bg-laboBlue p-1 transition-all duration-1000"
-      onClick={scrollToTop}
-    >
-      <ChevronUp size={32} />
-    </Button>
+    <AnimatePresence>
+      {isIntersecting && (
+        <motion.button
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          type="button"
+          className="fixed bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-1000 hover:bg-slate-400"
+          onClick={scrollToTop}
+        >
+          <ChevronUp size={32} />
+        </motion.button>
+      )}
+    </AnimatePresence>
   );
 };
 
