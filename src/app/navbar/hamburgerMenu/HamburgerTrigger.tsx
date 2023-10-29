@@ -12,7 +12,7 @@ const HamburgerTrigger = () => {
   return (
     <button
       type="button"
-      className={`z-50 mb-2 flex h-6  w-7 flex-col justify-between lg:hidden`}
+      className={`mb-2 flex h-6  w-7 flex-col justify-between lg:hidden`}
       onClick={handleClick}
     >
       <div
