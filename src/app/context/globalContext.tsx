@@ -25,6 +25,7 @@ type GlobalContextType = {
   scrolledView: boolean;
   setScrolledView: Dispatch<SetStateAction<boolean>>;
   topRef: MutableRefObject<HTMLDivElement | null>;
+  scrollToTop: () => void;
 };
 
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
@@ -41,10 +42,19 @@ export const GlobalContextProvider: React.FC<{
   const [scrolledView, setScrolledView] = useState<boolean>(false);
   const topicsRef = useRef<HTMLDivElement | null>(null);
   const topRef = useRef<HTMLDivElement | null>(null);
+
   // functions
   const scrollToTopics = () => {
     if (topicsRef.current) {
       topicsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToTop = () => {
+    console.log('click');
+
+    if (topRef.current) {
+      topRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -62,6 +72,7 @@ export const GlobalContextProvider: React.FC<{
         scrolledView,
         setScrolledView,
         topRef,
+        scrollToTop,
       }}
     >
       {children}

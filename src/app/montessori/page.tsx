@@ -15,10 +15,12 @@ import {
   priceMontessoriHeaderContent,
   teachersMontessoriHeaderContent,
 } from './montessoriData';
+import ScrollToTopComponent from '../common/scrollToTopComponent';
 
 const Montessori = () => {
   return (
     <main className="content">
+      <ScrollToTopComponent />
       <PageHero content={montessoriHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />

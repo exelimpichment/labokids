@@ -13,10 +13,12 @@ import SectionHeader from '../common/sectionHeader';
 
 import ScrollToComponent from '../common/scrollToComponent';
 import Gallery from '../common/dynamicGallery/dynamicGallery';
+import ScrollToTopComponent from '../common/scrollToTopComponent';
 
 const Party = () => {
   return (
     <main className="content">
+      <ScrollToTopComponent />
       <PageHero content={partyHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={partyAccordionHeaderData} />
