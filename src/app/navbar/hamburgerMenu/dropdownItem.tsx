@@ -1,6 +1,5 @@
 'use client';
 
-// import Link from 'next/link';
 import { IconType } from 'react-icons';
 import { useGlobalContext } from '../../context/globalContext';
 import { useRouter } from 'next/navigation';
@@ -33,7 +32,7 @@ const DropdownItem: React.FC<INavbarLink> = ({
       <button
         type="button"
         onClick={handleClick}
-        className={`flex gap-2 ${active ? 'text-black' : 'text-gray-600'}`}
+        className={`flex gap-2 ${active ? 'text-black' : 'text-gray-600'} px-3`}
       >
         <Icon size={24} />
         <span>{label}</span>
