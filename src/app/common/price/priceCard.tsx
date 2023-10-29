@@ -4,6 +4,12 @@ import { textFont, titleFont } from '../fonts';
 import { useGlobalContext } from '../../context/globalContext';
 import Image from 'next/image';
 
+import { AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { HelpCircle } from 'lucide-react';
+import AdditionalInfo from '../../additionalInfo/additionalInfo';
+
 interface IPriceCard {
   item: {
     id: number;
@@ -22,6 +28,13 @@ const PriceCard: React.FC<IPriceCard> = ({
 
   const handleClick = () => {
     setContactUsDialog((prev) => !prev);
+  };
+
+  const [open, setOpen] = useState(false);
+
+  const handleClick2 = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    e.stopPropagation();
+    setOpen((prev: boolean) => !prev);
   };
 
   return (
@@ -47,13 +60,28 @@ const PriceCard: React.FC<IPriceCard> = ({
         >
           zł
         </sub>
-        <span className={`${titleFont.className}  text-4xl`}>{price}</span>
+        <span className={`${titleFont.className}  text-3xl`}>{price}</span>
       </div>
       <div className="pt-5">
         <ul className="flex flex-col items-center text-gray-700">
-          <li>{advantages[0]}</li>
-          <li>{advantages[1]}</li>
-          <li>{advantages[2]}</li>
+          <li>
+            <div className="relative">
+              <AdditionalInfo />
+              <span>{advantages[0]}</span>
+            </div>
+          </li>
+          <li>
+            <div className="relative">
+              {/* <AdditionalInfo /> */}
+              <span>{advantages[1]}</span>
+            </div>
+          </li>
+          <li>
+            <div className="relative">
+              {/* <AdditionalInfo /> */}
+              <span>{advantages[2]}</span>
+            </div>
+          </li>
         </ul>
       </div>
     </div>

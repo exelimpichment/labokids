@@ -17,8 +17,6 @@ interface PriceDataProps {
 }
 
 const PriceCards: React.FC<PriceDataProps> = ({ priceData }) => {
-  console.log(priceData);
-
   return (
     <div className="relative mb-14 mt-10 flex flex-row flex-wrap justify-center gap-6 lg:gap-10">
       <div className="absolute left-[-20px] top-[-100px] animate-reciprocal-vertical lg:left-[5%] 2xl:left-[13%]">
