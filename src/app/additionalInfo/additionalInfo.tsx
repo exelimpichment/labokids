@@ -8,6 +8,8 @@ const AdditionalInfo = () => {
   const [open, setOpen] = useState(false);
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    console.log('test2');
+
     e.stopPropagation();
     setOpen((prev: boolean) => !prev);
   };
