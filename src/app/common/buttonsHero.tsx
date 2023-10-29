@@ -20,6 +20,7 @@ const ButtonsHero: React.FC<IButtonsHero> = ({ buttonsPosition = 'start' }) => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
+        console.log(entry.isIntersecting);
         setIsIntersecting(!entry.isIntersecting);
       },
       { threshold: 0 }

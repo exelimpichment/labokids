@@ -6,6 +6,8 @@ import { useGlobalContext } from '../context/globalContext';
 
 const ScrollToTopButton = () => {
   const { scrollToTop, isIntersecting } = useGlobalContext();
+  console.log('render');
+
   return (
     <AnimatePresence>
       {isIntersecting && (

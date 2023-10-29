@@ -46,7 +46,7 @@ export const GlobalContextProvider: React.FC<{
   const [scrolledView, setScrolledView] = useState<boolean>(false);
   const topicsRef = useRef<HTMLDivElement | null>(null);
   const topRef = useRef<HTMLDivElement | null>(null);
-  const [isIntersecting, setIsIntersecting] = useState(false);
+  const [isIntersecting, setIsIntersecting] = useState(true);
   const isIntersectingRef = useRef(null);
 
   // functions
