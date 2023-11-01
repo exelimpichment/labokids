@@ -11,7 +11,7 @@ const ScrollToTopButton = () => {
       {isIntersecting && (
         <button
           type="button"
-          className="fixed bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-1000 hover:bg-slate-400"
+          className="fixed bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-500 hover:bg-slate-400"
           onClick={scrollToTop}
         >
           <ChevronUp size={32} />

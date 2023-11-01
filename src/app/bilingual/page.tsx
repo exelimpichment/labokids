@@ -13,8 +13,10 @@ import {
   bilingualTeachersHeader,
   imagesBilingualHeaderContent,
   priceBilingualHeaderContent,
+  teachersBilingualCarouselData,
 } from './bilingualData';
 import ScrollToTopComponent from '../common/scrollToTopComponent';
+import TeachersCarousel from '../teachersCarousel/teachersCarousel';
 
 const Bilingual = () => {
   return (
@@ -27,6 +29,7 @@ const Bilingual = () => {
       <SectionHeader content={imagesBilingualHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={bilingualTeachersHeader} />
+      <TeachersCarousel carouselData={teachersBilingualCarouselData} />
       <SectionHeader content={priceBilingualHeaderContent} />
       <Price priceData={bilingualPricingData} />
     </main>

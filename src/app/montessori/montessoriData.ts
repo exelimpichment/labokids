@@ -1,7 +1,4 @@
 import montessoriHero from 'public/montessoriHero.jpg';
-import team1 from '@/public/team-1.webp';
-import team2 from '@/public/team-2.webp';
-import team3 from '@/public/team-3.webp';
 
 import calendar from '@/public/projectSvg/calendar.svg';
 import soup from '@/public/projectSvg/soup.svg';
@@ -59,13 +56,6 @@ export const aboutMontessoriHeaderContent = {
   paragraph:
     'Our aim is to promote the well-rounded growth of each child, emphasizing independence and tolerance, following the Montessori approach with five subject areas.',
 };
-
-export const OurTeachersInfoList = [
-  { id: 0, name: 'Alie Bohm', position: 'Senior Educator', image: team1 },
-  { id: 1, name: 'Alie Bohm', position: 'Senior Educator', image: team2 },
-  { id: 2, name: 'Alie Bohm', position: 'Senior Educator', image: team3 },
-  { id: 3, name: 'Alie Bohm', position: 'Senior Educator', image: team3 },
-];
 
 export const montessoriGalleryListOfImages = [
   { id: 0, image: montessoriGalleryListOfImage1 },
@@ -146,5 +136,66 @@ export const montessoriPricingData = [
     price: 'on request',
     advantages: ['Additional Lessons', 'Bring a Friend', 'Offers for Siblings'],
     icon: dimond,
+  },
+];
+
+import teacher1 from '@/public/teacher-1.webp';
+import teacher2 from '@/public/teacher-2.webp';
+import teacher3 from '@/public/teacher-3.webp';
+
+export const teachersMontessoriCarouselData = [
+  {
+    id: 0,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 1,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 2,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher2,
+  },
+  {
+    id: 3,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 4,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 5,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher3,
+  },
+  {
+    id: 6,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher3,
+  },
+  {
+    id: 7,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher3,
+  },
+  {
+    id: 3,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
   },
 ];

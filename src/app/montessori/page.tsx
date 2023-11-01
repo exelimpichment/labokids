@@ -13,9 +13,12 @@ import {
   montessoriHeroContent,
   montessoriPricingData,
   priceMontessoriHeaderContent,
+  teachersMontessoriCarouselData,
   teachersMontessoriHeaderContent,
 } from './montessoriData';
 import ScrollToTopComponent from '../common/scrollToTopComponent';
+
+import TeachersCarousel from '../teachersCarousel/teachersCarousel';
 
 const Montessori = () => {
   return (
@@ -28,7 +31,7 @@ const Montessori = () => {
       <SectionHeader content={imagesMontessoriHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={teachersMontessoriHeaderContent} />
-      {/* <OurTeachers /> */}
+      <TeachersCarousel carouselData={teachersMontessoriCarouselData} />
       <SectionHeader content={priceMontessoriHeaderContent} />
       <Price priceData={montessoriPricingData} />
     </main>

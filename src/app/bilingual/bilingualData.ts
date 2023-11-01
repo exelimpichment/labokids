@@ -3,6 +3,10 @@ import calendar from '@/public/projectSvg/calendar.svg';
 import soup from '@/public/projectSvg/soup.svg';
 import dimond from '@/public/projectSvg/dimond.svg';
 
+import teacher1 from '@/public/teacher-1.webp';
+import teacher2 from '@/public/teacher-2.webp';
+import teacher3 from '@/public/teacher-3.webp';
+
 export const bilingualHeroContent = {
   image: bilingualHero,
   buttonsPosition: 'lg:justify-end',
@@ -77,3 +81,60 @@ export const imagesBilingualHeaderContent = {
     'Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery.',
   animatedPicture: true,
 };
+
+export const teachersBilingualCarouselData = [
+  {
+    id: 0,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 1,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 2,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher2,
+  },
+  {
+    id: 3,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 4,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+  {
+    id: 5,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher3,
+  },
+  {
+    id: 6,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher3,
+  },
+  {
+    id: 7,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher3,
+  },
+  {
+    id: 3,
+    name: 'lorem ipsum',
+    position: 'position posiition',
+    image: teacher1,
+  },
+];
