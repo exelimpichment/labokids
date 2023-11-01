@@ -16,7 +16,6 @@ const DynamicGalleryNavigationBarList = () => {
           height={40}
           src={clickMe}
           alt="click me image"
-          // style={{ position: 'absolute' }}
           className="absolute left-0 top-0  translate-x-[95%] translate-y-[130%] "
         />
         {galleryButtons.map(

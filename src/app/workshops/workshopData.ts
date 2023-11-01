@@ -120,11 +120,7 @@ export const accordionWorkshopData = [
     heading: 'Picnic Workshop',
     icon: TentTree,
     description:
-      'W trakcie imprezy dzieci dowiedzą się wielu ciekawostek o mydle, ' +
-      'a następnie stworzą własne, niepowtarzalne, pachnące mydło w wybranym przez siebie kształcie. ' +
-      'Będzie to swoiste laboratorium, ' +
-      'w którym uczestnicy mieszać będą kolory, zapachy i inne dodatki. ' +
-      'Na koniec zapakują mydełka i zabiorą je do domu.',
+      'Children will have a great time at picnics and family events with us. During outdoor, corporate, and family gatherings, we will provide engaging activities, conduct experiments, games, and fun. With us, little ones will spend a joyfully unforgettable time. Fun activities at corporate picnics and family parties.',
   },
 ];
 

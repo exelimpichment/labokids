@@ -18,7 +18,7 @@ import {
 } from './montessoriData';
 import ScrollToTopComponent from '../common/scrollToTopComponent';
 
-import TeachersCarousel from '../teachersCarousel/teachersCarousel';
+import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
 
 const Montessori = () => {
   return (

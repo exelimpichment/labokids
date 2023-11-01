@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import { titleFont } from '../common/fonts';
+import { titleFont } from '../fonts';
 
 interface ITeachersCard {
   teacher: {

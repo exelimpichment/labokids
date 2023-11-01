@@ -1,9 +1,10 @@
 'use client';
 import { StaticImageData } from 'next/image';
-import Container from '../common/container';
+import Container from '../container';
 import TeachersCard from './teachersCard';
 import { useRef } from 'react';
 import TeachersCarouselNavigationButtons from './teachersCarouselNavigationButtons';
+import { useTeachersScroll } from '../../hooks/useTeachersScroll';
 
 interface ITeachersCarousel {
   carouselData: {
@@ -15,31 +16,14 @@ interface ITeachersCarousel {
 }
 
 const TeachersCarousel: React.FC<ITeachersCarousel> = ({ carouselData }) => {
-  const TeachersCarouselRef = useRef<HTMLDivElement | null>(null);
-
-  const handleClick = (direction: 'backward' | 'forward') => {
-    if (TeachersCarouselRef.current !== null) {
-      const scrollAmount = 190;
-      if (direction === 'forward') {
-        TeachersCarouselRef.current.scrollBy({
-          left: scrollAmount,
-          behavior: 'smooth',
-        });
-      } else if (direction === 'backward') {
-        TeachersCarouselRef.current.scrollBy({
-          left: -scrollAmount,
-          behavior: 'smooth',
-        });
-      }
-    }
-  };
+  const [handleClick, teachersCarouselRef] = useTeachersScroll();
 
   return (
     <section className="mt-10 px-4 pb-4">
       <Container>
         <div className="relative">
           <div
-            ref={TeachersCarouselRef}
+            ref={teachersCarouselRef}
             className=" custom-scrollbar flex justify-between gap-5 overflow-x-auto overflow-y-hidden p-5"
           >
             {carouselData.map((teacher) => (

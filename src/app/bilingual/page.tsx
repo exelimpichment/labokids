@@ -16,7 +16,7 @@ import {
   teachersBilingualCarouselData,
 } from './bilingualData';
 import ScrollToTopComponent from '../common/scrollToTopComponent';
-import TeachersCarousel from '../teachersCarousel/teachersCarousel';
+import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
 
 const Bilingual = () => {
   return (

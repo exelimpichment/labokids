@@ -33,5 +33,3 @@ const Workshops = () => {
 };
 
 export default Workshops;
-
-// workshopHero
