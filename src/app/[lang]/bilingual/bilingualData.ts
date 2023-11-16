@@ -1,4 +1,4 @@
-import bilingualHero from '../../../public/bilingualHero.jpg';
+import bilingualHero from '@/public/bilingualHero.jpg';
 import calendar from '@/public/projectSvg/calendar.svg';
 import soup from '@/public/projectSvg/soup.svg';
 import dimond from '@/public/projectSvg/dimond.svg';
