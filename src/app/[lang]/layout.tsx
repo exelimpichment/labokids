@@ -9,6 +9,7 @@ import Backdrop from './common/backdrop';
 import SlidingDownNavigationMenu from './navbar/hamburgerMenu/slidingDownNavigationMenu';
 import Footer from './footer/footer';
 import ScrollToTopButton from './common/scrollToTopButton';
+import { Locale, i18n } from '@/i18n.config';
 
 const prompt = Prompt({
   subsets: ['latin'],
@@ -20,13 +21,19 @@ export const metadata: Metadata = {
   description: 'Labokids kindergarten website',
 };
 
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
+
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: { lang: Locale };
 }) {
   return (
-    <html lang="en">
+    <html lang={params.lang}>
       <body className={prompt.className}>
         <GlobalContextProvider>
           <SlidingDownNavigationMenu />
