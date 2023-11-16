@@ -3,8 +3,11 @@ import Container from '../common/container';
 import homeHero from '@/public/unsplash.jpg';
 import { homeHeadings } from './homeData';
 import { titleFont } from '../common/fonts';
+import { useRouter } from 'next/router';
 
 const HomeHero = () => {
+  // const { locale, locales, asPath } = useRouter();
+  // console.log(locale, locales, asPath);
   return (
     <section>
       <div className="h-screen">
