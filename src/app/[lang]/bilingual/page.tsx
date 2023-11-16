@@ -17,6 +17,7 @@ import {
 } from './bilingualData';
 import ScrollToTopComponent from '../common/scrollToTopComponent';
 import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
+import BilingualProgram from './bilingualProgram';
 
 const Bilingual = () => {
   return (
@@ -25,7 +26,7 @@ const Bilingual = () => {
       <PageHero content={bilingualHeroContent} />
       <ScrollToComponent />
       <SectionHeader content={aboutBilingualHeaderContent} />
-      {/* anny s phot  goe here*/}
+      <BilingualProgram />
       <SectionHeader content={imagesBilingualHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={bilingualTeachersHeader} />
