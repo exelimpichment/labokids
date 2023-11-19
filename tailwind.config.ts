@@ -18,6 +18,9 @@ module.exports = {
       '3xl': '1536px',
     },
     extend: {
+      height: {
+        screen: ['100vh', '100dvh'],
+      },
       colors: {
         laboBlue: '#1499d6',
         laboGreen: '#61a944',

@@ -37,9 +37,7 @@ export default function RootLayout({
       <body className={prompt.className}>
         <GlobalContextProvider>
           <SlidingDownNavigationMenu />
-          <Navbar />
           {children}
-          <Footer />
           <Toaster />
           <ContactUsDialog />
           <Backdrop />
