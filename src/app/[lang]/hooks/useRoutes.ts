@@ -14,34 +14,27 @@ const useRoutes = () => {
     () => [
       {
         id: 0,
-        href: '/',
-        label: 'Home',
-        icon: BiHomeAlt2,
-        active: pathname === '/',
-      },
-      {
-        id: 1,
         href: '/montessori',
         label: 'Montessori',
         icon: Leaf,
         active: pathname === '/montessori',
       },
       {
-        id: 2,
+        id: 1,
         href: '/bilingual',
         label: 'Bilingual',
         icon: TbLanguage,
         active: pathname === '/bilingual',
       },
       {
-        id: 3,
+        id: 2,
         href: '/party',
         label: 'Birthdays',
         icon: CakeSlice,
         active: pathname === '/party',
       },
       {
-        id: 4,
+        id: 3,
         href: '/workshops',
         label: 'Workshop',
         icon: Ruler,

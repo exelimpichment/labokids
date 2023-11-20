@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       height: {
-        screen: ['100vh', '100dvh'],
+        screen: ['100vh', '100svh'],
       },
       colors: {
         laboBlue: '#1499d6',

@@ -22,9 +22,9 @@ const PriceCards: React.FC<PriceDataProps> = ({ priceData }) => {
       <div className="absolute left-[-20px] top-[-100px] animate-reciprocal-vertical lg:left-[5%] 2xl:left-[13%]">
         <Image
           width={120}
-          height={122}
           src={movingRocket}
           alt="moving crab image"
+          className="h-auto"
         />
       </div>
       {priceData.map((item) => (

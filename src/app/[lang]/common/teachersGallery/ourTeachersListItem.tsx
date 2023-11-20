@@ -23,8 +23,8 @@ const OurTeachersListItem: React.FC<IOurTeachersListItem> = ({
           className="rounded-xl"
           style={{ width: 'auto' }}
         />
-        <p className={`${titleFont.className} pt-3 text-xl`}>{name}</p>
-        <p className="pt-1 text-gray-600">{position}</p>
+        <p className={`${titleFont.className} pl-3 pt-3 text-xl`}>{name}</p>
+        <p className="pl-3 pt-1 text-gray-600">{position}</p>
       </div>
     </div>
   );

@@ -19,12 +19,12 @@ const TeachersCarousel: React.FC<ITeachersCarousel> = ({ carouselData }) => {
   const [handleClick, teachersCarouselRef] = useTeachersScroll();
 
   return (
-    <section className="mt-10 px-4 pb-4">
+    <section className="mt-10 px-4 pb-8">
       <Container>
         <div className="relative">
           <div
             ref={teachersCarouselRef}
-            className=" custom-scrollbar flex justify-between gap-5 overflow-x-auto overflow-y-hidden p-5"
+            className=" custom-scrollbar flex justify-between gap-5 overflow-x-auto overflow-y-hidden "
           >
             {carouselData.map((teacher) => (
               <TeachersCard key={teacher.id} teacher={teacher} />
