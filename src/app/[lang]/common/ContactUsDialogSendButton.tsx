@@ -29,15 +29,15 @@ const ContactUsDialogSendButton = () => {
 
   return (
     <div className="flex w-full flex-col gap-3">
-      <Button
+      {/* <Button
         disabled={loading}
         className="rounded bg-laboBlue text-lg hover:bg-white"
         variant="outline"
-        type="button"
+        type="submit"
         onClick={handleClick}
       >
         Send
-      </Button>
+      </Button> */}
     </div>
   );
 };
