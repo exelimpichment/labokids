@@ -2,12 +2,13 @@
 import { titleFont } from '../fonts';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { useState } from 'react';
-import { Toaster } from 'sonner';
-import { useForm, SubmitHandler } from 'react-hook-form';
+import { toast } from 'sonner';
+import { useForm } from 'react-hook-form';
 import { formSchema, type TFormSchema } from '@/lib/types';
 import { useGlobalContext } from '../../context/globalContext';
 import { zodResolver } from '@hookform/resolvers/zod';
+import SuccessToast from '../toastVariants/successToast';
+import ErrorToast from '../toastVariants/errorToast';
 
 const Form = () => {
   const { setContactUsDialog } = useGlobalContext();
@@ -22,49 +23,64 @@ const Form = () => {
   });
 
   const onSubmit = async (data: TFormSchema) => {
-    console.log(data);
-
     try {
-    } catch (error) {}
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      const responseData = await response.json();
 
-    const response = await fetch('/api/sendEmail', {
-      method: 'POST',
-      body: JSON.stringify(data),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    const responseData = await response.json();
-    if (response.ok) {
-      alert('replace it with toast');
-      return;
-    }
-
-    if (responseData.errors) {
-      const errors = responseData.errors;
-
-      if (errors.email) {
-        setError('email', {
-          type: 'server',
-          message: errors.email,
-        });
-      } else if (errors.password) {
-        setError('phone', {
-          type: 'server',
-          message: errors.phone,
-        });
-      } else if (errors.confirmPassword) {
-        setError('message', {
-          type: 'server',
-          message: errors.message,
-        });
-      } else {
-        alert('Something went wrong!');
+      if (response.ok) {
+        toast(
+          <SuccessToast
+            message="Thank you! We will contact you shortly."
+            notificationColor="text-laboBlue"
+          />,
+          {
+            duration: 4000,
+          }
+        );
       }
+
+      if (responseData.errors) {
+        const errors = responseData.errors;
+
+        if (errors.email) {
+          setError('email', {
+            type: 'server',
+            message: errors.email,
+          });
+        } else if (errors.password) {
+          setError('phone', {
+            type: 'server',
+            message: errors.phone,
+          });
+        } else if (errors.confirmPassword) {
+          setError('message', {
+            type: 'server',
+            message: errors.message,
+          });
+        } else {
+          toast.error('Please try again');
+        }
+      }
+    } catch (error) {
+      toast(
+        <ErrorToast
+          message="Something went wrong. Try again later!"
+          notificationColor="text-laboRed"
+        />,
+        {
+          duration: 4000,
+        }
+      );
     }
 
-    // reset();
-    // setContactUsDialog(false);
+    reset();
+    setContactUsDialog(false);
   };
 
   return (
@@ -140,7 +156,3 @@ const Form = () => {
 };
 
 export default Form;
-
-{
-  /* <ContactUsDialogSendButton />  <== toas logic in here */
-}
