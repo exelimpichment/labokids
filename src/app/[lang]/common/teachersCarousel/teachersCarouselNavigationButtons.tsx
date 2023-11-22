@@ -6,7 +6,7 @@ const TeachersCarouselNavigationButtons = ({
   handleClick: (direction: 'backward' | 'forward') => void;
 }) => {
   return (
-    <div className="absolute bottom-[-40px] flex w-full justify-center gap-6">
+    <div className="absolute bottom-[-50px] flex w-full justify-center gap-6">
       <button
         onClick={() => handleClick('backward')}
         type="button"

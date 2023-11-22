@@ -16,6 +16,7 @@ const Form = () => {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
+    setError,
   } = useForm<TFormSchema>({
     resolver: zodResolver(formSchema),
   });
@@ -23,7 +24,44 @@ const Form = () => {
   const onSubmit = async (data: TFormSchema) => {
     console.log(data);
 
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+    } catch (error) {}
+
+    const response = await fetch('/api/sendEmail', {
+      method: 'POST',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    const responseData = await response.json();
+    if (response.ok) {
+      alert('replace it with toast');
+      return;
+    }
+
+    if (responseData.errors) {
+      const errors = responseData.errors;
+
+      if (errors.email) {
+        setError('email', {
+          type: 'server',
+          message: errors.email,
+        });
+      } else if (errors.password) {
+        setError('phone', {
+          type: 'server',
+          message: errors.phone,
+        });
+      } else if (errors.confirmPassword) {
+        setError('message', {
+          type: 'server',
+          message: errors.message,
+        });
+      } else {
+        alert('Something went wrong!');
+      }
+    }
 
     // reset();
     // setContactUsDialog(false);
