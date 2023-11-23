@@ -19,12 +19,11 @@ export async function POST(request: Request) {
     const { email, message, phone } = result.data;
 
     await handleEmailFire({
-      to: 'oldestspy@gmail.com', // to: 'info@labokids.pl',
+      to: process.env.FORM_RECEPIENT_EMAIL as string, // to: 'info@labokids.pl',
       subject: 'Nowy potencjalny klient!',
       html: render(ContactFormEmail({ phone, email, message })),
     });
   }
-
   return NextResponse.json(
     Object.keys(zodErrors).length > 0
       ? { errors: zodErrors }

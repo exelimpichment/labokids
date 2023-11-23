@@ -1,4 +1,5 @@
 'use client';
+import ReCAPTCHA from 'react-google-recaptcha';
 import { titleFont } from '../fonts';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -9,8 +10,20 @@ import { useGlobalContext } from '../../context/globalContext';
 import { zodResolver } from '@hookform/resolvers/zod';
 import SuccessToast from '../toastVariants/successToast';
 import ErrorToast from '../toastVariants/errorToast';
+import { useRef, useState } from 'react';
+import { verifyCaptcha } from '@/src/app/actions';
 
 const Form = () => {
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const [isVerified, setIsverified] = useState<boolean>(false);
+
+  async function handleCaptchaSubmission(token: string | null) {
+    // Server function to verify captcha
+    await verifyCaptcha(token)
+      .then(() => setIsverified(true))
+      .catch(() => setIsverified(false));
+  }
+
   const { setContactUsDialog } = useGlobalContext();
   const {
     register,
@@ -84,74 +97,81 @@ const Form = () => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit(onSubmit)}
-      className=" flex h-[370px] w-[250px]  flex-col justify-between rounded border border-gray-800 bg-white p-4"
-    >
-      <h2 className={`${titleFont.className} pb-3 text-2xl text-black`}>
-        We&rsquo;ll reach you out!
-      </h2>
-      <div>
-        <label htmlFor="phone" className="invisible"></label>
-        <Input
-          {...register('phone')}
-          type="text"
-          id="phone"
-          className="rounded"
-          placeholder="phone"
-        />
-
-        {errors.phone ? (
-          <p className="mb-2 text-left text-sm text-red-500">{`${errors.phone.message}`}</p>
-        ) : (
-          <p className="mb-2 text-left text-sm text-gray-500">required*</p>
-        )}
-      </div>
-      <div>
-        <label htmlFor="email" className="invisible"></label>
-        <Input
-          {...register('email')}
-          type="text"
-          id="email"
-          className="rounded"
-          placeholder="email"
-        />
-
-        {errors.email ? (
-          <p className="mb-2 text-left text-sm text-red-500">
-            <span className="text-gray-500">optional* </span>{' '}
-            {`${errors.email.message}`}
-          </p>
-        ) : (
-          <p className="mb-2 text-left text-sm text-gray-500">optional*</p>
-        )}
-      </div>
-
-      <div className="dfdfd">
-        <label htmlFor="textArea" className="invisible"></label>
-        <Textarea
-          {...register('message')}
-          id="textArea"
-          className="resize-none rounded"
-          placeholder="message for us"
-        />
-
-        {errors.message ? (
-          <p className="mb-2 text-left text-sm text-red-500">{`${errors.message.message}`}</p>
-        ) : (
-          <p className="mb-2 text-left text-sm text-gray-500">optional*</p>
-        )}
-      </div>
-
-      <button
-        style={{ cursor: 'pointer' }}
-        className="inline-block w-full cursor-pointer rounded bg-laboBlue px-2 py-[7px] text-lg transition hover:bg-[#0a4d6b] disabled:bg-gray-500"
-        type="submit"
-        disabled={isSubmitting}
+    <div className="flex flex-col items-center gap-4">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className=" flex h-[370px] w-[250px]  flex-col justify-between rounded border border-gray-800 bg-white p-4"
       >
-        Submit
-      </button>
-    </form>
+        <h2 className={`${titleFont.className} pb-3 text-2xl text-black`}>
+          We&rsquo;ll reach you out!
+        </h2>
+        <div>
+          <label htmlFor="phone" className="invisible"></label>
+          <Input
+            {...register('phone')}
+            type="text"
+            id="phone"
+            className="rounded"
+            placeholder="phone"
+          />
+
+          {errors.phone ? (
+            <p className="mb-2 text-left text-sm text-red-500">{`${errors.phone.message}`}</p>
+          ) : (
+            <p className="mb-2 text-left text-sm text-gray-500">required*</p>
+          )}
+        </div>
+        <div>
+          <label htmlFor="email" className="invisible"></label>
+          <Input
+            {...register('email')}
+            type="text"
+            id="email"
+            className="rounded"
+            placeholder="email"
+          />
+
+          {errors.email ? (
+            <p className="mb-2 text-left text-sm text-red-500">
+              <span className="text-gray-500">optional* </span>{' '}
+              {`${errors.email.message}`}
+            </p>
+          ) : (
+            <p className="mb-2 text-left text-sm text-gray-500">optional*</p>
+          )}
+        </div>
+
+        <div className="dfdfd">
+          <label htmlFor="textArea" className="invisible"></label>
+          <Textarea
+            {...register('message')}
+            id="textArea"
+            className="resize-none rounded"
+            placeholder="message for us"
+          />
+
+          {errors.message ? (
+            <p className="mb-2 text-left text-sm text-red-500">{`${errors.message.message}`}</p>
+          ) : (
+            <p className="mb-2 text-left text-sm text-gray-500">optional*</p>
+          )}
+        </div>
+
+        <button
+          style={{ cursor: 'pointer' }}
+          className="inline-block w-full cursor-pointer rounded bg-laboBlue px-2 py-[7px] text-lg transition hover:bg-[#0a4d6b] disabled:bg-gray-500"
+          type="submit"
+          disabled={isSubmitting || !isVerified}
+        >
+          Submit
+        </button>
+      </form>
+      <ReCAPTCHA
+        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY as string}
+        ref={recaptchaRef}
+        onChange={handleCaptchaSubmission}
+      />
+    </div>
   );
 };
 

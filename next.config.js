@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
+    serverActions: true,
     serverComponentsExternalPackages: [
       '@react-email/components',
       '@react-email/render',

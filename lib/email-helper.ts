@@ -1,3 +1,4 @@
+import 'server-only';
 import nodemailer from 'nodemailer';
 
 type Payload = {
@@ -10,8 +11,8 @@ const smtpConfig = {
   service: 'gmail',
   secure: true,
   auth: {
-    user: 'store.ciuchy@gmail.com',
-    pass: 'qksphbmoulsjsqsf',
+    user: process.env.GMAIL_LABOKIDS_EMAIL,
+    pass: process.env.GMAIL_LABOKIDS_PASSWORD,
   },
 };
 
@@ -21,7 +22,7 @@ export const handleEmailFire = async (data: Payload) => {
   });
 
   return await transporter.sendMail({
-    from: 'labokids@gmail.com',
+    from: process.env.GMAIL_LABOKIDS_EMAIL,
     ...data,
   });
 };
