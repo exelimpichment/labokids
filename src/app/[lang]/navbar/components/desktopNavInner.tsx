@@ -1,3 +1,4 @@
+import LanguageSelect from '../../common/languageSelect/languageSelect';
 import DesktopNavLogo from './desktopNavLogo';
 import DesktopNavbarLinkList from './desktopNavbarLinkList';
 

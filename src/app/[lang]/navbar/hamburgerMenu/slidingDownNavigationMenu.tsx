@@ -4,6 +4,7 @@ import { useGlobalContext } from '../../context/globalContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import DropdownItemsList from './dropdownItemsList';
 import { useEffect, useRef } from 'react';
+import LanguageSelect from '../../common/languageSelect/languageSelect';
 
 const SlidingDownNavigationMenu = () => {
   const { burgerMenuOpen, setBurgerMenuOpen } = useGlobalContext();

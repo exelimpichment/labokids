@@ -1,4 +1,5 @@
 import Container from '../common/container';
+import LanguageSelect from '../common/languageSelect/languageSelect';
 import DesktopNavInner from './components/desktopNavInner';
 import HamburgerMenu from './hamburgerMenu';
 

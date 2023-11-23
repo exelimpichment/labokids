@@ -3,6 +3,7 @@ import Image from 'next/image';
 import HamburgerTrigger from './HamburgerTrigger';
 import laboKidsLogo from '@/public/labokids-logo.png';
 import { useGlobalContext } from '../../context/globalContext';
+import LanguageSelect from '../../common/languageSelect/languageSelect';
 
 const HamburgerMenu = () => {
   const { burgerMenuOpen } = useGlobalContext();
@@ -29,7 +30,13 @@ const HamburgerMenu = () => {
             className="h-full w-[auto]"
           />
         </div>
-        <HamburgerTrigger />
+        <div
+          className="flex gap-3
+        "
+        >
+          {!burgerMenuOpen && <LanguageSelect />}
+          <HamburgerTrigger />
+        </div>
       </div>
     </div>
   );
