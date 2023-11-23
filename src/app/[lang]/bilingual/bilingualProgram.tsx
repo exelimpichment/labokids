@@ -8,7 +8,7 @@ const BilingualProgram = () => {
   return (
     <section>
       <Container>
-        <div className="mt-10 flex flex-col gap-32 lg:gap-10">
+        <div className="mt-10 flex flex-col gap-16 lg:gap-10">
           <div className="flex flex-col gap-3 lg:flex-row lg:gap-10">
             <div
               className={`equalFlexPart relative min-h-[350px] overflow-hidden`}
