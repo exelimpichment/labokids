@@ -30,13 +30,13 @@ const SlidingDownNavigationMenuInner = ({
     return;
   }, [burgerMenuOpen]);
 
-  const windowRef = useRef<HTMLDivElement | null>(null);
+  const SlidingDownMenuRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
-        windowRef.current &&
-        !windowRef.current.contains(event.target as Node)
+        SlidingDownMenuRef.current &&
+        !SlidingDownMenuRef.current.contains(event.target as Node)
       ) {
         setBurgerMenuOpen(false);
       }
@@ -70,7 +70,7 @@ const SlidingDownNavigationMenuInner = ({
     <AnimatePresence mode={'sync'}>
       {burgerMenuOpen && (
         <motion.div
-          ref={windowRef}
+          ref={SlidingDownMenuRef}
           className=" absolute left-0 top-0 z-10 flex  w-full flex-col items-center rounded-bl-2xl rounded-br-2xl bg-blue-100 p-4 lg:hidden"
           initial={{ y: -400, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
