@@ -52,7 +52,7 @@ export const teachersMontessoriCarouselData = [
     image: teacher3,
   },
   {
-    id: 3,
+    id: 8,
     name: 'lorem ipsum',
     position: 'position posiition',
     image: teacher1,
@@ -68,5 +68,5 @@ export const teachersBilingualCarouselData = [
   { id: 5, name: 'lorem ipsum', position: 'position posiition', image: 'd' },
   { id: 6, name: 'lorem ipsum', position: 'position posiition', image: 'd' },
   { id: 7, name: 'lorem ipsum', position: 'position posiition', image: 'd' },
-  { id: 3, name: 'lorem ipsum', position: 'position posiition', image: 'd' },
+  { id: 8, name: 'lorem ipsum', position: 'position posiition', image: 'd' },
 ];

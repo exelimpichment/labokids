@@ -76,25 +76,26 @@ export const montessoriMethodsList = [
   },
   {
     id: 1,
+    image: montessoriMethodsListOfImage4,
+    paragraph:
+      "Montessori's sensorial education focuses on honing a child's sensory perception by consistently engaging with purposefully crafted materials.\nThis approach aims to offer tangible instances that illustrate otherwise abstract notions, including elements like color, texture, sound, and fragrance.",
+    header: 'Sensorial',
+  },
+  {
+    id: 2,
     image: montessoriMethodsListOfImage2,
     paragraph:
       'The Montessori classroom is meticulously arranged to organically foster the acquisition of skills vital for both spoken and written language. Children employ sandpaper letters to grasp the phonetics of the alphabet and the precise formation of each letter.',
     header: 'Language',
   },
   {
-    id: 2,
+    id: 3,
     image: montessoriMethodsListOfImage3,
     paragraph:
       'Through the use of hands-on materials designed\naround the decimal system, children learn important\nmathematical principles. Dr Montessori demonstrated\nthat if a child is able to learn during the stage\nwhen they enjoy manipulating materials, they will be able\nto more easily and successfully assimilate\nthe skills and knowledge of arithmetic.',
     header: 'Mathematics',
   },
-  {
-    id: 3,
-    image: montessoriMethodsListOfImage4,
-    paragraph:
-      "Montessori's sensorial education focuses on honing a child's sensory perception by consistently engaging with purposefully crafted materials.\nThis approach aims to offer tangible instances that illustrate otherwise abstract notions, including elements like color, texture, sound, and fragrance.",
-    header: 'Sensorial',
-  },
+
   {
     id: 4,
     image: montessoriMethodsListOfImage5,
@@ -193,7 +194,7 @@ export const teachersMontessoriCarouselData = [
     image: teacher3,
   },
   {
-    id: 3,
+    id: 8,
     name: 'lorem ipsum',
     position: 'position posiition',
     image: teacher1,

@@ -1,6 +1,8 @@
 {
-  "montessoriHeroContent": {
-    "home": "Home",
-    "about": "About"
+  "navigation": {
+        "montessori": "Montessori",
+        "bilingual": "Dwujęzyczny",
+        "party": "Urodzinki",
+        "workshops": "Warsztaty"
   }
 }

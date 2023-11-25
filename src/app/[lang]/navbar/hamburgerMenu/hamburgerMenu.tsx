@@ -34,7 +34,7 @@ const HamburgerMenu = () => {
           className="flex gap-3
         "
         >
-          {!burgerMenuOpen && <LanguageSelect />}
+          {/* {!burgerMenuOpen && <LanguageSelect/>} */}
           <HamburgerTrigger />
         </div>
       </div>
