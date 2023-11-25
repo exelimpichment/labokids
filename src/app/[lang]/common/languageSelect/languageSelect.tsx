@@ -15,7 +15,7 @@ const LanguageSelect = ({ lang }: { lang: Locale }) => {
   return (
     <div className="w-14">
       <button
-        className={`${titleFont.className} flex cursor-pointer items-center  p-1 text-lg xl:text-[22px] xl:leading-[1.85rem]`}
+        className={`${titleFont.className} flex cursor-pointer items-center p-1  text-xl lg:text-lg xl:text-[22px] xl:leading-[1.85rem]`}
         onClick={handleClick}
       >
         <span>{lang}</span>

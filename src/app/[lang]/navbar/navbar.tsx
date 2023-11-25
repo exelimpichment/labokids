@@ -9,7 +9,7 @@ const Navbar = ({ lang }: { lang: Locale }) => {
       <Container>
         <DesktopNavInner lang={lang} />
       </Container>
-      <HamburgerMenu />
+      <HamburgerMenu lang={lang} />
     </nav>
   );
 };

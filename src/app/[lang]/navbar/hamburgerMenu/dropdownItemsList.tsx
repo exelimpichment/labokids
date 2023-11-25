@@ -3,8 +3,18 @@
 import { Phone } from 'lucide-react';
 import useRoutes from '../../hooks/useRoutes';
 import DropdownItem from './dropdownItem';
+import { Locale } from '@/i18n.config';
+import { CakeSlice, Leaf, Ruler } from 'lucide-react';
+import { TbLanguage } from 'react-icons/tb';
 
-const DropdownItemsList = () => {
+const dropdownIcons = {
+  montessori: Leaf,
+  bilingual: TbLanguage,
+  party: CakeSlice,
+  workshops: Ruler,
+};
+
+const DropdownItemsList = ({ lang }: { lang: Locale }) => {
   const routes = useRoutes();
   return (
     <ul className="mt-2 flex flex-col items-start gap-3 text-2xl">
