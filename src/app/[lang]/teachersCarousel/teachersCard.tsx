@@ -10,8 +10,6 @@ interface ITeachersCard {
 }
 
 const TeachersCard: React.FC<ITeachersCard> = ({ teacher }) => {
-  console.log(teacher.image);
-
   return (
     <div className="w-96 overflow-hidden rounded-3xl ">
       <div className="relative ">

@@ -1,4 +1,7 @@
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
+import {
+  StaticImageData,
+  StaticImport,
+} from 'next/dist/shared/lib/get-img-props';
 
 export interface IPageHero {
   content: {
@@ -23,3 +26,34 @@ export const formSchema = z.object({
 });
 
 export type TFormSchema = z.infer<typeof formSchema>;
+
+export type TNavigation = {
+  montessori: string;
+  bilingual: string;
+  party: string;
+  workshops: string;
+};
+
+export type MontessoriImageObject = {
+  en: {
+    'Practical Life': StaticImageData;
+    Sensorial: StaticImageData;
+    Language: StaticImageData;
+    Mathematics: StaticImageData;
+    'Culture and Science': StaticImageData;
+  };
+  pl: {
+    'Życie praktyczne': StaticImageData;
+    Sensoryczna: StaticImageData;
+    Język: StaticImageData;
+    Matematyka: StaticImageData;
+    'Kultura i Nauka': StaticImageData;
+  };
+  ua: {
+    'Практичне життя': StaticImageData;
+    'Сенсорна освіта': StaticImageData;
+    Мова: StaticImageData;
+    Математика: StaticImageData;
+    'Культура та Наука': StaticImageData;
+  };
+};

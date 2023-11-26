@@ -8,12 +8,13 @@ interface ISectionHeader {
     kidFontText: string;
     header: string;
     paragraph: string;
-    animatedPicture?: boolean;
   };
+  animatedPicture?: boolean;
 }
 
 const SectionHeader: React.FC<ISectionHeader> = ({
-  content: { kidFontText, header, paragraph, animatedPicture = false },
+  content: { kidFontText, header, paragraph },
+  animatedPicture = false,
 }) => {
   return (
     <div className="relative mt-16 flex max-w-full flex-col items-center justify-center">

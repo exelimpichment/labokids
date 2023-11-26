@@ -132,7 +132,7 @@ export const teachersBilingualCarouselData = [
     image: teacher3,
   },
   {
-    id: 3,
+    id: 8,
     name: 'lorem ipsum',
     position: 'position posiition',
     image: teacher1,

@@ -19,7 +19,7 @@ export async function POST(request: Request) {
     const { email, message, phone } = result.data;
 
     await handleEmailFire({
-      to: process.env.FORM_RECEPIENT_EMAIL as string, // to: 'info@labokids.pl',
+      to: process.env.FORM_RECEPIENT_EMAIL as string,
       subject: 'Nowy potencjalny klient!',
       html: render(ContactFormEmail({ phone, email, message })),
     });

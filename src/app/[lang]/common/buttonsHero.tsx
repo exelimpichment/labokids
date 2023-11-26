@@ -4,12 +4,17 @@ import { Button } from '@/components/ui/button';
 import { useGlobalContext } from '../context/globalContext';
 import ContactUsDialog from './contactUsDialog/contactUsDialog';
 import { useEffect } from 'react';
+import { titleFont } from './fonts';
 
 interface IButtonsHero {
   buttonsPosition?: string;
+  heroPageButtonsText: { readMore: string; contactUs: string };
 }
 
-const ButtonsHero: React.FC<IButtonsHero> = ({ buttonsPosition = 'start' }) => {
+const ButtonsHero: React.FC<IButtonsHero> = ({
+  buttonsPosition = 'start',
+  heroPageButtonsText: { readMore, contactUs },
+}) => {
   const {
     setContactUsDialog,
     scrollToTopics,
@@ -39,18 +44,18 @@ const ButtonsHero: React.FC<IButtonsHero> = ({ buttonsPosition = 'start' }) => {
         ref={isIntersectingRef}
         type="button"
         variant="outline"
-        className="rounded border-transparent bg-laboBlue transition-all duration-500 hover:bg-white"
+        className={`${titleFont.className} rounded border-transparent bg-laboBlue text-base transition-all duration-500 hover:bg-white`}
         onClick={scrollToTopics}
       >
-        Read More
+        {readMore}
       </Button>
       <Button
         type="button"
         variant="outline"
-        className="rounded border-transparent bg-blue-100 hover:bg-slate-300"
+        className={`${titleFont.className} rounded border-transparent bg-blue-100 text-base hover:bg-slate-300`}
         onClick={() => setContactUsDialog(true)}
       >
-        Contact Us
+        {contactUs}
       </Button>
       <ContactUsDialog />
     </div>

@@ -9,8 +9,6 @@ export function useScrollToTop() {
 
   const scrollToTop = () => {
     if (topRef.current) {
-      console.log('click scroll to top button');
-
       topRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
@@ -18,9 +16,7 @@ export function useScrollToTop() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log(entry);
         setIsIntersecting(!entry.isIntersecting);
-        console.log(isIntersecting);
       },
       { threshold: 0 }
     );

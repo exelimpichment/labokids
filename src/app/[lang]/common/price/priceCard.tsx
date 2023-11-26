@@ -3,12 +3,11 @@
 import { textFont, titleFont } from '../fonts';
 import { useGlobalContext } from '../../context/globalContext';
 import Image from 'next/image';
-
-import { AnimatePresence } from 'framer-motion';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { HelpCircle } from 'lucide-react';
 import AdditionalInfo from '../../additionalInfo/additionalInfo';
+
+import calendar from '@/public/projectSvg/calendar.svg';
+import soup from '@/public/projectSvg/soup.svg';
+import dimond from '@/public/projectSvg/dimond.svg';
 
 interface IPriceCard {
   item: {
@@ -17,24 +16,29 @@ interface IPriceCard {
     paragraph: string;
     price: number | string;
     advantages: string[];
-    icon: any;
   };
 }
 
+const pricingIconLibrary = {
+  'Monthly payment': calendar,
+  Meals: soup,
+  'Special offers': dimond,
+  'Opłata miesięczna': calendar,
+  Posiłki: soup,
+  'Specjalne oferty': dimond,
+  'Щомісячна оплата': calendar,
+  Харчування: soup,
+  'Спеціальні пропозиції': dimond,
+};
+type T = keyof typeof pricingIconLibrary;
+
 const PriceCard: React.FC<IPriceCard> = ({
-  item: { id, header, paragraph, price, advantages, icon },
+  item: { id, header, paragraph, price, advantages },
 }) => {
   const { setContactUsDialog } = useGlobalContext();
 
   const handleClick = () => {
     setContactUsDialog((prev) => !prev);
-  };
-
-  const [open, setOpen] = useState(false);
-
-  const handleClick2 = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    e.stopPropagation();
-    setOpen((prev: boolean) => !prev);
   };
 
   return (
@@ -43,7 +47,12 @@ const PriceCard: React.FC<IPriceCard> = ({
       className="flex max-w-[270px] cursor-pointer flex-col items-center justify-between rounded-2xl border border-gray-200 p-5 hover:rounded-2xl hover:border-transparent hover:bg-slate-100"
     >
       <div className="text-laboBlue">
-        <Image src={icon} alt="school svg" height={35} width={35} />
+        <Image
+          src={pricingIconLibrary[header as T]}
+          alt="school svg"
+          height={35}
+          width={35}
+        />
       </div>
 
       <h2 className={`${titleFont.className} pt-5 text-xl`}>{header}</h2>

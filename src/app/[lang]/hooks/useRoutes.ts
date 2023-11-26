@@ -15,7 +15,7 @@ const useRoutes = () => {
       {
         id: 0,
         href: '/montessori',
-        label: 'Montessori',
+        label: 'Тест',
         icon: Leaf,
         active: pathname === '/montessori',
       },
