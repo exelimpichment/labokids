@@ -10,7 +10,6 @@ import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 import {
   aboutMontessoriHeaderContent,
   imagesMontessoriHeaderContent,
-  montessoriHeroContent,
   montessoriPricingData,
   priceMontessoriHeaderContent,
   teachersMontessoriCarouselData,
@@ -19,12 +18,20 @@ import {
 import ScrollToTopComponent from '../common/scrollToTopComponent';
 
 import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
+import { getDictionary } from '@/lib/dictionary';
+import { Locale } from '@/i18n.config';
 
-const Montessori = () => {
+const Montessori = async ({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) => {
+  const { heroPageMontessori, heroPageButtonsText } = await getDictionary(lang);
+
   return (
     <main className="content">
       <ScrollToTopComponent />
-      <PageHero content={montessoriHeroContent} />
+      <PageHero content={{ ...heroPageMontessori, heroPageButtonsText }} />
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
       <MontessoriMethodsList />

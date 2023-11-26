@@ -1,8 +1,32 @@
 {
   "navigation": {
-        "montessori": "Montessori",
-        "bilingual": "Dwujęzyczny",
-        "party": "Urodzinki",
-        "workshops": "Warsztaty"
+    "montessori": "Montessori",
+    "bilingual": "Dwujęzyczny",
+    "party": "Urodzinki",
+    "workshops": "Warsztaty"
+  },
+  "heroPageMontessori": {
+    "kidFontText": "Przedszkole Montessori LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Priorytetem jest spersonalizowana edukacja Montessori, jednocześnie rozwijamy jedność grupy poprzez koleżeństwo, uczucie bliskości i sprawiedliwość."
+  },
+  "heroPageBilingual": {
+    "kidFontText": "Przedszkole dwujęzyczne LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Przedszkola w stylu rodzinny, gdzie opiekuńcy i profesjonalni nauczyciele otaczają każde dziecko miłością."
+  },
+  "heroPageParty": {
+    "kidFontText": "Urodziny z LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Organizacja radosnych i pełnych zabawy przyjęć urodzinowych dla maluchów, pełnych radości, gier i niezapomnianych chwil."
+  },
+  "heroPageWorkshops": {
+    "kidFontText": "Warsztaty z LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Odkryj Świat Ciekawości: Warsztaty dla Dzieci z Niesamowitymi Doświadczeniami i Ekscytującymi Wglądami w Biologię i Nie Tylko!"
+  },
+  "heroPageButtonsText": {
+    "readMore": "Czytaj więcej",
+    "contactUs": "Kontakt"
   }
 }

@@ -17,16 +17,16 @@ import montessoriMethodsListOfImage3 from '@/public/montessoriMethodsListOfImage
 import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage1.jpg';
 import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage5.jpg';
 
-export const montessoriHeroContent = {
-  image: montessoriHero,
-  buttonsPosition: 'lg:justify-end',
-  kidFontText: 'LaboKids Montessori kindergarten',
-  header: 'A bright future for all.',
-  textPosition: 'lg:text-right',
-  flexPosition: 'items-end',
-  paragraph:
-    'We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness.',
-};
+// export const montessoriHeroContent = {
+//   image: montessoriHero,
+//   buttonsPosition: 'lg:justify-end',
+//   kidFontText: 'LaboKids Montessori kindergarten',
+//   header: 'A bright future for all.',
+//   textPosition: 'lg:text-right',
+//   flexPosition: 'items-end',
+//   paragraph:
+//     'We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness.',
+// };
 
 export const priceMontessoriHeaderContent = {
   kidFontText: 'BEST PRICE FOR PARENTS',

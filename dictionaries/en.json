@@ -1,8 +1,32 @@
 {
   "navigation": {
-        "montessori": "Montessori",
-        "bilingual": "Bilingual",
-        "party": "Birthdays",
-        "workshops": "Workshop"
+    "montessori": "Montessori",
+    "bilingual": "Bilingual",
+    "party": "Birthdays",
+    "workshops": "Workshop"
+  },
+  "heroPageMontessori": {
+    "kidFontText": "LaboKids Montessori kindergarten",
+    "header": "A bright future for all.",
+    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness."
+  },
+  "heroPageBilingual": {
+    "kidFontText": "LaboKids Montessori kindergarten",
+    "header": "A bright future for all.",
+    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness."
+  },
+  "heroPageParty": {
+    "kidFontText": "Birthday with LaboKids",
+    "header": "A bright future for all.",
+    "paragraph": "Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments."
+  },
+  "heroPageWorkshops": {
+    "kidFontText": "Workshop with LaboKids",
+    "header": "A bright future for all.",
+    "paragraph": "Explore the World of Wonder: Kids' Workshops with Mind-Blowing Experiments and Exciting Insights into Biology and More!"
+  },
+  "heroPageButtonsText": {
+    "readMore": "Read More",
+    "contactUs": "Contact Us"
   }
 }
