@@ -1,7 +1,7 @@
 import { Locale } from '@/i18n.config';
 
 import { getDictionary } from '@/lib/dictionary';
-import SlidingDownNavigationMenuInner from '@/src/app/[lang]/navbar/hamburgerMenu/slidingDownNavigationMenuInner';
+import SlidingDownNavigationMenuInner from './slidingDownNavigationMenuInner';
 
 const SlidingDownNavigationMenu = async ({ lang }: { lang: Locale }) => {
   const { navigation } = await getDictionary(lang);

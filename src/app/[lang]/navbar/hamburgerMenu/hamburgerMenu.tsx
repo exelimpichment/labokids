@@ -4,7 +4,7 @@ import laboKidsLogo from '@/public/labokids-logo.png';
 import { useGlobalContext } from '../../context/globalContext';
 import LanguageSelect from '../../common/languageSelect/languageSelect';
 import { Locale } from '@/i18n.config';
-import HamburgerTrigger from '@/src/app/[lang]/navbar/hamburgerMenu/hamburgerTrigger';
+import HamburgerTrigger from './hamburgerTrigger';
 
 const HamburgerMenu = ({ lang }: { lang: Locale }) => {
   const { burgerMenuOpen } = useGlobalContext();
