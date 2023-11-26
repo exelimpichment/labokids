@@ -6,7 +6,6 @@ import { useEffect, useRef } from 'react';
 import { Locale } from '@/i18n.config';
 import { usePathname, useRouter } from 'next/navigation';
 import { Phone } from 'lucide-react';
-import { TbLanguage } from 'react-icons/tb';
 import { TNavigation } from '@/lib/types';
 import DropdownItem from './dropdownItem';
 
