@@ -8,7 +8,6 @@ import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 import {
-  aboutMontessoriHeaderContent,
   imagesMontessoriHeaderContent,
   montessoriPricingData,
   priceMontessoriHeaderContent,
@@ -26,7 +25,16 @@ const Montessori = async ({
 }: {
   params: { lang: Locale };
 }) => {
-  const { heroPageMontessori, heroPageButtonsText } = await getDictionary(lang);
+  const {
+    heroPageMontessori,
+    heroPageButtonsText,
+    aboutMontessoriHeaderContent,
+    montessoriMethodsList,
+    imagesMontessoriHeaderContent,
+    teachersMontessoriHeaderContent,
+    priceMontessoriHeaderContent,
+    montessoriPricingData,
+  } = await getDictionary(lang);
 
   return (
     <main className="content">
@@ -34,8 +42,14 @@ const Montessori = async ({
       <PageHero content={{ ...heroPageMontessori, heroPageButtonsText }} />
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
-      <MontessoriMethodsList />
-      <SectionHeader content={imagesMontessoriHeaderContent} />
+      <MontessoriMethodsList
+        montessoriMethodsList={montessoriMethodsList}
+        lang={lang}
+      />
+      <SectionHeader
+        content={imagesMontessoriHeaderContent}
+        animatedPicture={true}
+      />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={teachersMontessoriHeaderContent} />
       <TeachersCarousel carouselData={teachersMontessoriCarouselData} />

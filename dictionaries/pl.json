@@ -28,5 +28,87 @@
   "heroPageButtonsText": {
     "readMore": "Czytaj więcej",
     "contactUs": "Kontakt"
-  }
+  },
+  "aboutMontessoriHeaderContent": {
+    "kidFontText": "O NASZYM PROGRAMIE EDUKACYJNYM",
+    "header": "Metoda Montessori",
+    "paragraph": "Naszym celem jest promowanie wszechstronnego rozwoju każdego dziecka, podkreślając niezależność i tolerancję, zgodnie z podejściem Montessori obejmującym pięć obszarów przedmiotowych."
+  },
+  "montessoriMethodsList": [
+    {
+      "id": 0,
+      "paragraph": "Działania praktyczne obejmują coraz bardziej wymagający zestaw zadań z motoryki małej o realnych celach, takich jak porządkowanie stołu czy mycie naczyń. Te czynności nie tylko pomagają dzieciom opanować codzienne obowiązki, ale także rozwijają niezależność, sprawność fizyczną, koordynację, skupienie i pojęcie organizacji.",
+      "header": "Życie praktyczne"
+    },
+    {
+      "id": 1,
+      "paragraph": "Edukacja sensoryczna Montessori skupia się na doskonaleniu percepcji sensorycznej dziecka poprzez stałe oddziaływanie z celowo opracowanymi materiałami. To podejście ma na celu oferowanie namacalnych przykładów, które ilustrują abstrakcyjne pojęcia, obejmujące elementy takie jak kolor, tekstura, dźwięk i zapach.",
+      "header": "Sensoryczna"
+    },
+    {
+      "id": 2,
+      "paragraph": "Klasa Montessori jest starannie ułożona, aby organicznie wspierać zdobywanie umiejętności istotnych zarówno dla języka mówionego, jak i pisanego. Dzieci używają liter z papierem ściernym, aby zrozumieć fonetykę alfabetu i precyzyjne formowanie każdej litery.",
+      "header": "Język"
+    },
+    {
+      "id": 3,
+      "paragraph": "Przez korzystanie z materiałów praktycznych zaprojektowanych\nwokół systemu dziesiętnego, dzieci uczą się ważnych\nzasad matematycznych. Dr Montessori wykazała,\nże jeśli dziecko jest w stanie uczyć się w fazie,\nkiedy cieszy się manipulacją materiałami, będzie w stanie\nłatwiej i skuteczniej przyswajać\numiejętności i wiedzę z zakresu arytmetyki.",
+      "header": "Matematyka"
+    },
+    {
+      "id": 4,
+      "paragraph": "W tej dziedzinie dzieci zagłębiają się w różne przedmioty, w tym geografię, historię, biologię, sztukę i muzykę. Ta szeroka eksploracja daje im szansę zdobycia głębszego zrozumienia otoczenia. Ten aspekt edukacji dzieci umożliwia naszym uczniom odkrywanie bogactwa zarówno kultur historycznych, jak i współczesnych, jednocześnie badając obszary istniejących i nieożywionych istot.",
+      "header": "Kultura i Nauka"
+    }
+  ],
+  "imagesMontessoriHeaderContent": {
+    "kidFontText": "EKSPLODUJ Z LABOKIDS",
+    "header": "Galeria",
+    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+  },
+  "teachersMontessoriHeaderContent": {
+    "kidFontText": "Odkrywaj z Labokids",
+    "header": "Galeria",
+    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+  },
+  "priceMontessoriHeaderContent": {
+    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "header": "Cennik",
+    "paragraph": "Odkryj niezrównaną wartość dla formacyjnych lat twojego dziecka - nasze zaangażowanie w przystępność zapewnia im najlepszą opiekę i edukację."
+  },
+  "montessoriPricingData": [
+    {
+      "id": 1,
+      "header": "Opłata miesięczna",
+      "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
+      "price": 1100,
+      "advantages": [
+        "Spersonalizowane podejście",
+        "Doświadczeni nauczyciele",
+        "Zajmujący program nauczania"
+      ]
+    },
+    {
+      "id": 2,
+      "header": "Posiłki",
+      "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
+      "price": "17/dzień",
+      "advantages": [
+        "Zdrowe jedzenie",
+        "Dostosowania dietetyczne",
+        "Edukacja podczas posiłków"
+      ]
+    },
+    {
+      "id": 3,
+      "header": "Specjalne oferty",
+      "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
+      "price": "na zapytanie",
+      "advantages": [
+        "Dodatkowe lekcje",
+        "Przyjdź z przyjacielem",
+        "Oferty dla rodzeństwa"
+      ]
+    }
+  ]
 }

@@ -28,5 +28,87 @@
   "heroPageButtonsText": {
     "readMore": "Read More",
     "contactUs": "Contact Us"
-  }
+  },
+  "aboutMontessoriHeaderContent": {
+    "kidFontText": "ABOUT OUR EDUCATION PROGRAM",
+    "header": "Montessori Method",
+    "paragraph": "Our aim is to promote the well-rounded growth of each child, emphasizing independence and tolerance, following the Montessori approach with five subject areas."
+  },
+  "montessoriMethodsList": [
+    {
+      "id": 0,
+      "paragraph": "Practical life activities encompass a progressively demanding set of fine motor tasks with real-world purposes, like tidying a table or washing dishes. These activities not only aid children in mastering everyday chores but also cultivate independence, physical dexterity, coordination, focus, and a notion of organization.",
+      "header": "Practical Life"
+    },
+    {
+      "id": 1,
+      "paragraph": "Montessori's sensorial education focuses on honing a child's sensory perception by consistently engaging with purposefully crafted materials.\nThis approach aims to offer tangible instances that illustrate otherwise abstract notions, including elements like color, texture, sound, and fragrance.",
+      "header": "Sensorial"
+    },
+    {
+      "id": 2,
+      "paragraph": "The Montessori classroom is meticulously arranged to organically foster the acquisition of skills vital for both spoken and written language. Children employ sandpaper letters to grasp the phonetics of the alphabet and the precise formation of each letter.",
+      "header": "Language"
+    },
+    {
+      "id": 3,
+      "paragraph": "Through the use of hands-on materials designed\naround the decimal system, children learn important\nmathematical principles. Dr Montessori demonstrated\nthat if a child is able to learn during the stage\nwhen they enjoy manipulating materials, they will be able\nto more easily and successfully assimilate\nthe skills and knowledge of arithmetic.",
+      "header": "Mathematics"
+    },
+    {
+      "id": 4,
+      "paragraph": "In this domain, children delve into a range of subjects, including Geography, History, Biology, Art, and Music. This broad exploration provides them with the chance to gain a deeper understanding of their surroundings. This facet of children's education empowers our students to uncover the richness of both historical and contemporary cultures while also examining the realms of living and non-living entities.",
+      "header": "Culture and Science"
+    }
+  ],
+  "imagesMontessoriHeaderContent": {
+    "kidFontText": "EXPLORE LABOKIDS",
+    "header": "Gallery",
+    "paragraph": "Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery."
+  },
+  "teachersMontessoriHeaderContent": {
+    "kidFontText": "ABOUT THE TEACHERS",
+    "header": "Our Teachers",
+    "paragraph": "We have an excellent teacher to child ratio at our Kindergarten to ensure that each child receives the attention he or she needs."
+  },
+  "priceMontessoriHeaderContent": {
+    "kidFontText": "BEST PRICE FOR PARENTS",
+    "header": "Pricing",
+    "paragraph": "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them."
+  },
+  "montessoriPricingData": [
+    {
+      "id": 1,
+      "header": "Monthly payment",
+      "paragraph": "Affordable monthly payment plans to suit your budget.",
+      "price": 1100,
+      "advantages": [
+        "Personalized Approach",
+        "Experienced Teachers",
+        "Engaging Curriculum"
+      ]
+    },
+    {
+      "id": 2,
+      "header": "Meals",
+      "paragraph": "Nutritious meals provided for the child during their time.",
+      "price": "17/day",
+      "advantages": [
+        "Healthy Food",
+        "Dietary Accommodations",
+        "Mealtime Education"
+      ]
+    },
+    {
+      "id": 3,
+      "header": "Special offers",
+      "paragraph": "Enjoy financial benefits with our exclusive offers!",
+      "price": "on request",
+      "advantages": [
+        "Additional Lessons",
+        "Bring a Friend",
+        "Offers for Siblings"
+      ]
+    }
+  ]
 }

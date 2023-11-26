@@ -13,7 +13,6 @@ import {
   priceWorkshopHeaderContent,
   workshopAccordionHeaderData,
   workshopGalleryPhotoSets,
-  workshopHeroContent,
   workshopPricingData,
 } from './workshopData';
 import { getDictionary } from '@/lib/dictionary';

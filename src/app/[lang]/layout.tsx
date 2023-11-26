@@ -9,7 +9,7 @@ import Backdrop from './common/backdrop';
 import Footer from './footer/footer';
 import ScrollToTopButton from './common/scrollToTopButton';
 import { Locale, i18n } from '@/i18n.config';
-import SlidingDownNavigationMenu from './navbar/hamburgerMenu/SlidingDownNavigationMenu';
+import SlidingDownNavigationMenu from './navbar/hamburgerMenu/slidingDownNavigationMenu';
 
 const prompt = Prompt({
   subsets: ['latin'],

@@ -10,7 +10,6 @@ interface PriceDataProps {
     paragraph: string;
     price: number | string;
     advantages: string[];
-    icon: any;
   }[];
 }
 
