@@ -7,11 +7,7 @@ import SectionHeader from '../common/sectionHeader';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import Topics from '../common/topics/topics';
 
-import {
-  priceWorkshopHeaderContent,
-  workshopGalleryPhotoSets,
-  workshopPricingData,
-} from './workshopData';
+import { workshopGalleryPhotoSets } from './workshopData';
 import { getDictionary } from '@/lib/dictionary';
 
 const Workshops = async ({
@@ -26,6 +22,7 @@ const Workshops = async ({
     accordionWorkshopsData,
     imagesWorkshopsHeaderContent,
     workshopPricingData,
+    priceWorkshopsHeaderContent,
   } = await getDictionary(lang);
   return (
     <main className="content">
@@ -36,7 +33,7 @@ const Workshops = async ({
       <Topics accordionData={accordionWorkshopsData} />
       <SectionHeader content={imagesWorkshopsHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
-      <SectionHeader content={priceWorkshopHeaderContent} />
+      <SectionHeader content={priceWorkshopsHeaderContent} />
       <Price priceData={workshopPricingData} />
     </main>
   );
