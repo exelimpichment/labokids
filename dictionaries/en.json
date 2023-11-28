@@ -22,11 +22,6 @@
     "header": "A bright future for all",
     "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness"
   },
-  "heroPageWorkshops": {
-    "kidFontText": "Workshop with LaboKids",
-    "header": "A bright future for all.",
-    "paragraph": "Explore the World of Wonder: Kids' Workshops with Mind-Blowing Experiments and Exciting Insights into Biology and More!"
-  },
   "heroPageButtonsText": {
     "readMore": "Read More",
     "contactUs": "Contact Us"
@@ -371,6 +366,93 @@
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
       "price": "800",
+      "advantages": [
+        "Personalized Approach",
+        "Experienced Teachers",
+        "Engaging Curriculum"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 1,
+      "header": "Meals",
+      "paragraph": "Nutritious meals provided for the child during their time.",
+      "price": "17/day",
+      "advantages": [
+        "Healthy Food",
+        "Dietary Accommodations",
+        "Mealtime Education"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "header": "Special offers",
+      "paragraph": "Enjoy exclusive financial benefits with our special offers!",
+      "price": "on request",
+      "advantages": [
+        "Additional Lessons",
+        "Bring a Friend",
+        "Offers for Siblings"
+      ],
+      "hints": ["", "", ""]
+    }
+  ],
+  "heroPageWorkshops": {
+    "kidFontText": "Workshop with LaboKids",
+    "header": "A bright future for all.",
+    "paragraph": "Explore the World of Wonder: Kids' Workshops with Mind-Blowing Experiments and Exciting Insights into Biology and More!"
+  },
+  "workshopAccordionHeaderData": {
+    "kidFontText": "WE OFFER A LOT!",
+    "header": "Our Workshop",
+    "paragraph": "Engaging workshops designed for kindergarten and primary school children in Grades 1-3. Unlocking curiosity and inspiring lifelong learning through hands-on education."
+  },
+  "accordionWorkshopsData": [
+    {
+      "key": 0,
+      "value": "item-1",
+      "borderColor": "before:border-laboBlue",
+      "fontColor": "text-laboBlue",
+      "backgroundColor": "bg-laboBlue",
+      "heading": "Regular Workshops",
+      "description": "Our offer includes 30 topics to choose from, adapted to the age of children, in the field of chemistry, physics, and biology. These topics are meant to spark children's interest in science while keeping the content appropriate for their level of understanding. Whether it's chemistry, physics, or biology, our program has a variety of options for young learners to explore and enjoy."
+    },
+    {
+      "key": 1,
+      "value": "item-2",
+      "borderColor": "before:border-laboRed",
+      "backgroundColor": "bg-laboRed",
+      "fontColor": "text-laboRed",
+      "heading": "Holiday Workshop",
+      "description": "We will make your holidays special by ensuring that your children experience a multitude of emotions on occasions such as Boy's Day, Girl's Day, St. Nicholas Day, Valentine's Day, and other holidays. Our goal is to create unforgettable moments and cherished memories for your little ones, filled with joy, surprises, and love. With our special holiday offerings, your family will celebrate these occasions with a sense of wonder and delight."
+    },
+    {
+      "key": 2,
+      "value": "item-3",
+      "borderColor": "before:border-laboGreen",
+      "backgroundColor": "bg-laboGreen",
+      "fontColor": "text-laboGreen",
+      "heading": "Picnic Workshop",
+      "description": "Children will have a great time at picnics and family events with us. During outdoor, corporate, and family gatherings, we will provide engaging activities, conduct experiments, games, and fun. With us, little ones will spend a joyfully unforgettable time. Fun activities at corporate picnics and family parties."
+    }
+  ],
+  "imagesWorkshopsHeaderContent": {
+    "kidFontText": "EXPLORE LABOKIDS",
+    "header": "Gallery",
+    "paragraph": "Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery."
+  },
+  "priceWorkshopsHeaderContent": {
+    "kidFontText": "BEST PRICE FOR PARENTS",
+    "header": "Pricing",
+    "paragraph": "Discover unbeatable prices for enriching workshops - our commitment to affordability ensures you get the best value for your educational endeavors."
+  },
+  "workshopPricingData": [
+    {
+      "id": 0,
+      "header": "Monthly payment",
+      "paragraph": "Affordable monthly payment plans to suit your budget.",
+      "price": "1100",
       "advantages": [
         "Personalized Approach",
         "Experienced Teachers",

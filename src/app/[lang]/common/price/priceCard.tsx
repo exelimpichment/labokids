@@ -32,7 +32,6 @@ const PriceCard: React.FC<IPriceCard> = ({
   item: { id, header, paragraph, price, advantages, hints },
 }) => {
   const { setContactUsDialogOpen } = useGlobalContext();
-  console.log(hints[0]);
 
   const handleClick = (
     e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>

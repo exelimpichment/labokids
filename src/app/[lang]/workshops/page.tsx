@@ -8,10 +8,7 @@ import StaticGallery from '../common/staticGallery/staticGallery';
 import Topics from '../common/topics/topics';
 
 import {
-  accordionWorkshopData,
-  imagesWorkshopHeaderContent,
   priceWorkshopHeaderContent,
-  workshopAccordionHeaderData,
   workshopGalleryPhotoSets,
   workshopPricingData,
 } from './workshopData';
@@ -22,18 +19,25 @@ const Workshops = async ({
 }: {
   params: { lang: Locale };
 }) => {
-  const { heroPageWorkshops, heroPageButtonsText } = await getDictionary(lang);
+  const {
+    heroPageWorkshops,
+    heroPageButtonsText,
+    workshopAccordionHeaderData,
+    accordionWorkshopsData,
+    imagesWorkshopsHeaderContent,
+    workshopPricingData,
+  } = await getDictionary(lang);
   return (
     <main className="content">
       <ScrollToTopComponent />
       <PageHero content={{ ...heroPageWorkshops, heroPageButtonsText }} />
       <ScrollToComponent />
       <SectionHeader content={workshopAccordionHeaderData} />
-      <Topics accordionData={accordionWorkshopData} />
-      <SectionHeader content={imagesWorkshopHeaderContent} />
+      <Topics accordionData={accordionWorkshopsData} />
+      <SectionHeader content={imagesWorkshopsHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={priceWorkshopHeaderContent} />
-      {/* <Price priceData={workshopPricingData} /> */}
+      <Price priceData={workshopPricingData} />
     </main>
   );
 };
