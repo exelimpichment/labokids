@@ -19,22 +19,22 @@ const montessoriImagObject: MontessoriImageObject = {
   en: {
     'Practical Life': montessoriMethodsListOfImage1,
     Sensorial: montessoriMethodsListOfImage2,
-    Language: montessoriMethodsListOfImage3,
-    Mathematics: montessoriMethodsListOfImage4,
+    Language: montessoriMethodsListOfImage4,
+    Mathematics: montessoriMethodsListOfImage3,
     'Culture and Science': montessoriMethodsListOfImage5,
   },
   pl: {
     'Życie praktyczne': montessoriMethodsListOfImage1,
     Sensoryczna: montessoriMethodsListOfImage2,
-    Język: montessoriMethodsListOfImage3,
-    Matematyka: montessoriMethodsListOfImage4,
+    Język: montessoriMethodsListOfImage4,
+    Matematyka: montessoriMethodsListOfImage3,
     'Kultura i Nauka': montessoriMethodsListOfImage5,
   },
   ua: {
     'Практичне життя': montessoriMethodsListOfImage1,
     'Сенсорна освіта': montessoriMethodsListOfImage2,
-    Мова: montessoriMethodsListOfImage3,
-    Математика: montessoriMethodsListOfImage4,
+    Мова: montessoriMethodsListOfImage4,
+    Математика: montessoriMethodsListOfImage3,
     'Культура та Наука': montessoriMethodsListOfImage5,
   },
 };
@@ -65,14 +65,13 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
             src={montessoriImagObject[lang][header]}
             alt="method image"
             fill
-            // blurDataURL
             className="rounded-3xl"
             quality={100}
             placeholder="blur"
             sizes="(max-width: 768px) 100vw, 50vw"
             style={{
               objectFit: 'cover',
-              objectPosition: 'top center',
+              objectPosition: 'center center',
             }}
           />
         </div>

@@ -39,7 +39,7 @@ export const partyPricingData = [
     header: 'At our kindergarten', // Paket Labo
     paragraph:
       'Bring the birthday excitement to our kindergarten for a memorable celebration!',
-    price: 650,
+    price: 750,
     advantages: [
       'Our Catered Cuisine',
       'Hassle-Free Experience',

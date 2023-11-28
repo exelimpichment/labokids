@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/[lang]/common/contactUsDialog"  ],
   "exclude": [
     "node_modules"
   ]

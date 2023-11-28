@@ -27,7 +27,7 @@ const StaticGallery: React.FC<IStaticGallery> = ({ galleryImages }) => {
             />
           </div>
         ))}
-        <div className="absolute bottom-[-90px] right-0  z-50 animate-reciprocal-horizontal xl:bottom-[-132px] xl:right-[10%]">
+        <div className="absolute bottom-[-90px] right-0  z-40 animate-reciprocal-horizontal xl:bottom-[-132px] xl:right-[10%]">
           <Image
             width={133}
             height={137}

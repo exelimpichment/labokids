@@ -28,7 +28,7 @@ const Party = async ({ params: { lang } }: { params: { lang: Locale } }) => {
       <SectionHeader content={galleryPartyHeaderContent} />
       <Gallery />
       <SectionHeader content={pricePartyHeaderContent} />
-      <Price priceData={partyPricingData} />
+      {/* <Price priceData={partyPricingData} /> */}
     </main>
   );
 };

@@ -3,12 +3,24 @@
     "montessori": "Montessori",
     "bilingual": "Bilingual",
     "party": "Birthdays",
-    "workshops": "Workshop"
+    "workshops": "Workshops"
+  },
+  "formContent": {
+    "heading": "We’ll reach you out!",
+    "phonePlaceholder": "phone",
+    "phoneRequirement": "required*",
+    "emailPlaceholder": "email",
+    "emailRequirement": "optional*",
+    "textPlaceholder": "message for us",
+    "textRequirement": "optional*",
+    "buttonText": "Submit",
+    "errorPhoneString": "Invalid number*",
+    "errorEmailString": "Invalid email*"
   },
   "heroPageMontessori": {
     "kidFontText": "LaboKids Montessori kindergarten",
-    "header": "A bright future for all.",
-    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness."
+    "header": "A bright future for all",
+    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness"
   },
   "heroPageBilingual": {
     "kidFontText": "LaboKids Montessori kindergarten",
@@ -37,7 +49,7 @@
   "montessoriMethodsList": [
     {
       "id": 0,
-      "paragraph": "Practical life activities encompass a progressively demanding set of fine motor tasks with real-world purposes, like tidying a table or washing dishes. These activities not only aid children in mastering everyday chores but also cultivate independence, physical dexterity, coordination, focus, and a notion of organization.",
+      "paragraph": "Practical life activities encompass a progressively demanding set of motor tasks with real-world purposes, like tidying a table or washing dishes. These activities not only aid children in mastering everyday chores but also cultivate independence, physical dexterity, coordination, focus, and a notion of organization.",
       "header": "Practical Life"
     },
     {
@@ -52,7 +64,7 @@
     },
     {
       "id": 3,
-      "paragraph": "Through the use of hands-on materials designed\naround the decimal system, children learn important\nmathematical principles. Dr Montessori demonstrated\nthat if a child is able to learn during the stage\nwhen they enjoy manipulating materials, they will be able\nto more easily and successfully assimilate\nthe skills and knowledge of arithmetic.",
+      "paragraph": "Through the use of hands-on materials designed\naround the decimal system, children learn important\nmathematical principles. Maria Montessori demonstrated\nthat if a child is able to learn during the stage\nwhen they enjoy manipulating materials, they will be able\nto more easily and successfully assimilate\nthe skills and knowledge of arithmetic.",
       "header": "Mathematics"
     },
     {
@@ -69,16 +81,64 @@
   "teachersMontessoriHeaderContent": {
     "kidFontText": "ABOUT THE TEACHERS",
     "header": "Our Teachers",
-    "paragraph": "We have an excellent teacher to child ratio at our Kindergarten to ensure that each child receives the attention he or she needs."
+    "paragraph": "We have an excellent relationship between teachers and children, ensuring that each of them receives the necessary attention"
   },
   "priceMontessoriHeaderContent": {
     "kidFontText": "BEST PRICE FOR PARENTS",
     "header": "Pricing",
     "paragraph": "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them."
   },
-  "montessoriPricingData": [
+
+  "teachersMontessoriCarouselData": [
+    {
+      "id": 0,
+      "name": "english english",
+      "position": "position posiition"
+    },
     {
       "id": 1,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 2,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 3,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 4,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 5,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 6,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 7,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 8,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    }
+  ],
+  "montessoriPricingData": [
+    {
+      "id": 0,
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
       "price": 1100,
@@ -86,10 +146,11 @@
         "Personalized Approach",
         "Experienced Teachers",
         "Engaging Curriculum"
-      ]
+      ],
+      "hints": ["", "", ""]
     },
     {
-      "id": 2,
+      "id": 1,
       "header": "Meals",
       "paragraph": "Nutritious meals provided for the child during their time.",
       "price": "17/day",
@@ -97,17 +158,27 @@
         "Healthy Food",
         "Dietary Accommodations",
         "Mealtime Education"
+      ],
+      "hints": [
+        "",
+        "Special menus for children with allergies or vegetarian menu.",
+        "Children acquiring self-service skills during mealtime."
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "header": "Special offers",
-      "paragraph": "Enjoy financial benefits with our exclusive offers!",
+      "paragraph": "Enjoy exclusive financial benefits with our special offers!",
       "price": "on request",
       "advantages": [
         "Additional Lessons",
         "Bring a Friend",
         "Offers for Siblings"
+      ],
+      "hints": [
+        "Additional classes - 0zł",
+        "Bring a friend and get one month in our kindergarten for free.",
+        "Discounts on monthly fees for parents with two or more children."
       ]
     }
   ]

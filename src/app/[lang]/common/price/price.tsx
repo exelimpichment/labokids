@@ -1,17 +1,6 @@
-import { IconType } from 'react-icons';
-import { LucideIcon } from 'lucide-react';
+import { PriceDataProps } from '@/lib/types';
 import Container from '../container';
 import PriceCards from './priceCards';
-
-interface PriceDataProps {
-  priceData: {
-    id: number;
-    header: string;
-    paragraph: string;
-    price: number | string;
-    advantages: string[];
-  }[];
-}
 
 const Price: React.FC<PriceDataProps> = ({ priceData }) => {
   return (

@@ -5,10 +5,22 @@
     "party": "Urodzinki",
     "workshops": "Warsztaty"
   },
+  "formContent": {
+    "heading": "Skontaktujemy się!",
+    "phonePlaceholder": "telefon",
+    "phoneRequirement": "wymagane*",
+    "emailPlaceholder": "e-mail",
+    "emailRequirement": "opcjonalne*",
+    "textPlaceholder": "wiadomość dla nas",
+    "textRequirement": "opcjonalne*",
+    "buttonText": "Wyślij",
+    "errorPhoneString": "Błędny numer*",
+    "errorEmailString": "Błędny adres*"
+  },
   "heroPageMontessori": {
     "kidFontText": "Przedszkole Montessori LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Priorytetem jest spersonalizowana edukacja Montessori, jednocześnie rozwijamy jedność grupy poprzez koleżeństwo, uczucie bliskości i sprawiedliwość."
+    "header": "Jasna przyszłość dla wszystkich",
+    "paragraph": "Oferujemy priorytetową edukację zindywidualizowaną zgodnie z metodą Montessori, rozwijając jedność grupy poprzez miłość i sprawiedliwość"
   },
   "heroPageBilingual": {
     "kidFontText": "Przedszkole dwujęzyczne LaboKids",
@@ -42,17 +54,17 @@
     },
     {
       "id": 1,
-      "paragraph": "Edukacja sensoryczna Montessori skupia się na doskonaleniu percepcji sensorycznej dziecka poprzez stałe oddziaływanie z celowo opracowanymi materiałami. To podejście ma na celu oferowanie namacalnych przykładów, które ilustrują abstrakcyjne pojęcia, obejmujące elementy takie jak kolor, tekstura, dźwięk i zapach.",
+      "paragraph": "Edukacja sensoryczna Montessori skupia się na doskonaleniu percepcji sensorycznej dziecka poprzez stałe oddziaływanie z celowo opracowanymi materiałami. To podejście ma na celu oferowanie konkretnych przykładów, które ilustrują abstrakcyjne pojęcia, obejmujące elementy takie jak kolor, tekstura, dźwięk i zapach.",
       "header": "Sensoryczna"
     },
     {
       "id": 2,
-      "paragraph": "Klasa Montessori jest starannie ułożona, aby organicznie wspierać zdobywanie umiejętności istotnych zarówno dla języka mówionego, jak i pisanego. Dzieci używają liter z papierem ściernym, aby zrozumieć fonetykę alfabetu i precyzyjne formowanie każdej litery.",
+      "paragraph": "Sala Montessori jest starannie ułożona, aby organicznie wspierać zdobywanie umiejętności istotnych zarówno dla języka mówionego, jak i pisanego. Dzieci używają liter z papierem ściernym, aby zrozumieć fonetykę alfabetu i precyzyjne formowanie każdej litery.",
       "header": "Język"
     },
     {
       "id": 3,
-      "paragraph": "Przez korzystanie z materiałów praktycznych zaprojektowanych\nwokół systemu dziesiętnego, dzieci uczą się ważnych\nzasad matematycznych. Dr Montessori wykazała,\nże jeśli dziecko jest w stanie uczyć się w fazie,\nkiedy cieszy się manipulacją materiałami, będzie w stanie\nłatwiej i skuteczniej przyswajać\numiejętności i wiedzę z zakresu arytmetyki.",
+      "paragraph": "Poprzez wykorzystanie praktycznych materiałów stworzonych wokół systemu dziesiętnego, dzieci uczą się ważnych\nzasad matematycznych. Maria Montessori ustaliła,\nże jeśli dziecko jest w stanie uczyć się w fazie,\nkiedy cieszy się manipulacją materiałami, będzie w stanie\nłatwiej i skuteczniej przyswajać\numiejętności i wiedzę z zakresu arytmetyki.",
       "header": "Matematyka"
     },
     {
@@ -67,10 +79,11 @@
     "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
   },
   "teachersMontessoriHeaderContent": {
-    "kidFontText": "Odkrywaj z Labokids",
-    "header": "Galeria",
-    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+    "kidFontText": "O NAUCZYCIELACH",
+    "header": "Nasi Nauczyciele",
+    "paragraph": "W naszym przedszkolu panuje doskonała relacja między nauczycielami a dziećmi, zapewniająca, że każde z nich otrzymuje niezbędną uwagę."
   },
+
   "priceMontessoriHeaderContent": {
     "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
     "header": "Cennik",
@@ -78,18 +91,19 @@
   },
   "montessoriPricingData": [
     {
-      "id": 1,
+      "id": 0,
       "header": "Opłata miesięczna",
       "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
       "price": 1100,
       "advantages": [
         "Spersonalizowane podejście",
         "Doświadczeni nauczyciele",
-        "Zajmujący program nauczania"
-      ]
+        "Zajmujący program"
+      ],
+      "hints": ["", "", ""]
     },
     {
-      "id": 2,
+      "id": 1,
       "header": "Posiłki",
       "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
       "price": "17/dzień",
@@ -97,10 +111,11 @@
         "Zdrowe jedzenie",
         "Dostosowania dietetyczne",
         "Edukacja podczas posiłków"
-      ]
+      ],
+      "hints": ["", "", ""]
     },
     {
-      "id": 3,
+      "id": 2,
       "header": "Specjalne oferty",
       "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
       "price": "na zapytanie",
@@ -108,7 +123,55 @@
         "Dodatkowe lekcje",
         "Przyjdź z przyjacielem",
         "Oferty dla rodzeństwa"
-      ]
+      ],
+      "hints": ["", "", ""]
+    }
+  ],
+  "teachersMontessoriCarouselData": [
+    {
+      "id": 0,
+      "name": "poland poland",
+      "position": "position posiition"
+    },
+    {
+      "id": 1,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 2,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 3,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 4,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 5,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 6,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 7,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 8,
+      "name": "lorem ipsum",
+      "position": "position posiition"
     }
   ]
 }

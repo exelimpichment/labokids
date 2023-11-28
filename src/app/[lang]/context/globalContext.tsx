@@ -15,7 +15,7 @@ type GlobalContextType = {
   topicsRef: MutableRefObject<HTMLDivElement | null>;
   scrollToTopics: () => void;
   contactUsDialogOpen: boolean;
-  setContactUsDialog: Dispatch<SetStateAction<boolean>>;
+  setContactUsDialogOpen: Dispatch<SetStateAction<boolean>>;
   burgerMenuOpen: boolean;
   setBurgerMenuOpen: Dispatch<SetStateAction<boolean>>;
   activeGalleryCollection: 'baloniki' | 'chemia' | 'mydlo' | 'lod';
@@ -39,7 +39,8 @@ export const GlobalContextProvider: React.FC<{
   children: ReactNode;
 }> = ({ children }) => {
   // hooks
-  const [contactUsDialogOpen, setContactUsDialog] = useState<boolean>(false);
+  const [contactUsDialogOpen, setContactUsDialogOpen] =
+    useState<boolean>(false);
   const [burgerMenuOpen, setBurgerMenuOpen] = useState<boolean>(false);
   const [activeGalleryCollection, setActiveGalleryCollection] =
     useState<ActiveGalleryConnectionType>('baloniki');
@@ -68,7 +69,7 @@ export const GlobalContextProvider: React.FC<{
         topicsRef,
         scrollToTopics,
         contactUsDialogOpen,
-        setContactUsDialog,
+        setContactUsDialogOpen,
         burgerMenuOpen,
         setBurgerMenuOpen,
         activeGalleryCollection,
