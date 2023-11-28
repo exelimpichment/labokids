@@ -22,11 +22,6 @@
     "header": "A bright future for all",
     "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness"
   },
-  "heroPageBilingual": {
-    "kidFontText": "LaboKids Montessori kindergarten",
-    "header": "A bright future for all.",
-    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness."
-  },
   "heroPageParty": {
     "kidFontText": "Birthday with LaboKids",
     "header": "A bright future for all.",
@@ -88,7 +83,6 @@
     "header": "Pricing",
     "paragraph": "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them."
   },
-
   "teachersMontessoriCarouselData": [
     {
       "id": 0,
@@ -142,6 +136,141 @@
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
       "price": 1100,
+      "advantages": [
+        "Personalized Approach",
+        "Experienced Teachers",
+        "Engaging Curriculum"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 1,
+      "header": "Meals",
+      "paragraph": "Nutritious meals provided for the child during their time.",
+      "price": "17/day",
+      "advantages": [
+        "Healthy Food",
+        "Dietary Accommodations",
+        "Mealtime Education"
+      ],
+      "hints": [
+        "",
+        "Special menus for children with allergies or vegetarian menu.",
+        "Children acquiring self-service skills during mealtime."
+      ]
+    },
+    {
+      "id": 2,
+      "header": "Special offers",
+      "paragraph": "Enjoy exclusive financial benefits with our special offers!",
+      "price": "on request",
+      "advantages": [
+        "Additional Lessons",
+        "Bring a Friend",
+        "Offers for Siblings"
+      ],
+      "hints": [
+        "Additional classes - 0zł",
+        "Bring a friend and get one month in our kindergarten for free.",
+        "Discounts on monthly fees for parents with two or more children."
+      ]
+    }
+  ],
+  "heroPageBilingual": {
+    "kidFontText": "LaboKids Montessori kindergarten",
+    "header": "A bright future for all.",
+    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness."
+  },
+  "aboutBilingualHeaderContent": {
+    "kidFontText": "ABOUT OUR EDUCATION PROGRAM",
+    "header": "Bilingual Education",
+    "paragraph": "Language immersion introduces young learners to English in an immersive environment, promoting early language acquisition and fluency development."
+  },
+  "bilingualProgramContent": [
+    {
+      "key": "0",
+      "header": "English Language",
+      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+    },
+    {
+      "key": "1",
+      "header": "Music",
+      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+    },
+    {
+      "key": "2",
+      "header": "Nature",
+      "description": "With us, children will have a wonderful time at picnics and family events. During outdoor, corporate, and family meetings, we provide interesting activities, conduct experiments, games, and play. With us, little ones will joyfully spend unforgettable time at corporate picnics and family gatherings."
+    }
+  ],
+  "imagesBilingualHeaderContent": {
+    "kidFontText": "EXPLORE LABOKIDS",
+    "header": "Gallery",
+    "paragraph": "Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery."
+  },
+  "teachersBilingualHeaderContent": {
+    "kidFontText": "ABOUT THE TEACHERS",
+    "header": "Our Teachers",
+    "paragraph": "We have an excellent relationship between teachers and children, ensuring that each of them receives the necessary attention"
+  },
+  "teachersBilingualCarouselData": [
+    {
+      "id": 0,
+      "name": "english english",
+      "position": "position posiition"
+    },
+    {
+      "id": 1,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 2,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 3,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 4,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 5,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 6,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 7,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 8,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    }
+  ],
+  "priceBilingualHeaderContent": {
+    "kidFontText": "BEST PRICE FOR PARENTS",
+    "header": "Pricing",
+    "paragraph": "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them."
+  },
+  "bilingualPricingData": [
+    {
+      "id": 0,
+      "header": "Monthly payment",
+      "paragraph": "Affordable monthly payment plans to suit your budget.",
+      "price": 800,
       "advantages": [
         "Personalized Approach",
         "Experienced Teachers",

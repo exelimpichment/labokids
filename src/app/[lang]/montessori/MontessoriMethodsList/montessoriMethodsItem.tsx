@@ -9,13 +9,13 @@ import montessoriMethodsListOfImage4 from '@/public/montessoriMethodsListOfImage
 import montessoriMethodsListOfImage5 from '@/public/montessoriMethodsListOfImage5.jpg';
 import { Locale } from '@/i18n.config';
 
-type MontessoriImageObject = {
+type IMontessoriImageObject = {
   [lang in Locale]: {
     [key: string]: StaticImageData;
   };
 };
 
-const montessoriImagObject: MontessoriImageObject = {
+const montessoriImagObject: IMontessoriImageObject = {
   en: {
     'Practical Life': montessoriMethodsListOfImage1,
     Sensorial: montessoriMethodsListOfImage2,
@@ -54,7 +54,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
 }) => {
   return (
     <Container>
-      <div className="flex flex-col gap-3 lg:flex-row lg:gap-10">
+      <section className="flex flex-col gap-3 lg:flex-row lg:gap-10">
         <div
           className={`equalFlexPart relative min-h-[350px] ${
             id % 2 !== 0 ? 'lg:order-1' : null
@@ -81,7 +81,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
           </h2>
           <p className="pt-5 text-center text-lg text-gray-600">{paragraph}</p>
         </div>
-      </div>
+      </section>
     </Container>
   );
 };

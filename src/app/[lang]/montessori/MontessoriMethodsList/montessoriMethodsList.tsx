@@ -16,7 +16,7 @@ const MontessoriMethodsList: React.FC<IMontessoriMethodsList> = ({
   lang,
 }) => {
   return (
-    <div className="mt-10 flex flex-col gap-16 lg:gap-10">
+    <article className="mt-10 flex flex-col gap-16 lg:gap-10">
       {montessoriMethodsList.map((item) => (
         <MontessoriMethodsItem
           key={item.id}
@@ -24,7 +24,7 @@ const MontessoriMethodsList: React.FC<IMontessoriMethodsList> = ({
           lang={lang}
         />
       ))}
-    </div>
+    </article>
   );
 };
 
