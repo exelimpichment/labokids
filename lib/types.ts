@@ -79,3 +79,15 @@ export interface IPriceCard {
     hints: string[];
   };
 }
+
+export interface ITopics {
+  accordionData: {
+    key: number;
+    value: string;
+    borderColor: string;
+    fontColor: string;
+    backgroundColor: string;
+    heading: string;
+    description: string;
+  }[];
+}

@@ -22,11 +22,6 @@
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Oferujemy priorytetową edukację zindywidualizowaną zgodnie z metodą Montessori, rozwijając jedność grupy poprzez miłość i sprawiedliwość"
   },
-  "heroPageParty": {
-    "kidFontText": "Urodziny z LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Organizacja radosnych i pełnych zabawy przyjęć urodzinowych dla maluchów, pełnych radości, gier i niezapomnianych chwil."
-  },
   "heroPageWorkshops": {
     "kidFontText": "Warsztaty z LaboKids",
     "header": "Jasna przyszłość dla wszystkich.",
@@ -89,7 +84,7 @@
       "id": 0,
       "header": "Opłata miesięczna",
       "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
-      "price": 1100,
+      "price": "1100",
       "advantages": [
         "Spersonalizowane podejście",
         "Doświadczeni nauczyciele",
@@ -263,7 +258,7 @@
       "id": 0,
       "header": "Opłata miesięczna",
       "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
-      "price": 800,
+      "price": "800",
       "advantages": [
         "Spersonalizowane podejście",
         "Doświadczeni nauczyciele",
@@ -291,6 +286,107 @@
       "advantages": [
         "Dodatkowe lekcje",
         "Przyjdź z przyjacielem",
+        "Oferty dla rodzeństwa"
+      ],
+      "hints": ["", "", ""]
+    }
+  ],
+  "heroPageParty": {
+    "kidFontText": "Urodziny z LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Organizacja radosnych i pełnych zabawy przyjęć urodzinowych dla maluchów, pełnych radości, gier i niezapomnianych chwil."
+  },
+  "partyAccordionHeaderData": {
+    "kidFontText": "SZCZĘŚCIE DLA DZIECI",
+    "header": "Tematy urodzinowe",
+    "paragraph": "Doświadcz magii nauki i zaskocz swoje maluchy fascynującymi eksperymentami! Zarezerwuj przyjęcie urodzinowe, które na zawsze pozostanie w ich pamięci."
+  },
+  "accordionPartyData": [
+    {
+      "key": 0,
+      "value": "item-1",
+      "borderColor": "before:border-laboBlue",
+      "fontColor": "text-laboBlue",
+      "backgroundColor": "bg-laboBlue",
+      "heading": "Balonowe Party",
+
+      "description": "Czy wiesz, że balon powstał praktycznie przez przypadek, jako efekt uboczny eksperymentów i prób wynalezienia nowego tworzywa na dętki.? Czy wiesz, że wynalazł go inżynier chemii, Neil Tillotson? Podczas imprezy dzieci nie tylko dowiedzą się wielu ciekawostek, ale także napompują balony w niecodzienny sposób oraz nauczą się skręcać różne zwierzątka i inne kształty. Po urodzinach każdy wróci do domu z pamiątkowymi balonami!"
+    },
+    {
+      "key": 1,
+      "value": "item-2",
+      "borderColor": "before:border-laboRed",
+      "backgroundColor": "bg-laboRed",
+      "fontColor": "text-laboRed",
+      "heading": "Spotkanie z magiczną chemią",
+
+      "description": "To niezwykła wyprawa w świat chemii. Podczas przyjęcia dzieci wykonają niesamowite doświadczenia, m.in. sprawią, że zniknie woda, wywołają Dżina z butelki czy rozpalą ogień bez zapałek."
+    },
+    {
+      "key": 2,
+      "value": "item-3",
+      "borderColor": "before:border-laboGreen",
+      "backgroundColor": "bg-laboGreen",
+      "fontColor": "text-laboGreen",
+      "heading": "Pachnący świat mydełek",
+
+      "description": "W trakcie imprezy dzieci dowiedzą się wielu ciekawostek o mydle, a następnie stworzą własne, niepowtarzalne, pachnące mydło w wybranym przez siebie kształcie. Będzie to swoiste laboratorium, w którym uczestnicy mieszać będą kolory, zapachy i inne dodatki. Na koniec zapakują mydełka i zabiorą je do domu."
+    },
+    {
+      "key": 3,
+      "value": "item-4",
+      "borderColor": "before:border-laboOrange",
+      "backgroundColor": "bg-laboOrange",
+      "fontColor": "text-laboOrange",
+      "heading": "W krainie lodu",
+
+      "description": "Mroźne doświadczenia i gorące emocje. Czy lód to zawsze zamarznięta woda? Czy istnieje taki lód, który się nie topi? Wykonamy niesamowite eksperymenty z użyciem suchego lodu. Podczas tej wyprawy między innymi przekonamy się czym jest suchy lód, sprawdzimy czy rzeczywiście jest taki zimny oraz zrobimy tajemniczą mgłę."
+    }
+  ],
+  "imagesPartyHeaderContent": {
+    "kidFontText": "EKSPLODUJ Z LABOKIDS",
+    "header": "Galeria",
+    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+  },
+  "pricePartyHeaderContent": {
+    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "header": "Cennik",
+    "paragraph": "Odkryj niezrównane ceny niezapomnianych przyjęć - nasze zaangażowanie w przystępność gwarantuje, że otrzymasz najlepszą wartość na swoje uroczystości."
+  },
+
+  "partyPricingData": [
+    {
+      "id": 0,
+      "header": "Paket Labo",
+      "paragraph": "Dostosowane miesięczne plany płatności, aby dostosować się do Twojego budżetu.",
+      "price": "800",
+      "advantages": [
+        "Spersonalizowane podejście",
+        "Doświadczeni nauczyciele",
+        "Zajmujący program nauczania"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 1,
+      "header": "Paket domowy",
+      "paragraph": "Zdrowe posiłki dostarczane dziecku podczas jego pobytu.",
+      "price": "17/dzień",
+      "advantages": [
+        "Zdrowe jedzenie",
+        "Dostosowania dietetyczne",
+        "Edukacja podczas posiłków"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "header": "Specjalne oferty",
+      "paragraph": "Korzystaj z ekskluzywnych korzyści finansowych dzięki naszym specjalnym ofertom!",
+      "price": "na zapytanie",
+      "advantages": [
+        "Dodatkowe lekcje",
+        "Przyprowadź przyjaciela",
         "Oferty dla rodzeństwa"
       ],
       "hints": ["", "", ""]

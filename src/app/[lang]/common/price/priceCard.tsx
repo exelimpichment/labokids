@@ -4,12 +4,16 @@ import { textFont, titleFont } from '../fonts';
 import { useGlobalContext } from '../../context/globalContext';
 import Image from 'next/image';
 import AdditionalInfo from '../../additionalInfo/additionalInfo';
+import { MouseEvent } from 'react';
+import { IPriceCard } from '@/lib/types';
 
 import calendar from '@/public/projectSvg/calendar.svg';
 import soup from '@/public/projectSvg/soup.svg';
 import dimond from '@/public/projectSvg/dimond.svg';
-import { MouseEvent } from 'react';
-import { IPriceCard } from '@/lib/types';
+
+import school from '@/public/projectSvg/school.svg';
+// import dimond from '@/public/projectSvg/dimond.svg';
+import home from '@/public/projectSvg/home.svg';
 
 const pricingIconLibrary = {
   'Monthly payment': calendar,

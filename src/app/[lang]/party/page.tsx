@@ -1,11 +1,5 @@
 import PageHero from '../common/pageHero';
-import {
-  accordionPartyData,
-  galleryPartyHeaderContent,
-  partyAccordionHeaderData,
-  partyPricingData,
-  pricePartyHeaderContent,
-} from './partyData';
+
 import Price from '../common/price/price';
 import Topics from '../common/topics/topics';
 import SectionHeader from '../common/sectionHeader';
@@ -17,7 +11,15 @@ import { Locale } from '@/i18n.config';
 import { getDictionary } from '@/lib/dictionary';
 
 const Party = async ({ params: { lang } }: { params: { lang: Locale } }) => {
-  const { heroPageParty, heroPageButtonsText } = await getDictionary(lang);
+  const {
+    heroPageParty,
+    heroPageButtonsText,
+    partyAccordionHeaderData,
+    accordionPartyData,
+    imagesPartyHeaderContent,
+    pricePartyHeaderContent,
+    partyPricingData,
+  } = await getDictionary(lang);
   return (
     <main className="content">
       <ScrollToTopComponent />
@@ -25,10 +27,13 @@ const Party = async ({ params: { lang } }: { params: { lang: Locale } }) => {
       <ScrollToComponent />
       <SectionHeader content={partyAccordionHeaderData} />
       <Topics accordionData={accordionPartyData} />
-      <SectionHeader content={galleryPartyHeaderContent} />
+      <SectionHeader
+        content={imagesPartyHeaderContent}
+        animatedPicture={true}
+      />
       <Gallery />
       <SectionHeader content={pricePartyHeaderContent} />
-      {/* <Price priceData={partyPricingData} /> */}
+      <Price priceData={partyPricingData} />
     </main>
   );
 };
