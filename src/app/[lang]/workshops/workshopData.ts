@@ -105,12 +105,6 @@ export const accordionWorkshopData = [
       "We will make your holidays special by ensuring that your children experience a multitude of emotions on occasions such as Boy's Day, Girl's Day, St. Nicholas Day, Valentine's Day, and other holidays. Our goal is to create unforgettable moments and cherished memories for your little ones, filled with joy, surprises, and love. With our special holiday offerings, your family will celebrate these occasions with a sense of wonder and delight.",
   },
 
-  // Sprawimy, że wasze święta będą
-  // wyjątkowe. Zapewnimy waszym
-  // dzieciom morze emocji z okazji Dnia
-  // Chłopaka, Dnia Dziewczyny,
-  // Mikołajek, Walentynek i innych świąt.
-
   {
     key: 2,
     value: 'item-3',

@@ -22,11 +22,6 @@
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Oferujemy priorytetową edukację zindywidualizowaną zgodnie z metodą Montessori, rozwijając jedność grupy poprzez miłość i sprawiedliwość"
   },
-  "heroPageWorkshops": {
-    "kidFontText": "Warsztaty z LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Odkryj Świat Ciekawości: Warsztaty dla Dzieci z Niesamowitymi Doświadczeniami i Ekscytującymi Wglądami w Biologię i Nie Tylko!"
-  },
   "heroPageButtonsText": {
     "readMore": "Czytaj więcej",
     "contactUs": "Kontakt"
@@ -387,6 +382,93 @@
       "advantages": [
         "Dodatkowe lekcje",
         "Przyprowadź przyjaciela",
+        "Oferty dla rodzeństwa"
+      ],
+      "hints": ["", "", ""]
+    }
+  ],
+  "heroPageWorkshops": {
+    "kidFontText": "Warsztaty z LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Odkryj Świat Ciekawości: Warsztaty dla Dzieci z Niesamowitymi Doświadczeniami i Ekscytującymi Wglądami w Biologię i Nie Tylko!"
+  },
+  "workshopAccordionHeaderData": {
+    "kidFontText": "OFERUJEMY WIELE!",
+    "header": "Nasze Warsztaty",
+    "paragraph": "Zajmujące warsztaty przeznaczone dla dzieci w wieku przedszkolnym oraz uczniów klas 1-3 szkoły podstawowej. Odkrywamy ciekawość i inspirujemy do nauki poprzez praktyczne zajęcia edukacyjne."
+  },
+  "accordionWorkshopsData": [
+    {
+      "key": 0,
+      "value": "item-1",
+      "borderColor": "before:border-laboBlue",
+      "fontColor": "text-laboBlue",
+      "backgroundColor": "bg-laboBlue",
+      "heading": "Regularne Warsztaty",
+      "description": "Nasza oferta obejmuje 30 tematów do wyboru, dostosowanych do wieku dzieci, w zakresie chemii, fizyki i biologii. Te tematy mają na celu rozbudzenie zainteresowania nauką u dzieci, jednocześnie dostosowując treści do ich poziomu zrozumienia. Niezależnie czy to chemia, fizyka czy biologia, nasz program oferuje różnorodne opcje, aby młodzi uczniowie mogli odkrywać i cieszyć się nauką."
+    },
+    {
+      "key": 1,
+      "value": "item-2",
+      "borderColor": "before:border-laboRed",
+      "backgroundColor": "bg-laboRed",
+      "fontColor": "text-laboRed",
+      "heading": "Warsztaty Świąteczne",
+      "description": "Sprawimy, że wasze święta będą wyjątkowe. Zapewnimy waszym dzieciom morze emocji z okazji Dnia Chłopaka, Dnia Dziewczyny, Mikołajek, Walentynek i innych świąt."
+    },
+    {
+      "key": 2,
+      "value": "item-3",
+      "borderColor": "before:border-laboGreen",
+      "backgroundColor": "bg-laboGreen",
+      "fontColor": "text-laboGreen",
+      "heading": "Warsztaty Piknikowe",
+      "description": "Dzieci świetnie się bawią na piknikach i rodzinnych imprezach z nami. Podczas spotkań plenerowych, firmowych i rodzinnych zapewnimy ciekawe zajęcia, poprowadzimy eksperymenty, gry i zabawy. Z nami maluchy spędzą wesoło niezapomniany czas zabaw na piknikach firmowych i przyjęciach rodzinnych."
+    }
+  ],
+  "imagesWorkshopsHeaderContent": {
+    "kidFontText": "EKSPLODUJ Z LABOKIDS",
+    "header": "Galeria",
+    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+  },
+  "priceWorkshopsHeaderContent": {
+    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "header": "Cennik",
+    "paragraph": "Odkryj nie do pobicia ceny za wzbogacające warsztaty - nasze zobowiązanie do przystępności gwarantuje, że uzyskasz najlepszą wartość dla swoich przedsięwzięć edukacyjnych"
+  },
+  "workshopPricingData": [
+    {
+      "id": 0,
+      "header": "Opłata miesięczna",
+      "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
+      "price": "1100",
+      "advantages": [
+        "Spersonalizowane podejście",
+        "Doświadczeni nauczyciele",
+        "Zajmujący program"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 1,
+      "header": "Posiłki",
+      "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
+      "price": "17/dzień",
+      "advantages": [
+        "Zdrowe jedzenie",
+        "Dostosowania dietetyczne",
+        "Edukacja podczas posiłków"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "header": "Specjalne oferty",
+      "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
+      "price": "na zapytanie",
+      "advantages": [
+        "Dodatkowe lekcje",
+        "Przyjdź z przyjacielem",
         "Oferty dla rodzeństwa"
       ],
       "hints": ["", "", ""]
