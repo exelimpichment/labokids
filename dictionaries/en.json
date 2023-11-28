@@ -22,11 +22,6 @@
     "header": "A bright future for all",
     "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness"
   },
-  "heroPageParty": {
-    "kidFontText": "Birthday with LaboKids",
-    "header": "A bright future for all.",
-    "paragraph": "Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments."
-  },
   "heroPageWorkshops": {
     "kidFontText": "Workshop with LaboKids",
     "header": "A bright future for all.",
@@ -135,7 +130,7 @@
       "id": 0,
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
-      "price": 1100,
+      "price": "1100",
       "advantages": [
         "Personalized Approach",
         "Experienced Teachers",
@@ -270,7 +265,7 @@
       "id": 0,
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
-      "price": 800,
+      "price": "800",
       "advantages": [
         "Personalized Approach",
         "Experienced Teachers",
@@ -309,6 +304,103 @@
         "Bring a friend and get one month in our kindergarten for free.",
         "Discounts on monthly fees for parents with two or more children."
       ]
+    }
+  ],
+  "heroPageParty": {
+    "kidFontText": "Birthday with LaboKids",
+    "header": "A bright future for all.",
+    "paragraph": "Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments."
+  },
+  "partyAccordionHeaderData": {
+    "kidFontText": "HAPPINESS FOR KIDS",
+    "header": "Birthday topics",
+    "paragraph": "Experience the magic of science and amaze your little ones with thrilling experiments! Book a birthday party they’ll never forget."
+  },
+  "accordionPartyData": [
+    {
+      "key": 0,
+      "value": "item-1",
+      "borderColor": "before:border-laboBlue",
+      "fontColor": "text-laboBlue",
+      "backgroundColor": "bg-laboBlue",
+      "heading": "Balloon Party",
+      "description": "Did you know that the balloon was practically created by accident, as a byproduct of experiments and attempts to invent a new material for inner tubes? Did you know that it was invented by a chemical engineer, Neil Tillotson? During the party, children will not only learn many interesting facts but also inflate balloons in an unusual way and learn to twist various animals and shapes. After the birthday party, everyone will return home with commemorative balloons!"
+    },
+    {
+      "key": 1,
+      "value": "item-2",
+      "borderColor": "before:border-laboRed",
+      "backgroundColor": "bg-laboRed",
+      "fontColor": "text-laboRed",
+      "heading": "Meeting with Magical Chemistry",
+      "description": "This is an extraordinary journey into the world of chemistry. During the party, children will perform amazing experiments, including making water disappear, summoning a Genie from a bottle, or lighting a fire without matches."
+    },
+    {
+      "key": 2,
+      "value": "item-3",
+      "borderColor": "before:border-laboGreen",
+      "backgroundColor": "bg-laboGreen",
+      "fontColor": "text-laboGreen",
+      "heading": "The Fragrant World of Soaps",
+      "description": "During the party, children will learn many interesting facts about soap, and then they will create their own unique, scented soap in a shape of their choice. It will be a kind of laboratory where participants will mix colors, scents, and other additives. In the end, they will pack the soaps and take them home."
+    },
+    {
+      "key": 3,
+      "value": "item-4",
+      "borderColor": "before:border-laboOrange",
+      "backgroundColor": "bg-laboOrange",
+      "fontColor": "text-laboOrange",
+      "heading": "In the Land of Ice",
+      "description": "Frozen experiments and hot emotions. Is ice always frozen water? Is there ice that never melts? We will perform incredible experiments using dry ice. During this expedition, we will find out what dry ice is, check if it is really so cold, and create a mysterious fog."
+    }
+  ],
+  "imagesPartyHeaderContent": {
+    "kidFontText": "EXPLORE LABOKIDS",
+    "header": "Gallery",
+    "paragraph": "Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery."
+  },
+  "pricePartyHeaderContent": {
+    "kidFontText": "BEST PRICE FOR PARENTS",
+    "header": "Pricing",
+    "paragraph": "Discover unbeatable value for your child's formative years - our commitment to affordability ensures the best care and education for them."
+  },
+
+  "partyPricingData": [
+    {
+      "id": 0,
+      "header": "Monthly payment",
+      "paragraph": "Affordable monthly payment plans to suit your budget.",
+      "price": "800",
+      "advantages": [
+        "Personalized Approach",
+        "Experienced Teachers",
+        "Engaging Curriculum"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 1,
+      "header": "Meals",
+      "paragraph": "Nutritious meals provided for the child during their time.",
+      "price": "17/day",
+      "advantages": [
+        "Healthy Food",
+        "Dietary Accommodations",
+        "Mealtime Education"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "header": "Special offers",
+      "paragraph": "Enjoy exclusive financial benefits with our special offers!",
+      "price": "on request",
+      "advantages": [
+        "Additional Lessons",
+        "Bring a Friend",
+        "Offers for Siblings"
+      ],
+      "hints": ["", "", ""]
     }
   ]
 }

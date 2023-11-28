@@ -4,22 +4,34 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { titleFont } from '../fonts';
-import { LucideIcon } from 'lucide-react';
 import { IconType } from 'react-icons';
+
+import { SlChemistry } from 'react-icons/sl';
+import { FaSoap } from 'react-icons/fa';
+import { GiBalloons, GiFoam } from 'react-icons/gi';
 
 interface IAccordionCollapsibleItem {
   item: {
+    key: number;
     value: string;
-    heading: string;
-    icon: IconType | LucideIcon;
-    description: string;
-    transformAmount?: string;
-
     borderColor: string;
     fontColor: string;
     backgroundColor: string;
+    heading: string;
+    description: string;
   };
 }
+
+type IAccordionCollapsibleItemIconsObj = {
+  [key: string]: IconType;
+};
+
+const accordionCollapsibleItemIconsObj: IAccordionCollapsibleItemIconsObj = {
+  'item-1': GiBalloons,
+  'item-2': SlChemistry,
+  'item-3': FaSoap,
+  'item-4': GiFoam,
+};
 
 const AccordionCollapsibleItem: React.FC<IAccordionCollapsibleItem> = ({
   item: {
@@ -28,11 +40,11 @@ const AccordionCollapsibleItem: React.FC<IAccordionCollapsibleItem> = ({
     fontColor,
     backgroundColor,
     heading,
-    icon: Icon,
     description,
-    transformAmount = '0px',
   },
 }) => {
+  const Icon = accordionCollapsibleItemIconsObj[value];
+
   return (
     <AccordionItem value={value}>
       <AccordionTrigger
@@ -42,7 +54,7 @@ const AccordionCollapsibleItem: React.FC<IAccordionCollapsibleItem> = ({
           <div
             className={`relative flex h-[60px] w-[60px] items-center justify-center rounded-full ${backgroundColor} text-white before:absolute before:left-1/2  before:top-1/2 before:h-[65px] before:w-[65px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-dashed ${borderColor} hover:before:left-auto hover:before:top-auto before:hover:animate-[rotating_5s_linear_infinite]`}
           >
-            <div className={`mx-5 translate-y-${transformAmount}`}>
+            <div className={`mx-5`}>
               <Icon size={32} />
             </div>
           </div>

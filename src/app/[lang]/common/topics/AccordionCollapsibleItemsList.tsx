@@ -1,31 +1,17 @@
 import { Accordion } from '@/components/ui/accordion';
 import AccordionCollapsibleItem from './accordionCollapsibleItem';
-import { IconType } from 'react-icons';
-import { LucideIcon } from 'lucide-react';
+import { ITopics } from '@/lib/types';
 
-interface IAccordionCollapsibleItemsList {
-  accordionPartyData: {
-    key: number;
-    value: string;
-    borderColor: string;
-    fontColor: string;
-    backgroundColor: string;
-    heading: string;
-    icon: IconType | LucideIcon;
-    description: string;
-  }[];
-}
-
-const AccordionCollapsibleItemsList: React.FC<
-  IAccordionCollapsibleItemsList
-> = ({ accordionPartyData }) => {
+const AccordionCollapsibleItemsList: React.FC<ITopics> = ({
+  accordionData,
+}) => {
   return (
     <Accordion
       type="single"
       className="mx-auto mt-10 w-full max-w-[100vw] lg:max-w-[75vw] xl:max-w-[55vw]"
       collapsible
     >
-      {accordionPartyData.map((item) => (
+      {accordionData.map((item) => (
         <AccordionCollapsibleItem key={item.key} item={item} />
       ))}
     </Accordion>
