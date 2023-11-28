@@ -7,13 +7,6 @@ import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList
 import StaticGallery from '../common/staticGallery/staticGallery';
 import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
-import {
-  imagesMontessoriHeaderContent,
-  montessoriPricingData,
-  priceMontessoriHeaderContent,
-  teachersMontessoriCarouselData,
-  teachersMontessoriHeaderContent,
-} from './montessoriData';
 import ScrollToTopComponent from '../common/scrollToTopComponent';
 
 import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
@@ -34,6 +27,7 @@ const Montessori = async ({
     teachersMontessoriHeaderContent,
     priceMontessoriHeaderContent,
     montessoriPricingData,
+    teachersMontessoriCarouselData,
   } = await getDictionary(lang);
 
   return (

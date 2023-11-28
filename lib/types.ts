@@ -57,3 +57,25 @@ export type MontessoriImageObject = {
     'Культура та Наука': StaticImageData;
   };
 };
+
+export interface PriceDataProps {
+  priceData: {
+    id: number;
+    header: string;
+    paragraph: string;
+    price: number | string;
+    advantages: string[];
+    hints: string[];
+  }[];
+}
+
+export interface IPriceCard {
+  item: {
+    id: number;
+    header: string;
+    paragraph: string;
+    price: number | string;
+    advantages: string[];
+    hints: string[];
+  };
+}

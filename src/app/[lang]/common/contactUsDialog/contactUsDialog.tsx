@@ -1,22 +1,15 @@
-'use client';
-
-import Modal from '@mui/material/Modal';
 import * as React from 'react';
-import { useGlobalContext } from '../../context/globalContext';
 import Form from './form';
+import { Locale } from '@/i18n.config';
+import { getDictionary } from '@/lib/dictionary';
 
-const ContactUsDialog = () => {
-  const { contactUsDialogOpen, setContactUsDialog } = useGlobalContext();
+const ContactUsDialog = async ({ lang }: { lang: Locale }) => {
+  const { formContent } = await getDictionary(lang);
+
   return (
-    <Modal
-      open={contactUsDialogOpen}
-      onClose={() => setContactUsDialog(false)}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description"
-      className="flex h-screen w-screen items-center justify-center "
-    >
-      <Form />
-    </Modal>
+    <div>
+      <Form content={formContent} />
+    </div>
   );
 };
 

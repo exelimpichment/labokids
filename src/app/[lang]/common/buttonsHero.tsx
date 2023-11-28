@@ -2,8 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { useGlobalContext } from '../context/globalContext';
-import ContactUsDialog from './contactUsDialog/contactUsDialog';
-import { useEffect } from 'react';
+import { MouseEvent, useEffect } from 'react';
 import { titleFont } from './fonts';
 
 interface IButtonsHero {
@@ -16,7 +15,7 @@ const ButtonsHero: React.FC<IButtonsHero> = ({
   heroPageButtonsText: { readMore, contactUs },
 }) => {
   const {
-    setContactUsDialog,
+    setContactUsDialogOpen,
     scrollToTopics,
     setIsIntersecting,
     isIntersectingRef,
@@ -36,6 +35,14 @@ const ButtonsHero: React.FC<IButtonsHero> = ({
     return () => observer.disconnect();
   }, [setIsIntersecting, isIntersectingRef]);
 
+  const handleClick = (
+    e: MouseEvent<HTMLButtonElement, globalThis.MouseEvent>
+  ) => {
+    e.stopPropagation();
+
+    setContactUsDialogOpen(true);
+  };
+
   return (
     <div
       className={`flex w-full flex-row ${buttonsPosition} justify-center gap-3 py-5`}
@@ -53,11 +60,10 @@ const ButtonsHero: React.FC<IButtonsHero> = ({
         type="button"
         variant="outline"
         className={`${titleFont.className} rounded border-transparent bg-blue-100 text-base hover:bg-slate-300`}
-        onClick={() => setContactUsDialog(true)}
+        onClick={(e) => handleClick(e)}
       >
         {contactUs}
       </Button>
-      <ContactUsDialog />
     </div>
   );
 };

@@ -8,16 +8,8 @@ import AdditionalInfo from '../../additionalInfo/additionalInfo';
 import calendar from '@/public/projectSvg/calendar.svg';
 import soup from '@/public/projectSvg/soup.svg';
 import dimond from '@/public/projectSvg/dimond.svg';
-
-interface IPriceCard {
-  item: {
-    id: number;
-    header: string;
-    paragraph: string;
-    price: number | string;
-    advantages: string[];
-  };
-}
+import { MouseEvent } from 'react';
+import { IPriceCard } from '@/lib/types';
 
 const pricingIconLibrary = {
   'Monthly payment': calendar,
@@ -33,20 +25,24 @@ const pricingIconLibrary = {
 type T = keyof typeof pricingIconLibrary;
 
 const PriceCard: React.FC<IPriceCard> = ({
-  item: { id, header, paragraph, price, advantages },
+  item: { id, header, paragraph, price, advantages, hints },
 }) => {
-  const { setContactUsDialog } = useGlobalContext();
+  const { setContactUsDialogOpen } = useGlobalContext();
+  console.log(hints[0]);
 
-  const handleClick = () => {
-    setContactUsDialog((prev) => !prev);
+  const handleClick = (
+    e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>
+  ) => {
+    e.stopPropagation();
+    setContactUsDialogOpen(true);
   };
 
   return (
     <div
-      onClick={handleClick}
+      onClick={(e) => handleClick(e)}
       className="flex max-w-[270px] cursor-pointer flex-col items-center justify-between rounded-2xl border border-gray-200 p-5 hover:rounded-2xl hover:border-transparent hover:bg-slate-100"
     >
-      <div className="text-laboBlue">
+      <div>
         <Image
           src={pricingIconLibrary[header as T]}
           alt="school svg"
@@ -61,7 +57,7 @@ const PriceCard: React.FC<IPriceCard> = ({
       >
         {paragraph}
       </p>
-      <div className="pt-5">
+      <div className="pt-5 text-laboBlue">
         <sub
           className={`${
             price === 'on request' ? 'hidden' : 'inline'
@@ -75,19 +71,19 @@ const PriceCard: React.FC<IPriceCard> = ({
         <ul className="flex flex-col items-center text-gray-700">
           <li>
             <div className="relative">
-              <AdditionalInfo />
+              {hints[0] && <AdditionalInfo hint={hints[0]} />}
               <span>{advantages[0]}</span>
             </div>
           </li>
           <li>
             <div className="relative">
-              {/* <AdditionalInfo /> */}
+              {hints[1] && <AdditionalInfo hint={hints[1]} />}
               <span>{advantages[1]}</span>
             </div>
           </li>
           <li>
             <div className="relative">
-              {/* <AdditionalInfo /> */}
+              {hints[2] && <AdditionalInfo hint={hints[2]} />}
               <span>{advantages[2]}</span>
             </div>
           </li>

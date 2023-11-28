@@ -33,7 +33,7 @@ const Workshops = async ({
       <SectionHeader content={imagesWorkshopHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={priceWorkshopHeaderContent} />
-      <Price priceData={workshopPricingData} />
+      {/* <Price priceData={workshopPricingData} /> */}
     </main>
   );
 };

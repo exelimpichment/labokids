@@ -38,7 +38,7 @@ const Bilingual = async ({
       <SectionHeader content={bilingualTeachersHeader} />
       <TeachersCarousel carouselData={teachersBilingualCarouselData} />
       <SectionHeader content={priceBilingualHeaderContent} />
-      <Price priceData={bilingualPricingData} />
+      {/* <Price priceData={bilingualPricingData} /> */}
     </main>
   );
 };

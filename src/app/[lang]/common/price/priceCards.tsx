@@ -1,19 +1,7 @@
 import PriceCard from './priceCard';
-import { partyPricingData } from '../../party/partyData';
 import Image from 'next/image';
 import movingRocket from '@/public/movingRocket.webp';
-import { IconType } from 'react-icons';
-import { LucideIcon } from 'lucide-react';
-
-interface PriceDataProps {
-  priceData: {
-    id: number;
-    header: string;
-    paragraph: string;
-    price: number | string;
-    advantages: string[];
-  }[];
-}
+import { PriceDataProps } from '@/lib/types';
 
 const PriceCards: React.FC<PriceDataProps> = ({ priceData }) => {
   return (
