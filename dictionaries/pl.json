@@ -22,11 +22,6 @@
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Oferujemy priorytetową edukację zindywidualizowaną zgodnie z metodą Montessori, rozwijając jedność grupy poprzez miłość i sprawiedliwość"
   },
-  "heroPageBilingual": {
-    "kidFontText": "Przedszkole dwujęzyczne LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Przedszkola w stylu rodzinny, gdzie opiekuńcy i profesjonalni nauczyciele otaczają każde dziecko miłością."
-  },
   "heroPageParty": {
     "kidFontText": "Urodziny z LaboKids",
     "header": "Jasna przyszłość dla wszystkich.",
@@ -172,6 +167,133 @@
       "id": 8,
       "name": "lorem ipsum",
       "position": "position posiition"
+    }
+  ],
+  "heroPageBilingual": {
+    "kidFontText": "Przedszkole dwujęzyczne LaboKids",
+    "header": "Jasna przyszłość dla wszystkich.",
+    "paragraph": "Przedszkola w stylu rodzinny, gdzie opiekuńcy i profesjonalni nauczyciele otaczają każde dziecko miłością."
+  },
+  "aboutBilingualHeaderContent": {
+    "kidFontText": "O NASZYM PROGRAMIE EDUKACYJNYM",
+    "header": "Edukacja dwujęzyczna",
+    "paragraph": "Zanurzenie w języku wprowadza najmłodszych uczniów w środowisko pełne języka angielskiego, promując wczesne przyswajanie języka oraz rozwijanie biegłości w posługiwaniu się nim."
+  },
+  "bilingualProgramContent": [
+    {
+      "key": "0",
+      "header": "Język angielski",
+      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+    },
+    {
+      "key": "1",
+      "header": "Muzyka",
+      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+    },
+    {
+      "key": "2",
+      "header": "Natura",
+      "description": "Z nami dzieci będą się wspaniale bawić na piknikach i rodzinnych imprezach. Podczas spotkań plenerowych, firmowych i rodzinnych zapewnimy ciekawe zajęcia, poprowadzimy eksperymenty, gry i zabawy. Z nami maluchy spędzą wesoło niezapomniany czas zabaw na piknikach firmowych i przyjęciach rodzinnych."
+    }
+  ],
+  "imagesBilingualHeaderContent": {
+    "kidFontText": "ODKRYWAJ LABOKIDS",
+    "header": "Galeria",
+    "paragraph": "Przeglądaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+  },
+  "teachersBilingualHeaderContent": {
+    "kidFontText": "O NAUCZYCIELACH",
+    "header": "Nasi Nauczyciele",
+    "paragraph": "W naszym przedszkolu panuje doskonała relacja między nauczycielami a dziećmi, zapewniająca, że każde z nich otrzymuje niezbędną uwagę."
+  },
+  "teachersBilingualCarouselData": [
+    {
+      "id": 0,
+      "name": "poland poland",
+      "position": "position posiition"
+    },
+    {
+      "id": 1,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 2,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 3,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 4,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 5,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 6,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 7,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    },
+    {
+      "id": 8,
+      "name": "lorem ipsum",
+      "position": "position posiition"
+    }
+  ],
+  "priceBilingualHeaderContent": {
+    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "header": "Cennik",
+    "paragraph": "Odkryj niezrównaną wartość dla formacyjnych lat twojego dziecka - nasze zaangażowanie w przystępność zapewnia im najlepszą opiekę i edukację."
+  },
+  "bilingualPricingData": [
+    {
+      "id": 0,
+      "header": "Opłata miesięczna",
+      "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
+      "price": 800,
+      "advantages": [
+        "Spersonalizowane podejście",
+        "Doświadczeni nauczyciele",
+        "Zajmujący program"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 1,
+      "header": "Posiłki",
+      "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
+      "price": "17/dzień",
+      "advantages": [
+        "Zdrowe jedzenie",
+        "Dostosowania dietetyczne",
+        "Edukacja podczas posiłków"
+      ],
+      "hints": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "header": "Specjalne oferty",
+      "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
+      "price": "na zapytanie",
+      "advantages": [
+        "Dodatkowe lekcje",
+        "Przyjdź z przyjacielem",
+        "Oferty dla rodzeństwa"
+      ],
+      "hints": ["", "", ""]
     }
   ]
 }
