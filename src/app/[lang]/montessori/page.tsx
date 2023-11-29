@@ -36,10 +36,7 @@ const Montessori = async ({
       <PageHero content={{ ...heroPageMontessori, heroPageButtonsText }} />
       <ScrollToComponent />
       <SectionHeader content={aboutMontessoriHeaderContent} />
-      <MontessoriMethodsList
-        montessoriMethodsList={montessoriMethodsList}
-        lang={lang}
-      />
+      <MontessoriMethodsList montessoriMethodsList={montessoriMethodsList} />
       <SectionHeader
         content={imagesMontessoriHeaderContent}
         animatedPicture={true}

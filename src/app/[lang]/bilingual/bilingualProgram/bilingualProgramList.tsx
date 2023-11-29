@@ -3,18 +3,15 @@ import Container from '../../common/container';
 import BilingualProgramItem from './bilingualProgramItem';
 
 interface IBilingualProgram {
-  lang: Locale;
   content: {
     key: string;
+    value: string;
     header: string;
     description: string;
   }[];
 }
 
-const BilingualProgramList: React.FC<IBilingualProgram> = ({
-  content,
-  lang,
-}) => {
+const BilingualProgramList: React.FC<IBilingualProgram> = ({ content }) => {
   return (
     <article>
       <Container>
@@ -23,7 +20,6 @@ const BilingualProgramList: React.FC<IBilingualProgram> = ({
             <BilingualProgramItem
               key={bilingualProgramItem.key}
               programItem={bilingualProgramItem}
-              lang={lang}
             />
           ))}
         </div>

@@ -36,7 +36,7 @@ const Bilingual = async ({
         content={aboutBilingualHeaderContent}
         animatedPicture={true}
       />
-      <BilingualProgramList content={bilingualProgramContent} lang={lang} />
+      <BilingualProgramList content={bilingualProgramContent} />
       <SectionHeader content={imagesBilingualHeaderContent} />
       <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
       <SectionHeader content={teachersBilingualHeaderContent} />

@@ -1,43 +1,18 @@
 import Image, { StaticImageData } from 'next/image';
 import { titleFont } from '../../common/fonts';
-
-import bilingualMusic from '@/public/bilingualMusic.jpg';
-import bilingualNative from '@/public/bilingualNative.jpg';
-import bilingualNature from '@/public/bilingualNature.jpg';
-import { Locale } from '@/i18n.config';
-
-const bilingualProgramImageObj: IBilingualProgramImageObj = {
-  en: {
-    Music: bilingualMusic,
-    'English Language': bilingualNative,
-    Nature: bilingualNature,
-  },
-  pl: {
-    Muzyka: bilingualMusic,
-    'Język angielski': bilingualNative,
-    Natura: bilingualNature,
-  },
-  ua: {
-    Музика: bilingualMusic,
-    'Англійська мова': bilingualNative,
-    Природа: bilingualNature,
-  },
-};
-
-type IBilingualProgramImageObj = {
-  [lang in Locale]: {
-    [key: string]: StaticImageData;
-  };
-};
+import { bilingualProgramImageObj } from '@/lib/types';
 
 interface IBilingualProgramItem {
-  lang: Locale;
-  programItem: { key: string; header: string; description: string };
+  programItem: {
+    key: string;
+    header: string;
+    description: string;
+    value: string;
+  };
 }
 
 const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
-  lang,
-  programItem: { header, description },
+  programItem: { header, description, value },
 }) => {
   return (
     <section>
@@ -45,7 +20,7 @@ const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
         <div className={`equalFlexPart relative min-h-[350px] overflow-hidden`}>
           <Image
             loading="lazy"
-            src={bilingualProgramImageObj[lang][header]}
+            src={bilingualProgramImageObj[value]}
             alt="method image"
             fill
             className="rounded-3xl"

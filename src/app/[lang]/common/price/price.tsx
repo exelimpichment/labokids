@@ -5,6 +5,7 @@ import PriceCards from './priceCards';
 interface IPriceDataProps {
   priceData: {
     id: number;
+    value: string;
     header: string;
     paragraph: string;
     price: string;

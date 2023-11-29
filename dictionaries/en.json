@@ -35,27 +35,32 @@
     {
       "id": 0,
       "paragraph": "Practical life activities encompass a progressively demanding set of motor tasks with real-world purposes, like tidying a table or washing dishes. These activities not only aid children in mastering everyday chores but also cultivate independence, physical dexterity, coordination, focus, and a notion of organization.",
-      "header": "Practical Life"
+      "header": "Practical Life",
+      "value": "life"
     },
     {
       "id": 1,
       "paragraph": "Montessori's sensorial education focuses on honing a child's sensory perception by consistently engaging with purposefully crafted materials.\nThis approach aims to offer tangible instances that illustrate otherwise abstract notions, including elements like color, texture, sound, and fragrance.",
-      "header": "Sensorial"
+      "header": "Sensorial",
+      "value": "sensorial"
     },
     {
       "id": 2,
       "paragraph": "The Montessori classroom is meticulously arranged to organically foster the acquisition of skills vital for both spoken and written language. Children employ sandpaper letters to grasp the phonetics of the alphabet and the precise formation of each letter.",
-      "header": "Language"
+      "header": "Language",
+      "value": "language"
     },
     {
       "id": 3,
       "paragraph": "Through the use of hands-on materials designed\naround the decimal system, children learn important\nmathematical principles. Maria Montessori demonstrated\nthat if a child is able to learn during the stage\nwhen they enjoy manipulating materials, they will be able\nto more easily and successfully assimilate\nthe skills and knowledge of arithmetic.",
-      "header": "Mathematics"
+      "header": "Mathematics",
+      "value": "mathematics"
     },
     {
       "id": 4,
       "paragraph": "In this domain, children delve into a range of subjects, including Geography, History, Biology, Art, and Music. This broad exploration provides them with the chance to gain a deeper understanding of their surroundings. This facet of children's education empowers our students to uncover the richness of both historical and contemporary cultures while also examining the realms of living and non-living entities.",
-      "header": "Culture and Science"
+      "header": "Culture and Science",
+      "value": "science"
     }
   ],
   "imagesMontessoriHeaderContent": {
@@ -123,6 +128,7 @@
   "montessoriPricingData": [
     {
       "id": 0,
+      "value": "card-0",
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
       "price": "1100",
@@ -135,6 +141,7 @@
     },
     {
       "id": 1,
+      "value": "card-1",
       "header": "Meals",
       "paragraph": "Nutritious meals provided for the child during their time.",
       "price": "17/day",
@@ -151,6 +158,7 @@
     },
     {
       "id": 2,
+      "value": "card-2",
       "header": "Special offers",
       "paragraph": "Enjoy exclusive financial benefits with our special offers!",
       "price": "on request",
@@ -179,16 +187,19 @@
   "bilingualProgramContent": [
     {
       "key": "0",
+      "value": "english",
       "header": "English Language",
       "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
     },
     {
       "key": "1",
+      "value": "music",
       "header": "Music",
       "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
     },
     {
       "key": "2",
+      "value": "nature",
       "header": "Nature",
       "description": "With us, children will have a wonderful time at picnics and family events. During outdoor, corporate, and family meetings, we provide interesting activities, conduct experiments, games, and play. With us, little ones will joyfully spend unforgettable time at corporate picnics and family gatherings."
     }
@@ -258,6 +269,7 @@
   "bilingualPricingData": [
     {
       "id": 0,
+      "value": "card-3",
       "header": "Monthly payment",
       "paragraph": "Affordable monthly payment plans to suit your budget.",
       "price": "800",
@@ -270,6 +282,7 @@
     },
     {
       "id": 1,
+      "value": "card-4",
       "header": "Meals",
       "paragraph": "Nutritious meals provided for the child during their time.",
       "price": "17/day",
@@ -286,6 +299,7 @@
     },
     {
       "id": 2,
+      "value": "card-5",
       "header": "Special offers",
       "paragraph": "Enjoy exclusive financial benefits with our special offers!",
       "price": "on request",
@@ -363,38 +377,37 @@
   "partyPricingData": [
     {
       "id": 0,
-      "header": "Monthly payment",
-      "paragraph": "Affordable monthly payment plans to suit your budget.",
+      "value": "card-6",
+      "header": "At our kindergarten",
+      "paragraph": "Bring the birthday excitement to our kindergarten for a memorable celebration!",
       "price": "800",
       "advantages": [
-        "Personalized Approach",
-        "Experienced Teachers",
-        "Engaging Curriculum"
+        "Our Catered Cuisine",
+        "Hassle-Free Experience",
+        "2 hours of Fun"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 1,
-      "header": "Meals",
-      "paragraph": "Nutritious meals provided for the child during their time.",
-      "price": "17/day",
+      "value": "card-7",
+      "header": "Party-at-Your-Place",
+      "paragraph": "Bring the birthday magic to your doorstep with our at-home party experience!",
+      "price": "550",
       "advantages": [
-        "Healthy Food",
-        "Dietary Accommodations",
-        "Mealtime Education"
+        "Convenience",
+        "Personalized Experience",
+        "1.5 hours of Fun"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 2,
-      "header": "Special offers",
-      "paragraph": "Enjoy exclusive financial benefits with our special offers!",
+      "value": "card-8",
+      "header": "Tailored Experience",
+      "paragraph": "Customizable celebration, negotiate and arrange the ideal birthday.",
       "price": "on request",
-      "advantages": [
-        "Additional Lessons",
-        "Bring a Friend",
-        "Offers for Siblings"
-      ],
+      "advantages": ["Personalized Party", "Large Group", "Far From Poznan"],
       "hints": ["", "", ""]
     }
   ],
@@ -450,38 +463,37 @@
   "workshopPricingData": [
     {
       "id": 0,
-      "header": "Monthly payment",
-      "paragraph": "Affordable monthly payment plans to suit your budget.",
-      "price": "1100",
+      "value": "card-9",
+      "header": "One Group",
+      "paragraph": "Perfect for small gatherings or groups, ensuring personalized attention and a memorable experience.",
+      "price": "450/group",
       "advantages": [
-        "Personalized Approach",
-        "Experienced Teachers",
-        "Engaging Curriculum"
+        "25 Kids Maximum",
+        "Flexible Scheduling",
+        "Experienced Teachers"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 1,
-      "header": "Meals",
-      "paragraph": "Nutritious meals provided for the child during their time.",
-      "price": "17/day",
+      "value": "card-10",
+      "header": "Two - Three Groups",
+      "paragraph": "Ideal for multiple groups or classes, providing a well-balanced combination of learning and fun.",
+      "price": "350/group",
       "advantages": [
-        "Healthy Food",
-        "Dietary Accommodations",
-        "Mealtime Education"
+        "25 Kids Max per group",
+        "Customizable Curriculum",
+        "Engaging Activities"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 2,
-      "header": "Special offers",
-      "paragraph": "Enjoy exclusive financial benefits with our special offers!",
-      "price": "on request",
-      "advantages": [
-        "Additional Lessons",
-        "Bring a Friend",
-        "Offers for Siblings"
-      ],
+      "value": "card-11",
+      "header": "Four and More",
+      "paragraph": "Our best value option for larger gatherings, ensuring affordability without compromising on quality.",
+      "price": "300/group",
+      "advantages": ["25 Kids Max per group", "Endless Fun", "Best Value"],
       "hints": ["", "", ""]
     }
   ]

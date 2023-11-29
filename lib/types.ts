@@ -34,32 +34,9 @@ export type TNavigation = {
   workshops: string;
 };
 
-export type MontessoriImageObject = {
-  en: {
-    'Practical Life': StaticImageData;
-    Sensorial: StaticImageData;
-    Language: StaticImageData;
-    Mathematics: StaticImageData;
-    'Culture and Science': StaticImageData;
-  };
-  pl: {
-    'Życie praktyczne': StaticImageData;
-    Sensoryczna: StaticImageData;
-    Język: StaticImageData;
-    Matematyka: StaticImageData;
-    'Kultura i Nauka': StaticImageData;
-  };
-  ua: {
-    'Практичне життя': StaticImageData;
-    'Сенсорна освіта': StaticImageData;
-    Мова: StaticImageData;
-    Математика: StaticImageData;
-    'Культура та Наука': StaticImageData;
-  };
-};
-
 export interface PriceDataProps {
   priceData: {
+    value: string;
     id: number;
     header: string;
     paragraph: string;
@@ -72,6 +49,7 @@ export interface PriceDataProps {
 export interface IPriceCard {
   item: {
     id: number;
+    value: string;
     header: string;
     paragraph: string;
     price: number | string;
@@ -91,3 +69,47 @@ export interface ITopics {
     description: string;
   }[];
 }
+
+import {
+  Calendar,
+  Gem,
+  Home,
+  School,
+  Soup,
+  User,
+  UserPlus,
+  Users,
+} from 'lucide-react';
+
+export const pricingIconLibrary = {
+  'card-0': Calendar,
+  'card-1': Soup,
+  'card-2': Gem,
+
+  'card-3': Calendar,
+  'card-4': Soup,
+  'card-5': Gem,
+
+  'card-6': School,
+  'card-7': Home,
+  'card-8': Gem,
+
+  'card-9': User,
+  'card-10': Users,
+  'card-11': UserPlus,
+};
+export type T = keyof typeof pricingIconLibrary;
+
+import bilingualMusic from '@/public/bilingualMusic.jpg';
+import bilingualNative from '@/public/bilingualNative.jpg';
+import bilingualNature from '@/public/bilingualNature.jpg';
+
+export const bilingualProgramImageObj: IBilingualProgramImageObj = {
+  nature: bilingualNature,
+  music: bilingualMusic,
+  english: bilingualNative,
+};
+
+export type IBilingualProgramImageObj = {
+  [key: string]: StaticImageData;
+};

@@ -35,27 +35,32 @@
     {
       "id": 0,
       "paragraph": "Działania praktyczne obejmują coraz bardziej wymagający zestaw zadań z motoryki małej o realnych celach, takich jak porządkowanie stołu czy mycie naczyń. Te czynności nie tylko pomagają dzieciom opanować codzienne obowiązki, ale także rozwijają niezależność, sprawność fizyczną, koordynację, skupienie i pojęcie organizacji.",
-      "header": "Życie praktyczne"
+      "header": "Życie praktyczne",
+      "value": "life"
     },
     {
       "id": 1,
       "paragraph": "Edukacja sensoryczna Montessori skupia się na doskonaleniu percepcji sensorycznej dziecka poprzez stałe oddziaływanie z celowo opracowanymi materiałami. To podejście ma na celu oferowanie konkretnych przykładów, które ilustrują abstrakcyjne pojęcia, obejmujące elementy takie jak kolor, tekstura, dźwięk i zapach.",
-      "header": "Sensoryczna"
+      "header": "Sensoryczna",
+      "value": "sensorial"
     },
     {
       "id": 2,
       "paragraph": "Sala Montessori jest starannie ułożona, aby organicznie wspierać zdobywanie umiejętności istotnych zarówno dla języka mówionego, jak i pisanego. Dzieci używają liter z papierem ściernym, aby zrozumieć fonetykę alfabetu i precyzyjne formowanie każdej litery.",
-      "header": "Język"
+      "header": "Język",
+      "value": "language"
     },
     {
       "id": 3,
       "paragraph": "Poprzez wykorzystanie praktycznych materiałów stworzonych wokół systemu dziesiętnego, dzieci uczą się ważnych\nzasad matematycznych. Maria Montessori ustaliła,\nże jeśli dziecko jest w stanie uczyć się w fazie,\nkiedy cieszy się manipulacją materiałami, będzie w stanie\nłatwiej i skuteczniej przyswajać\numiejętności i wiedzę z zakresu arytmetyki.",
-      "header": "Matematyka"
+      "header": "Matematyka",
+      "value": "mathematics"
     },
     {
       "id": 4,
       "paragraph": "W tej dziedzinie dzieci zagłębiają się w różne przedmioty, w tym geografię, historię, biologię, sztukę i muzykę. Ta szeroka eksploracja daje im szansę zdobycia głębszego zrozumienia otoczenia. Ten aspekt edukacji dzieci umożliwia naszym uczniom odkrywanie bogactwa zarówno kultur historycznych, jak i współczesnych, jednocześnie badając obszary istniejących i nieożywionych istot.",
-      "header": "Kultura i Nauka"
+      "header": "Kultura i Nauka",
+      "value": "science"
     }
   ],
   "imagesMontessoriHeaderContent": {
@@ -77,6 +82,7 @@
   "montessoriPricingData": [
     {
       "id": 0,
+      "value": "card-0",
       "header": "Opłata miesięczna",
       "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
       "price": "1100",
@@ -89,6 +95,7 @@
     },
     {
       "id": 1,
+      "value": "card-1",
       "header": "Posiłki",
       "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
       "price": "17/dzień",
@@ -101,6 +108,7 @@
     },
     {
       "id": 2,
+      "value": "card-2",
       "header": "Specjalne oferty",
       "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
       "price": "na zapytanie",
@@ -172,16 +180,19 @@
   "bilingualProgramContent": [
     {
       "key": "0",
+      "value": "english",
       "header": "Język angielski",
       "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
     },
     {
       "key": "1",
+      "value": "music",
       "header": "Muzyka",
       "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
     },
     {
       "key": "2",
+      "value": "nature",
       "header": "Natura",
       "description": "Z nami dzieci będą się wspaniale bawić na piknikach i rodzinnych imprezach. Podczas spotkań plenerowych, firmowych i rodzinnych zapewnimy ciekawe zajęcia, poprowadzimy eksperymenty, gry i zabawy. Z nami maluchy spędzą wesoło niezapomniany czas zabaw na piknikach firmowych i przyjęciach rodzinnych."
     }
@@ -251,6 +262,7 @@
   "bilingualPricingData": [
     {
       "id": 0,
+      "value": "card-3",
       "header": "Opłata miesięczna",
       "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
       "price": "800",
@@ -263,6 +275,7 @@
     },
     {
       "id": 1,
+      "value": "card-4",
       "header": "Posiłki",
       "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
       "price": "17/dzień",
@@ -275,6 +288,7 @@
     },
     {
       "id": 2,
+      "value": "card-5",
       "header": "Specjalne oferty",
       "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
       "price": "na zapytanie",
@@ -352,37 +366,40 @@
   "partyPricingData": [
     {
       "id": 0,
+      "value": "card-6",
       "header": "Paket Labo",
-      "paragraph": "Dostosowane miesięczne plany płatności, aby dostosować się do Twojego budżetu.",
+      "paragraph": "Przenieś radość urodzin do naszego przedszkola na niezapomniane świętowanie!",
       "price": "800",
       "advantages": [
-        "Spersonalizowane podejście",
-        "Doświadczeni nauczyciele",
-        "Zajmujący program nauczania"
+        "Nasza kateringowa kuchnia",
+        "Bezproblemowe doświadczenie",
+        "2 godziny zabawy"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 1,
+      "value": "card-7",
       "header": "Paket domowy",
-      "paragraph": "Zdrowe posiłki dostarczane dziecku podczas jego pobytu.",
-      "price": "17/dzień",
+      "paragraph": "Przenieś magię urodzin pod Twoje drzwi dzięki naszemu przyjęciu w domu!",
+      "price": "550",
       "advantages": [
-        "Zdrowe jedzenie",
-        "Dostosowania dietetyczne",
-        "Edukacja podczas posiłków"
+        "Wygodna opcja",
+        "Spersonalizowane doświadczenie",
+        "1,5 godziny zabawy"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 2,
-      "header": "Specjalne oferty",
-      "paragraph": "Korzystaj z ekskluzywnych korzyści finansowych dzięki naszym specjalnym ofertom!",
-      "price": "na zapytanie",
+      "value": "card-8",
+      "header": "Personalizowane",
+      "paragraph": "Dostosowane świętowanie, negocjuj i zorganizuj idealne urodziny.",
+      "price": "na żądanie",
       "advantages": [
-        "Dodatkowe lekcje",
-        "Przyprowadź przyjaciela",
-        "Oferty dla rodzeństwa"
+        "Spersonalizowana impreza",
+        "Duża grupa",
+        "Daleko od Poznania"
       ],
       "hints": ["", "", ""]
     }
@@ -439,37 +456,40 @@
   "workshopPricingData": [
     {
       "id": 0,
-      "header": "Opłata miesięczna",
-      "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
-      "price": "1100",
+      "value": "card-9",
+      "header": "Jedna Grupa",
+      "paragraph": "Doskonała dla małych spotkań lub grup, zapewniająca indywidualną uwagę i niezapomniane przeżycia.",
+      "price": "450/grupa",
       "advantages": [
-        "Spersonalizowane podejście",
-        "Doświadczeni nauczyciele",
-        "Zajmujący program"
+        "Maksymalnie 25 dzieci",
+        "Elastyczne harmonogramy",
+        "Doświadczeni nauczyciele"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 1,
-      "header": "Posiłki",
-      "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
-      "price": "17/dzień",
+      "value": "card-10",
+      "header": "Dwie - Trzy Grupy",
+      "paragraph": "Idealne dla wielu grup lub klas, zapewniające zrównoważoną kombinację nauki i zabawy.",
+      "price": "350/grupa",
       "advantages": [
-        "Zdrowe jedzenie",
-        "Dostosowania dietetyczne",
-        "Edukacja podczas posiłków"
+        "Maksymalnie 25 dzieci na grupę",
+        "Dostosowywalny program nauczania",
+        "Angażujące zajęcia"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 2,
-      "header": "Specjalne oferty",
-      "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
-      "price": "na zapytanie",
+      "value": "card-11",
+      "header": "Cztery i Więcej",
+      "paragraph": "Nasza najlepsza opcja cenowa dla większych spotkań, zapewniająca przystępność cenową bez kompromisów w jakości.",
+      "price": "300/grupa",
       "advantages": [
-        "Dodatkowe lekcje",
-        "Przyjdź z przyjacielem",
-        "Oferty dla rodzeństwa"
+        "Maksymalnie 25 dzieci na grupę",
+        "Niekończąca się zabawa",
+        "Najlepsza wartość"
       ],
       "hints": ["", "", ""]
     }
