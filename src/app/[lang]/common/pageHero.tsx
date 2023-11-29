@@ -60,7 +60,7 @@ const PageHero: React.FC<IPageHero> = ({
   return (
     <section>
       <div className="h-screen">
-        <div className="absolute -z-10 h-screen w-screen">
+        <div className="absolute -z-10 h-screen w-full">
           <Image
             src={offeredServicesObj[lastSection].image}
             fill
