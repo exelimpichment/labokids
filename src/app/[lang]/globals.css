@@ -19,7 +19,6 @@ body {
 body {
         display: flex;
         flex-direction: column;
-/* width: 100vw; */
 }
 .content{
         flex: 1 0 auto;
