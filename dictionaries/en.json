@@ -176,8 +176,8 @@
   ],
   "heroPageBilingual": {
     "kidFontText": "LaboKids Montessori kindergarten",
-    "header": "A bright future for all.",
-    "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness."
+    "header": "A bright future for all",
+    "paragraph": "Family-style kindergartens, where caring professional teachers envelop each child with love."
   },
   "aboutBilingualHeaderContent": {
     "kidFontText": "ABOUT OUR EDUCATION PROGRAM",
@@ -189,19 +189,19 @@
       "key": "0",
       "value": "english",
       "header": "English Language",
-      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+      "description": "From the very first days of a child's presence in our kindergarten, they have daily contact with the English language. We employ the immersion method, allowing children to absorb the language naturally. English learning also takes place through play-based pedagogy and regular language activities."
     },
     {
       "key": "1",
       "value": "music",
       "header": "Music",
-      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs."
     },
     {
       "key": "2",
       "value": "nature",
       "header": "Nature",
-      "description": "With us, children will have a wonderful time at picnics and family events. During outdoor, corporate, and family meetings, we provide interesting activities, conduct experiments, games, and play. With us, little ones will joyfully spend unforgettable time at corporate picnics and family gatherings."
+      "description": "In our garden, children learn about the wonders of nature. We believe that hands-on experiences in the fresh air contribute to a profound understanding of the environment. The open environment fosters collaboration among children as they participate in various games and activities, promoting both physical and social development."
     }
   ],
   "imagesBilingualHeaderContent": {

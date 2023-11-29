@@ -84,12 +84,12 @@
       "id": 0,
       "value": "card-0",
       "header": "Opłata miesięczna",
-      "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
+      "paragraph": "Dostępne są miesięczne płatności dostosowane do Twojego budżetu.",
       "price": "1100",
       "advantages": [
-        "Spersonalizowane podejście",
+        "Indywidualne podejście",
         "Doświadczeni nauczyciele",
-        "Zajmujący program"
+        "Interesujący program"
       ],
       "hints": ["", "", ""]
     },
@@ -97,27 +97,35 @@
       "id": 1,
       "value": "card-1",
       "header": "Posiłki",
-      "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
+      "paragraph": "Dziecko ma zapewnione pożywne posiłki w trakcie przebywania.",
       "price": "17/dzień",
       "advantages": [
         "Zdrowe jedzenie",
-        "Dostosowania dietetyczne",
-        "Edukacja podczas posiłków"
+        "Personalizowane diety",
+        "Edukacja przy stole"
       ],
-      "hints": ["", "", ""]
+      "hints": [
+        "",
+        "Specjalne menu dla dzieci z alergią lub menu wegetariańskie.",
+        "Rozwijanie u dzieci umiejętności samodzielności podczas spożywania posiłków."
+      ]
     },
     {
       "id": 2,
       "value": "card-2",
       "header": "Specjalne oferty",
-      "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
-      "price": "na zapytanie",
+      "paragraph": "Korzystaj z profitów finansowych z naszymi ekskluzywnymi ofertami!",
+      "price": "po zgłoszeniu",
       "advantages": [
-        "Dodatkowe lekcje",
-        "Przyjdź z przyjacielem",
+        "Zajęcia dodatkowe",
+        "Polecone - nagrodzone ",
         "Oferty dla rodzeństwa"
       ],
-      "hints": ["", "", ""]
+      "hints": [
+        "Zajęcia dodatkowe - 0 zł",
+        "Przyprowadź przyjaciela i otrzymaj jeden miesiąc w naszym przedszkolu za darmo.",
+        "Zniżki na comiesięczną opłatę dla rodziców z dwójką lub więcej dzieci."
+      ]
     }
   ],
   "teachersMontessoriCarouselData": [
@@ -169,32 +177,32 @@
   ],
   "heroPageBilingual": {
     "kidFontText": "Przedszkole dwujęzyczne LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Przedszkola w stylu rodzinny, gdzie opiekuńcy i profesjonalni nauczyciele otaczają każde dziecko miłością."
+    "header": "Jasna przyszłość dla wszystkich",
+    "paragraph": "Jesteśmy kameralnym, rodzinnym przedszkolem, gdzie profesjonalni nauczyciele otaczają każde dziecko troską i miłością."
   },
   "aboutBilingualHeaderContent": {
     "kidFontText": "O NASZYM PROGRAMIE EDUKACYJNYM",
     "header": "Edukacja dwujęzyczna",
-    "paragraph": "Zanurzenie w języku wprowadza najmłodszych uczniów w środowisko pełne języka angielskiego, promując wczesne przyswajanie języka oraz rozwijanie biegłości w posługiwaniu się nim."
+    "paragraph": "Nauka języka odbywa się poprzez zanurzenie w anglojęzycznym środowisku, sprzyjając wczesnemu opanowaniu języka."
   },
   "bilingualProgramContent": [
     {
       "key": "0",
       "value": "english",
       "header": "Język angielski",
-      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+      "description": "Już od pierwszych dni obecności dziecka w naszym przedszkolu mają one codzienny kontakt z językiem angielskim. Stosujemy metodę immersji językowej, dzięki której dzieci chłoną język w naturalny sposób. Nauka angielskiego odbywa się również poprzez zastosowanie pedagogiki zabawy oraz regularnych zajęć językowych."
     },
     {
       "key": "1",
       "value": "music",
       "header": "Muzyka",
-      "description": "We are a kindergarten that combines the development of musical sensitivity with language education. In a warm and family-like atmosphere, we cultivate a love for music by surrounding children with sound, melody, and rhythm. The space we create facilitates the acquisition of skills for expressing emotions and communicating needs. We also spend a lot of time in our beautiful garden."
+      "description": "Jesteśmy przedszkolem, które łączy rozwijanie wrażliwości muzycznej z edukacją językową. W ciepłej i rodzinnej atmosferze rozwijamy miłość do muzyki poprzez otaczanie dzieci dźwiękiem, melodią i rytmem."
     },
     {
       "key": "2",
       "value": "nature",
       "header": "Natura",
-      "description": "Z nami dzieci będą się wspaniale bawić na piknikach i rodzinnych imprezach. Podczas spotkań plenerowych, firmowych i rodzinnych zapewnimy ciekawe zajęcia, poprowadzimy eksperymenty, gry i zabawy. Z nami maluchy spędzą wesoło niezapomniany czas zabaw na piknikach firmowych i przyjęciach rodzinnych."
+      "description": "W naszym ogrodzie dzieci uczą się o cudach natury. Wierzymy, że doświadczenia praktyczne na świeżym powietrzu sprzyjają głębokiemu zrozumieniu dla środowiska. Otwarte otoczenie sprzyja współpracy i współdziałaniu dzieci, gdy biorą udział w różnych grach i aktywnościach, promując rozwój zarówno fizyczny, jak i społeczny."
     }
   ],
   "imagesBilingualHeaderContent": {
@@ -262,42 +270,50 @@
   "bilingualPricingData": [
     {
       "id": 0,
-      "value": "card-3",
+      "value": "card-0",
       "header": "Opłata miesięczna",
-      "paragraph": "Przystępne plany płatności miesięcznych dostosowane do Twojego budżetu.",
+      "paragraph": "Dostępne są miesięczne płatności dostosowane do Twojego budżetu.",
       "price": "800",
       "advantages": [
-        "Spersonalizowane podejście",
+        "Indywidualne podejście",
         "Doświadczeni nauczyciele",
-        "Zajmujący program"
+        "Interesujący program"
       ],
       "hints": ["", "", ""]
     },
     {
       "id": 1,
-      "value": "card-4",
+      "value": "card-1",
       "header": "Posiłki",
-      "paragraph": "Dziecku zapewnione są pożywne posiłki podczas pobytu.",
+      "paragraph": "Dziecko ma zapewnione pożywne posiłki w trakcie przebywania.",
       "price": "17/dzień",
       "advantages": [
         "Zdrowe jedzenie",
-        "Dostosowania dietetyczne",
-        "Edukacja podczas posiłków"
+        "Personalizowane diety",
+        "Edukacja przy stole"
       ],
-      "hints": ["", "", ""]
+      "hints": [
+        "",
+        "Specjalne menu dla dzieci z alergią lub menu wegetariańskie.",
+        "Rozwijanie u dzieci umiejętności samodzielności podczas spożywania posiłków."
+      ]
     },
     {
       "id": 2,
-      "value": "card-5",
+      "value": "card-2",
       "header": "Specjalne oferty",
-      "paragraph": "Korzystaj z korzyści finansowych z naszymi ekskluzywnymi ofertami!",
-      "price": "na zapytanie",
+      "paragraph": "Korzystaj z profitów finansowych z naszymi ekskluzywnymi ofertami!",
+      "price": "po zgłoszeniu",
       "advantages": [
-        "Dodatkowe lekcje",
-        "Przyjdź z przyjacielem",
+        "Zajęcia dodatkowe",
+        "Polecone - nagrodzone ",
         "Oferty dla rodzeństwa"
       ],
-      "hints": ["", "", ""]
+      "hints": [
+        "Zajęcia dodatkowe - 0 zł",
+        "Przyprowadź przyjaciela i otrzymaj jeden miesiąc w naszym przedszkolu za darmo.",
+        "Zniżki na comiesięczną opłatę dla rodziców z dwójką lub więcej dzieci."
+      ]
     }
   ],
   "heroPageParty": {
