@@ -5,13 +5,13 @@ import SectionHeader from '../common/sectionHeader';
 
 import MontessoriMethodsList from './MontessoriMethodsList/montessoriMethodsList';
 import StaticGallery from '../common/staticGallery/staticGallery';
-import { workshopGalleryPhotoSets } from '../workshops/workshopData';
 
 import ScrollToTopComponent from '../common/scrollToTopComponent';
 
 import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
 import { getDictionary } from '@/lib/dictionary';
 import { Locale } from '@/i18n.config';
+import { montessoriGalleryPhotoSet } from './montessoriImageStoringObj';
 
 const Montessori = async ({
   params: { lang },
@@ -41,7 +41,8 @@ const Montessori = async ({
         content={imagesMontessoriHeaderContent}
         animatedPicture={true}
       />
-      <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
+
+      <StaticGallery galleryImages={montessoriGalleryPhotoSet} />
       <SectionHeader content={teachersMontessoriHeaderContent} />
       <TeachersCarousel carouselData={teachersMontessoriCarouselData} />
       <SectionHeader content={priceMontessoriHeaderContent} />

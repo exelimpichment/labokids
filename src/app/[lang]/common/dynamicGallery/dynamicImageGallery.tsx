@@ -4,14 +4,15 @@ import Image from 'next/image';
 
 import Container from '../container';
 import { useGlobalContext } from '../../context/globalContext';
-import { workshopGalleryPhotoSets } from '../../workshops/workshopData';
+
+import { partyGalleryPhotoSet } from '../../party/partyImageStoringObj';
 
 const DynamicImageGallery = () => {
   const { activeGalleryCollection } = useGlobalContext();
   return (
     <Container>
       <div className=" mt-10 flex  flex-wrap justify-center gap-5">
-        {workshopGalleryPhotoSets[activeGalleryCollection].map((item) => (
+        {partyGalleryPhotoSet[activeGalleryCollection].map((item) => (
           <div className="relative h-56 w-96" key={item.id}>
             <Image
               src={item.image}

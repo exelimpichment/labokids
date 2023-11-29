@@ -6,9 +6,8 @@ import ScrollToTopComponent from '../common/scrollToTopComponent';
 import SectionHeader from '../common/sectionHeader';
 import StaticGallery from '../common/staticGallery/staticGallery';
 import Topics from '../common/topics/topics';
-
-import { workshopGalleryPhotoSets } from './workshopData';
 import { getDictionary } from '@/lib/dictionary';
+import { workshopGalleryPhotoSet } from './workshopImageStoringObj.tsx';
 
 const Workshops = async ({
   params: { lang },
@@ -32,7 +31,7 @@ const Workshops = async ({
       <SectionHeader content={workshopAccordionHeaderData} />
       <Topics accordionData={accordionWorkshopsData} />
       <SectionHeader content={imagesWorkshopsHeaderContent} />
-      <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
+      <StaticGallery galleryImages={workshopGalleryPhotoSet} />
       <SectionHeader content={priceWorkshopsHeaderContent} />
       <Price priceData={workshopPricingData} />
     </main>
