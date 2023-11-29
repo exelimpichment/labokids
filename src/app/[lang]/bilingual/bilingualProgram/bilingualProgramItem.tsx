@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import { titleFont } from '../../common/fonts';
+import { textFont, titleFont } from '../../common/fonts';
 import { bilingualProgramImageObj } from '@/lib/types';
 
 interface IBilingualProgramItem {
@@ -41,7 +41,9 @@ const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
           <h2 className={`${titleFont.className} text-center text-2xl`}>
             {header}
           </h2>
-          <p className="pt-5 text-center text-lg text-gray-600">
+          <p
+            className={`pt-5 text-center text-lg text-gray-600 ${textFont.className}`}
+          >
             {description}
           </p>
         </div>

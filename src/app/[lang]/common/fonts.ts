@@ -1,6 +1,8 @@
 import {
   Balsamiq_Sans,
+  Comfortaa,
   Shantell_Sans,
+  Ubuntu,
   Wix_Madefor_Display,
 } from 'next/font/google';
 
@@ -20,8 +22,8 @@ export const titleFont = Balsamiq_Sans({
   adjustFontFallback: false,
 });
 
-export const textFont = Wix_Madefor_Display({
-  weight: ['400', '500', '600', '700'],
+export const textFont = Comfortaa({
+  weight: ['400', '700'],
   subsets: ['latin', 'cyrillic'],
   fallback: ['system-ui', 'arial'],
   display: 'swap',

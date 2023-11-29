@@ -8,7 +8,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
 }) => {
   return (
     <Container>
-      <section className="flex gap-3 lg:flex-row lg:gap-10">
+      <section className="flex flex-col gap-3 lg:flex-row lg:gap-10">
         <div
           className={`relative min-h-[350px] basis-full ${
             id % 2 !== 0 ? 'lg:order-1' : null

@@ -5,6 +5,7 @@ import { useGlobalContext } from '../../context/globalContext';
 import { useRouter } from 'next/navigation';
 import { CakeSlice, Leaf, LucideIcon, Ruler } from 'lucide-react';
 import { TbLanguage } from 'react-icons/tb';
+import { titleFont } from '../../common/fonts';
 
 interface INavbarLink {
   route: {
@@ -53,7 +54,7 @@ const DropdownItem: React.FC<IDropdownItem> = ({ item }) => {
       <button
         type="button"
         onClick={handleClick}
-        className={`flex gap-2 ${
+        className={`flex gap-2 ${titleFont.className} ${
           pathname === `/${lang}/${key}` ? 'text-black' : 'text-gray-600'
         } px-3`}
       >
