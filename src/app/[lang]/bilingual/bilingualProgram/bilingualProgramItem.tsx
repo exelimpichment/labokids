@@ -12,12 +12,16 @@ interface IBilingualProgramItem {
 }
 
 const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
-  programItem: { header, description, value },
+  programItem: { header, description, value, key },
 }) => {
   return (
     <section>
       <div className="flex flex-col gap-3 lg:flex-row lg:gap-10">
-        <div className={`equalFlexPart relative min-h-[350px] overflow-hidden`}>
+        <div
+          className={`relative min-h-[350px] basis-full overflow-hidden ${
+            Number(key) % 2 !== 0 ? 'lg:order-1' : null
+          }`}
+        >
           <Image
             loading="lazy"
             src={bilingualProgramImageObj[value]}
@@ -33,7 +37,7 @@ const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
             }}
           />
         </div>
-        <div className="equalFlexPart lg:min-h-[350px]">
+        <div className="basis-full lg:min-h-[350px]">
           <h2 className={`${titleFont.className} text-center text-2xl`}>
             {header}
           </h2>

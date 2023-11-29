@@ -8,9 +8,9 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
 }) => {
   return (
     <Container>
-      <section className="flex flex-col gap-3 lg:flex-row lg:gap-10">
+      <section className="flex gap-3 lg:flex-row lg:gap-10">
         <div
-          className={`equalFlexPart relative min-h-[350px] ${
+          className={`relative min-h-[350px] basis-full ${
             id % 2 !== 0 ? 'lg:order-1' : null
           } overflow-hidden`}
         >
@@ -29,7 +29,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
             }}
           />
         </div>
-        <div className="equalFlexPart lg:min-h-[350px]">
+        <div className="basis-full lg:min-h-[350px]">
           <h2 className={`${titleFont.className} text-center text-2xl`}>
             {header}
           </h2>
