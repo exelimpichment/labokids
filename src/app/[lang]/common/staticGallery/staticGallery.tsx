@@ -1,41 +1,36 @@
-import Image, { StaticImageData } from 'next/image';
+'use client';
+
+import { StaticImageData } from 'next/image';
 import Container from '../container';
-import movingSun from '@/public/movingSun.webp';
+import ShowMoreDropdown from '../showMoreDropdown/showMoreDropdown';
+import StaticGalleryCard from './staticGalleryCard';
+import MovingSun from './movingSun';
+import ShowMoreDropdownButton from '../showMoreDropdown/showMoreDropdownButton';
+import { useState } from 'react';
 
 interface IStaticGallery {
   galleryImages: { id: number; image: StaticImageData; alt: string }[];
 }
 
 const StaticGallery: React.FC<IStaticGallery> = ({ galleryImages }) => {
+  const [isOpen, setIsOpen] = useState<boolean>(true);
   return (
     <Container>
       <div className="relative mt-10 flex flex-wrap justify-center gap-5">
-        {galleryImages.map((item) => (
-          <div className="relative h-56 w-96" key={item.id}>
-            <Image
-              src={item.image}
-              fill
-              alt="gallery image"
-              placeholder="blur"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              quality={100}
-              style={{
-                objectFit: 'cover',
-                objectPosition: 'center center',
-              }}
-              className="rounded-xl"
-            />
-          </div>
+        {galleryImages.slice(0, 6).map((item) => (
+          <StaticGalleryCard key={item.id} item={item} />
         ))}
-        <div className="absolute bottom-[-90px] right-0  z-40 animate-reciprocal-horizontal xl:bottom-[-132px] xl:right-[10%]">
-          <Image
-            width={133}
-            height={137}
-            src={movingSun}
-            alt="moving crab image"
+        {galleryImages.length > 6 && (
+          <ShowMoreDropdown
+            isOpen={isOpen}
+            galleryImages={galleryImages.slice(0, 7)}
           />
-        </div>
+        )}
+        <MovingSun />
       </div>
+      {galleryImages.length > 6 && (
+        <ShowMoreDropdownButton state={{ isOpen, setIsOpen }} />
+      )}
     </Container>
   );
 };

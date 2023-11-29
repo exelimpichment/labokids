@@ -3,12 +3,14 @@ import Price from '../common/price/price';
 import ScrollToComponent from '../common/scrollToComponent';
 import SectionHeader from '../common/sectionHeader';
 import StaticGallery from '../common/staticGallery/staticGallery';
-import { workshopGalleryPhotoSets } from '../workshops/workshopData';
+
 import ScrollToTopComponent from '../common/scrollToTopComponent';
 import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
 import { Locale } from '@/i18n.config';
 import { getDictionary } from '@/lib/dictionary';
 import BilingualProgramList from './bilingualProgram/bilingualProgramList';
+
+import { bilingualGalleryPhotoSet } from './bilingualImageStoringObj';
 
 const Bilingual = async ({
   params: { lang },
@@ -38,7 +40,7 @@ const Bilingual = async ({
       />
       <BilingualProgramList content={bilingualProgramContent} />
       <SectionHeader content={imagesBilingualHeaderContent} />
-      <StaticGallery galleryImages={workshopGalleryPhotoSets['baloniki']} />
+      <StaticGallery galleryImages={bilingualGalleryPhotoSet} />
       <SectionHeader content={teachersBilingualHeaderContent} />
       <TeachersCarousel carouselData={teachersBilingualCarouselData} />
       <SectionHeader content={priceBilingualHeaderContent} />

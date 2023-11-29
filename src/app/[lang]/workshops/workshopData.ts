@@ -38,41 +38,6 @@ export const priceWorkshopHeaderContent = {
     'Discover unbeatable prices for enriching workshops - our commitment to affordability ensures you get the best value for your educational endeavors.',
 };
 
-export const workshopGalleryPhotoSets = {
-  baloniki: [
-    { id: 0, image: montessoriGalleryListOfImage1, alt: 'alt' },
-    { id: 1, image: montessoriGalleryListOfImage2, alt: 'alt' },
-    { id: 2, image: montessoriGalleryListOfImage3, alt: 'alt' },
-    { id: 3, image: montessoriGalleryListOfImage4, alt: 'alt' },
-    { id: 4, image: montessoriGalleryListOfImage5, alt: 'alt' },
-    { id: 5, image: montessoriGalleryListOfImage6, alt: 'alt' },
-  ],
-  chemia: [
-    { id: 0, image: montessoriGalleryListOfImage6, alt: 'alt' },
-    { id: 1, image: montessoriGalleryListOfImage5, alt: 'alt' },
-    { id: 2, image: montessoriGalleryListOfImage4, alt: 'alt' },
-    { id: 3, image: montessoriGalleryListOfImage3, alt: 'alt' },
-    { id: 4, image: montessoriGalleryListOfImage2, alt: 'alt' },
-    { id: 5, image: montessoriGalleryListOfImage1, alt: 'alt' },
-  ],
-  mydlo: [
-    { id: 0, image: montessoriGalleryListOfImage1, alt: 'alt' },
-    { id: 1, image: montessoriGalleryListOfImage2, alt: 'alt' },
-    { id: 2, image: montessoriGalleryListOfImage3, alt: 'alt' },
-    { id: 3, image: montessoriGalleryListOfImage4, alt: 'alt' },
-    { id: 4, image: montessoriGalleryListOfImage5, alt: 'alt' },
-    { id: 5, image: montessoriGalleryListOfImage6, alt: 'alt' },
-  ],
-  lod: [
-    { id: 0, image: montessoriGalleryListOfImage6, alt: 'alt' },
-    { id: 1, image: montessoriGalleryListOfImage5, alt: 'alt' },
-    { id: 2, image: montessoriGalleryListOfImage4, alt: 'alt' },
-    { id: 3, image: montessoriGalleryListOfImage3, alt: 'alt' },
-    { id: 4, image: montessoriGalleryListOfImage2, alt: 'alt' },
-    { id: 5, image: montessoriGalleryListOfImage1, alt: 'alt' },
-  ],
-};
-
 export const workshopAccordionHeaderData = {
   kidFontText: 'WE OFFER A LOT!',
   header: 'Our Workshop',
