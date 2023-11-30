@@ -160,8 +160,8 @@ const Form: React.FC<IFormContent> = ({
   return (
     contactUsDialogOpen && (
       <div
-        className="fixed left-0 right-0 z-[999] mx-auto flex h-screen w-[260px] flex-col justify-center"
         ref={formRef}
+        className="fixed left-1/2 top-1/2 z-[999] translate-x-[-50%] translate-y-[-50%]"
       >
         <div className=" flex flex-col items-center gap-4">
           <form
