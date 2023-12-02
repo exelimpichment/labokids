@@ -3,6 +3,7 @@ import { Locale } from '@/i18n.config';
 import { usePathname } from 'next/navigation';
 import { TNavigation } from '@/lib/types';
 import Link from 'next/link';
+import { titleFont } from '../common/fonts';
 
 interface IDesktopNavbarLinkList {
   navigation: TNavigation;
@@ -17,7 +18,9 @@ const FooterNavigationList: React.FC<IDesktopNavbarLinkList> = ({
 
   return (
     <div className="flex min-h-[50px] items-center justify-center px-2">
-      <ul className="flex flex-wrap items-center justify-center gap-4 lg:gap-10">
+      <ul
+        className={`flex flex-wrap items-center justify-center gap-4 lg:gap-10 ${titleFont.className} text-lg`}
+      >
         {Object.entries(navigation).map(([key, value]) => (
           <li
             key={key}

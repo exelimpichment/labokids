@@ -45,7 +45,7 @@ const ButtonsHero: React.FC<IButtonsHero> = ({
 
   return (
     <div
-      className={`flex w-full flex-row ${buttonsPosition} justify-center gap-3 py-5`}
+      className={`flex w-full flex-col md:flex-row ${buttonsPosition} justify-center gap-3 py-5`}
     >
       <Button
         ref={isIntersectingRef}

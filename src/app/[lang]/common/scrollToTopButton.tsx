@@ -36,10 +36,10 @@ const ScrollToTopButton = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="ml-2 flex flex-col items-center justify-center rounded-full bg-laboBlue px-4"
+              className="ml-2 flex flex-col items-start justify-center rounded-full bg-laboBlue px-4 text-sm "
             >
-              <p>Krośnieńska 9, 60-162 Poznań</p>
-              <p>Krośnieńska 9, 60-162 Poznań</p>
+              <p>Knapowskiego 23, Poznań - Labokids Montessori</p>
+              <p>Krośnieńska 9, Poznań - Labokids Bilingual</p>
             </motion.div>
           )}
         </AnimatePresence>
