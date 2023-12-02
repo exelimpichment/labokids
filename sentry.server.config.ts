@@ -2,10 +2,13 @@
 // The config you add here will be used whenever the server handles a request.
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
-import * as Sentry from "@sentry/nextjs";
+import * as Sentry from '@sentry/nextjs';
 
 Sentry.init({
-  dsn: "https://cff668fdcaaf5c98c1a75e20defcf3d5@o4505937433657344.ingest.sentry.io/4506317176635392",
+  dsn:
+    process.env.NODE_ENV === 'production'
+      ? process.env.FORM_RECEPIENT_EMAIL
+      : '',
 
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,
