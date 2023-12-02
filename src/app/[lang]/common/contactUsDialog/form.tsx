@@ -12,6 +12,7 @@ import SuccessToast from '../toastVariants/successToast';
 import ErrorToast from '../toastVariants/errorToast';
 import { useEffect, useRef, useState } from 'react';
 import { verifyCaptcha } from '@/src/app/actions';
+import * as Sentry from '@sentry/nextjs';
 
 interface IFormContent {
   content: {
@@ -108,6 +109,7 @@ const Form: React.FC<IFormContent> = ({
           duration: 4000,
         }
       );
+      Sentry.captureException(error);
     }
 
     reset();
