@@ -317,12 +317,12 @@
     }
   ],
   "heroPageParty": {
-    "kidFontText": "Urodziny z LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Organizacja radosnych i pełnych zabawy przyjęć urodzinowych dla maluchów, pełnych radości, gier i niezapomnianych chwil."
+    "kidFontText": "Urodzinki z LaboKids",
+    "header": "Jasna przyszłość dla wszystkich",
+    "paragraph": "Organizacja radosnych, niezapomnianych i pełnych zabawy przyjęć urodzinowych dla dzieci"
   },
   "partyAccordionHeaderData": {
-    "kidFontText": "SZCZĘŚCIE DLA DZIECI",
+    "kidFontText": "RADOŚĆ DLA DZIECI",
     "header": "Tematy urodzinowe",
     "paragraph": "Doświadcz magii nauki i zaskocz swoje maluchy fascynującymi eksperymentami! Zarezerwuj przyjęcie urodzinowe, które na zawsze pozostanie w ich pamięci."
   },
@@ -371,24 +371,24 @@
   "imagesPartyHeaderContent": {
     "kidFontText": "EKSPLODUJ Z LABOKIDS",
     "header": "Galeria",
-    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+    "paragraph": "Eksploruj porywające chwile z naszych przyjęć urodzinowych. Wkraczajcie w świat dziecięcej radości i inspirujcie się radością odkryć."
   },
   "pricePartyHeaderContent": {
     "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
     "header": "Cennik",
-    "paragraph": "Odkryj niezrównane ceny niezapomnianych przyjęć - nasze zaangażowanie w przystępność gwarantuje, że otrzymasz najlepszą wartość na swoje uroczystości."
+    "paragraph": "Naszym celem jest zorganizowanie ekscytującej imprezy i niezapomnianych emocji dla Twojego dziecka za przyjemną cenę."
   },
 
   "partyPricingData": [
     {
       "id": 0,
       "value": "card-6",
-      "header": "Paket Labo",
-      "paragraph": "Przenieś radość urodzin do naszego przedszkola na niezapomniane świętowanie!",
-      "price": "800",
+      "header": "Pakiet Labo",
+      "paragraph": "Świętuj niezapomniane urodziny w naszym przedszkolu!",
+      "price": "700",
       "advantages": [
-        "Nasza kateringowa kuchnia",
-        "Bezproblemowe doświadczenie",
+        "Nasze smakołyki",
+        "Nasza lokalizacja",
         "2 godziny zabawy"
       ],
       "hints": ["", "", ""]
@@ -396,12 +396,12 @@
     {
       "id": 1,
       "value": "card-7",
-      "header": "Paket domowy",
+      "header": "Pakiet Domowy",
       "paragraph": "Przenieś magię urodzin pod Twoje drzwi dzięki naszemu przyjęciu w domu!",
       "price": "550",
       "advantages": [
-        "Wygodna opcja",
-        "Spersonalizowane doświadczenie",
+        "Domowy klimat",
+        "Indywidualne podejście",
         "1,5 godziny zabawy"
       ],
       "hints": ["", "", ""]
@@ -409,21 +409,21 @@
     {
       "id": 2,
       "value": "card-8",
-      "header": "Personalizowane",
-      "paragraph": "Dostosowane świętowanie, negocjuj i zorganizuj idealne urodziny.",
-      "price": "na żądanie",
-      "advantages": [
-        "Spersonalizowana impreza",
-        "Duża grupa",
-        "Daleko od Poznania"
-      ],
-      "hints": ["", "", ""]
+      "header": "Spersonalizowany",
+      "paragraph": "Stworzymy spersonalizowany dzień urodzinowy na zamówienie.",
+      "price": "na zapytanie",
+      "advantages": ["Indywidualne podejście", "Duża grupa", "Poza Poznaniem"],
+      "hints": [
+        "",
+        "Za każde dodatkowe dziecko w grupie przekraczającej 10 dzieci, obowiązuje dodatkowa opłata w wysokości 35 złotych.",
+        "Koszt podróży do klienta spoza Poznania wynosi 50 złotych za odległość do 15 km."
+      ]
     }
   ],
   "heroPageWorkshops": {
     "kidFontText": "Warsztaty z LaboKids",
-    "header": "Jasna przyszłość dla wszystkich.",
-    "paragraph": "Odkryj Świat Ciekawości: Warsztaty dla Dzieci z Niesamowitymi Doświadczeniami i Ekscytującymi Wglądami w Biologię i Nie Tylko!"
+    "header": "Jasna przyszłość dla wszystkich",
+    "paragraph": "Odkryj świat ciekawości: warsztaty dla dzieci z niesamowitymi doświadczeniami i ekscytującymi wglądami w biologię, chemię i nie tylko!"
   },
   "workshopAccordionHeaderData": {
     "kidFontText": "OFERUJEMY WIELE!",
@@ -433,7 +433,7 @@
   "accordionWorkshopsData": [
     {
       "key": 0,
-      "value": "item-1",
+      "value": "item-9",
       "borderColor": "before:border-laboBlue",
       "fontColor": "text-laboBlue",
       "backgroundColor": "bg-laboBlue",
@@ -442,7 +442,7 @@
     },
     {
       "key": 1,
-      "value": "item-2",
+      "value": "item-10",
       "borderColor": "before:border-laboRed",
       "backgroundColor": "bg-laboRed",
       "fontColor": "text-laboRed",
@@ -451,34 +451,34 @@
     },
     {
       "key": 2,
-      "value": "item-3",
+      "value": "item-11",
       "borderColor": "before:border-laboGreen",
       "backgroundColor": "bg-laboGreen",
       "fontColor": "text-laboGreen",
       "heading": "Warsztaty Piknikowe",
-      "description": "Dzieci świetnie się bawią na piknikach i rodzinnych imprezach z nami. Podczas spotkań plenerowych, firmowych i rodzinnych zapewnimy ciekawe zajęcia, poprowadzimy eksperymenty, gry i zabawy. Z nami maluchy spędzą wesoło niezapomniany czas zabaw na piknikach firmowych i przyjęciach rodzinnych."
+      "description": "Z nami dzieci będą się wspaniale bawić na piknikach i rodzinnych imprezach. Podczas spotkań plenerowych, firmowych i rodzinnych zapewnimy ciekawe zajęcia, poprowadzimy eksperymenty, gry i zabawy. Z nami maluchy spędzą wesoło niezapomniany czas Zabawy na piknikach firmowych i przyjęciach rodzinnych."
     }
   ],
   "imagesWorkshopsHeaderContent": {
     "kidFontText": "EKSPLODUJ Z LABOKIDS",
     "header": "Galeria",
-    "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
+    "paragraph": "Odkrywajcie fascynujące chwile z naszych warsztatów. Zapraszamy w świat dziecięcego śmiechu i radości odkryć."
   },
   "priceWorkshopsHeaderContent": {
     "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
     "header": "Cennik",
-    "paragraph": "Odkryj nie do pobicia ceny za wzbogacające warsztaty - nasze zobowiązanie do przystępności gwarantuje, że uzyskasz najlepszą wartość dla swoich przedsięwzięć edukacyjnych"
+    "paragraph": "Naszym celem jest organizowanie ekscytujących warsztatów i zapewnianie dziecku niezapomnianych emocji w przystępnej cenie."
   },
   "workshopPricingData": [
     {
       "id": 0,
       "value": "card-9",
       "header": "Jedna Grupa",
-      "paragraph": "Doskonała dla małych spotkań lub grup, zapewniająca indywidualną uwagę i niezapomniane przeżycia.",
+      "paragraph": "Oferujemy indywidualne podejście i niezapomniane wrażenia dla grupy.",
       "price": "450/grupa",
       "advantages": [
-        "Maksymalnie 25 dzieci",
-        "Elastyczne harmonogramy",
+        "Max. 25 dzieci",
+        "Elastyczny grafik",
         "Doświadczeni nauczyciele"
       ],
       "hints": ["", "", ""]
@@ -487,12 +487,12 @@
       "id": 1,
       "value": "card-10",
       "header": "Dwie - Trzy Grupy",
-      "paragraph": "Idealne dla wielu grup lub klas, zapewniające zrównoważoną kombinację nauki i zabawy.",
+      "paragraph": "Zapewnia zrównoważoną kombinację nauki i rozrywki dla dzieci w grupach.",
       "price": "350/grupa",
       "advantages": [
-        "Maksymalnie 25 dzieci na grupę",
-        "Dostosowywalny program nauczania",
-        "Angażujące zajęcia"
+        "Max. 25 dzieci w grupie",
+        "Opłacalna opcja",
+        "Interesujące zajęcia"
       ],
       "hints": ["", "", ""]
     },
@@ -500,11 +500,11 @@
       "id": 2,
       "value": "card-11",
       "header": "Cztery i Więcej",
-      "paragraph": "Nasza najlepsza opcja cenowa dla większych spotkań, zapewniająca przystępność cenową bez kompromisów w jakości.",
+      "paragraph": "Najkorzystniejsza opcja dla kilku grup, zapewniająca dostępność bez utraty jakości.",
       "price": "300/grupa",
       "advantages": [
-        "Maksymalnie 25 dzieci na grupę",
-        "Niekończąca się zabawa",
+        "Max. 25 dzieci w grupie",
+        "Niezapomniane wrażenia",
         "Najlepsza wartość"
       ],
       "hints": ["", "", ""]
