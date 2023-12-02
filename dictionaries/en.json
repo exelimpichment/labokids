@@ -5,6 +5,7 @@
     "party": "Birthdays",
     "workshops": "Workshops"
   },
+
   "formContent": {
     "heading": "We’ll reach you out!",
     "phonePlaceholder": "phone",
@@ -317,8 +318,8 @@
   ],
   "heroPageParty": {
     "kidFontText": "Birthday with LaboKids",
-    "header": "A bright future for all.",
-    "paragraph": "Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments."
+    "header": "A bright future for all",
+    "paragraph": "Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments"
   },
   "partyAccordionHeaderData": {
     "kidFontText": "HAPPINESS FOR KIDS",
@@ -366,7 +367,7 @@
   "imagesPartyHeaderContent": {
     "kidFontText": "EXPLORE LABOKIDS",
     "header": "Gallery",
-    "paragraph": "Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery."
+    "paragraph": "Explore captivating moments from our birthday parties. Step into the world of children and be inspired by the joy of discovery."
   },
   "pricePartyHeaderContent": {
     "kidFontText": "BEST PRICE FOR PARENTS",
@@ -379,8 +380,8 @@
       "id": 0,
       "value": "card-6",
       "header": "At our kindergarten",
-      "paragraph": "Bring the birthday excitement to our kindergarten for a memorable celebration!",
-      "price": "800",
+      "paragraph": "Bring the excitement to our kindergarten for a memorable celebration!",
+      "price": "700",
       "advantages": [
         "Our Catered Cuisine",
         "Hassle-Free Experience",
@@ -392,7 +393,7 @@
       "id": 1,
       "value": "card-7",
       "header": "Party-at-Your-Place",
-      "paragraph": "Bring the birthday magic to your doorstep with our at-home party experience!",
+      "paragraph": "Bring the magic to your doorstep with our at-home party experience!",
       "price": "550",
       "advantages": [
         "Convenience",
@@ -408,23 +409,27 @@
       "paragraph": "Customizable celebration, negotiate and arrange the ideal birthday.",
       "price": "on request",
       "advantages": ["Personalized Party", "Large Group", "Far From Poznan"],
-      "hints": ["", "", ""]
+      "hints": [
+        "",
+        "For every extra child in a group exceeding 10 children, an additional fee of 35 zł applies.",
+        "The cost for traveling to a client outside of Poznań is 50 zł for distances up to 15 km."
+      ]
     }
   ],
   "heroPageWorkshops": {
     "kidFontText": "Workshop with LaboKids",
-    "header": "A bright future for all.",
-    "paragraph": "Explore the World of Wonder: Kids' Workshops with Mind-Blowing Experiments and Exciting Insights into Biology and More!"
+    "header": "A bright future for all",
+    "paragraph": "Explore the world of wonder: kids' workshops with mind-blowing experiments and exciting insights into biology chemistry and more!"
   },
   "workshopAccordionHeaderData": {
     "kidFontText": "WE OFFER A LOT!",
-    "header": "Our Workshop",
+    "header": "Our Workshops",
     "paragraph": "Engaging workshops designed for kindergarten and primary school children in Grades 1-3. Unlocking curiosity and inspiring lifelong learning through hands-on education."
   },
   "accordionWorkshopsData": [
     {
       "key": 0,
-      "value": "item-1",
+      "value": "item-9",
       "borderColor": "before:border-laboBlue",
       "fontColor": "text-laboBlue",
       "backgroundColor": "bg-laboBlue",
@@ -433,7 +438,7 @@
     },
     {
       "key": 1,
-      "value": "item-2",
+      "value": "item-10",
       "borderColor": "before:border-laboRed",
       "backgroundColor": "bg-laboRed",
       "fontColor": "text-laboRed",
@@ -442,7 +447,7 @@
     },
     {
       "key": 2,
-      "value": "item-3",
+      "value": "item-11",
       "borderColor": "before:border-laboGreen",
       "backgroundColor": "bg-laboGreen",
       "fontColor": "text-laboGreen",
@@ -453,7 +458,7 @@
   "imagesWorkshopsHeaderContent": {
     "kidFontText": "EXPLORE LABOKIDS",
     "header": "Gallery",
-    "paragraph": "Explore captivating moments from our kindergarten. Step into the world of young learners and be inspired by the joy of discovery."
+    "paragraph": "Explore captivating moments from our workshops. Step into the world of children and be inspired by the joy of discovery."
   },
   "priceWorkshopsHeaderContent": {
     "kidFontText": "BEST PRICE FOR PARENTS",
@@ -465,7 +470,7 @@
       "id": 0,
       "value": "card-9",
       "header": "One Group",
-      "paragraph": "Perfect for small gatherings or groups, ensuring personalized attention and a memorable experience.",
+      "paragraph": "Perfect for small gatherings or groups, ensuring personalized and memorable experience.",
       "price": "450/group",
       "advantages": [
         "25 Kids Maximum",
@@ -478,7 +483,7 @@
       "id": 1,
       "value": "card-10",
       "header": "Two - Three Groups",
-      "paragraph": "Ideal for multiple groups or classes, providing a well-balanced combination of learning and fun.",
+      "paragraph": "Ideal for multiple groups or classes, providing a great combination of learning and fun.",
       "price": "350/group",
       "advantages": [
         "25 Kids Max per group",

@@ -5,7 +5,7 @@ import {
 } from '@/components/ui/accordion';
 import { titleFont } from '../fonts';
 import { IconType } from 'react-icons';
-
+import { LucideIcon, PartyPopper, RotateCw, TentTree } from 'lucide-react';
 import { SlChemistry } from 'react-icons/sl';
 import { FaSoap } from 'react-icons/fa';
 import { GiBalloons, GiFoam } from 'react-icons/gi';
@@ -23,7 +23,7 @@ interface IAccordionCollapsibleItem {
 }
 
 type IAccordionCollapsibleItemIconsObj = {
-  [key: string]: IconType;
+  [key: string]: IconType | LucideIcon;
 };
 
 const accordionCollapsibleItemIconsObj: IAccordionCollapsibleItemIconsObj = {
@@ -31,6 +31,9 @@ const accordionCollapsibleItemIconsObj: IAccordionCollapsibleItemIconsObj = {
   'item-2': SlChemistry,
   'item-3': FaSoap,
   'item-4': GiFoam,
+  'item-9': RotateCw,
+  'item-10': PartyPopper,
+  'item-11': TentTree,
 };
 
 const AccordionCollapsibleItem: React.FC<IAccordionCollapsibleItem> = ({
