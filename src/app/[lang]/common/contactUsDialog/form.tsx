@@ -12,6 +12,7 @@ import SuccessToast from '../toastVariants/successToast';
 import ErrorToast from '../toastVariants/errorToast';
 import { useEffect, useRef, useState } from 'react';
 import { verifyCaptcha } from '@/src/app/actions';
+import * as Sentry from '@sentry/nextjs';
 
 interface IFormContent {
   content: {
@@ -63,7 +64,6 @@ const Form: React.FC<IFormContent> = ({
         },
       });
       const responseData = await response.json();
-
       if (response.ok) {
         toast(
           <SuccessToast
@@ -99,6 +99,7 @@ const Form: React.FC<IFormContent> = ({
         }
       }
     } catch (error) {
+      console.log(error);
       toast(
         <ErrorToast
           message="Something went wrong. Try again later!"

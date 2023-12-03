@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+
+const { withSentryConfig } = require('@sentry/nextjs');
+
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
@@ -17,6 +20,19 @@ const nextConfig = {
 
     return config;
   },
+
+  sentry: {
+    hideSourceMaps: true,
+  },
 };
 
-module.exports = nextConfig;
+const sentryWebpackPluginOptions = {
+  org: 'exel-development',
+  project: 'labokids',
+
+  authToken: process.env.SENTRY_AUTH_TOKEN,
+
+  silent: true,
+};
+
+module.exports = withSentryConfig(nextConfig, sentryWebpackPluginOptions);
