@@ -24,7 +24,7 @@ const ScrollToTopButton = () => {
       <div className="mb-2 flex">
         <button
           type="button"
-          className=" flex h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-500 hover:bg-slate-400"
+          className="hidden h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-500 hover:bg-slate-400 lg:flex"
           onClick={() => setIsGeoOpen((prev) => !prev)}
         >
           <MapPin size={32} />
@@ -36,7 +36,7 @@ const ScrollToTopButton = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="ml-2 flex flex-col items-start justify-center rounded-full bg-laboBlue px-4 text-sm "
+              className="ml-2 hidden flex-col items-start justify-center rounded-full bg-laboBlue px-4 text-sm lg:flex "
             >
               <p>Knapowskiego 23, Poznań - Labokids Montessori</p>
               <p>Krośnieńska 9, Poznań - Labokids Bilingual</p>

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import { Locale } from '@/i18n.config';
 import { usePathname, useRouter } from 'next/navigation';
-import { Phone } from 'lucide-react';
+import { MapPin, Phone } from 'lucide-react';
 import { TNavigation } from '@/lib/types';
 import DropdownItem from './dropdownItem';
 
@@ -81,11 +81,29 @@ const SlidingDownNavigationMenuInner = ({
               <DropdownItem key={key} item={{ pathname, lang, key, value }} />
             ))}
 
-            <li className="mt-3 flex items-center gap-3 px-3 text-[1.3rem] text-laboBlue">
+            <li className="mt-3 flex items-center gap-3 px-3 text-[1.3rem] text-laboBlue ">
               <div>
                 <Phone size={24} />
               </div>
               <a href="tel:+48 503 038 500">+48 503 038 500</a>
+            </li>
+            <li className="mt-3 flex items-center gap-3 px-3 text-[1.3rem] text-laboBlue">
+              <div>
+                <MapPin size={24} />
+              </div>
+              <div className="flex flex-col text-lg">
+                <p>Knapowskiego 23, Poznań</p>
+                <p>Labokids Montessori</p>
+              </div>
+            </li>
+            <li className="mt-3 flex items-center gap-3 px-3 text-[1.3rem] text-laboBlue">
+              <div>
+                <MapPin size={24} />
+              </div>
+              <div className="flex flex-col text-lg">
+                <p>Krośnieńska 9, Poznań</p>
+                <p>Labokids Bilingual</p>
+              </div>
             </li>
           </ul>
         </motion.div>
