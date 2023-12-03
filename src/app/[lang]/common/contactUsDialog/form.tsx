@@ -64,7 +64,6 @@ const Form: React.FC<IFormContent> = ({
         },
       });
       const responseData = await response.json();
-
       if (response.ok) {
         toast(
           <SuccessToast
@@ -100,6 +99,7 @@ const Form: React.FC<IFormContent> = ({
         }
       }
     } catch (error) {
+      console.log(error);
       toast(
         <ErrorToast
           message="Something went wrong. Try again later!"
@@ -109,7 +109,6 @@ const Form: React.FC<IFormContent> = ({
           duration: 4000,
         }
       );
-      Sentry.captureException(error);
     }
 
     reset();
