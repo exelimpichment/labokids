@@ -99,7 +99,6 @@ const Form: React.FC<IFormContent> = ({
         }
       }
     } catch (error) {
-      console.log(error);
       toast(
         <ErrorToast
           message="Something went wrong. Try again later!"
