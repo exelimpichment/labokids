@@ -23,7 +23,7 @@ const StaticGallery: React.FC<IStaticGallery> = ({ galleryImages }) => {
         {galleryImages.length > 6 && (
           <ShowMoreDropdown
             isOpen={isOpen}
-            galleryImages={galleryImages.slice(0, 7)}
+            galleryImages={galleryImages.slice(6)}
           />
         )}
         <MovingSun />
