@@ -26,8 +26,8 @@ const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
             loading="lazy"
             src={bilingualProgramImageObj[value]}
             alt="method image"
-            fill
             className="rounded-3xl"
+            fill
             quality={100}
             placeholder="blur"
             sizes="(max-width: 768px) 100vw, 50vw"
