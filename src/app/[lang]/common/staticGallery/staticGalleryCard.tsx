@@ -10,8 +10,9 @@ interface IStaticGalleryCard {
 
 const StaticGalleryCard: React.FC<IStaticGalleryCard> = ({ item }) => {
   return (
-    <div className="relative h-56 w-96 " key={item.id}>
+    <div className="relative h-64 w-96" key={item.id}>
       <Image
+        key={item.id}
         src={item.image}
         fill
         alt="gallery image"
@@ -22,7 +23,7 @@ const StaticGalleryCard: React.FC<IStaticGalleryCard> = ({ item }) => {
           objectFit: 'cover',
           objectPosition: 'center center',
         }}
-        className="rounded-xl"
+        className="block h-56 w-96 rounded-xl"
       />
     </div>
   );

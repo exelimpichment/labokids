@@ -9,7 +9,6 @@ import TeachersCarousel from '../common/teachersCarousel/teachersCarousel';
 import { Locale } from '@/i18n.config';
 import { getDictionary } from '@/lib/dictionary';
 import BilingualProgramList from './bilingualProgram/bilingualProgramList';
-
 import { bilingualGalleryPhotoSet } from './bilingualImageStoringObj';
 
 const Bilingual = async ({
