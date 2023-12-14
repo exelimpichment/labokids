@@ -64,7 +64,7 @@
     }
   ],
   "imagesMontessoriHeaderContent": {
-    "kidFontText": "EKSPLODUJ Z LABOKIDS",
+    "kidFontText": "EKSPLORUJ Z LABOKIDS",
     "header": "Galeria",
     "paragraph": "Odkrywaj fascynujące chwile z naszego przedszkola. Wejdź do świata młodych uczniów i czerp inspirację z radości odkrywania."
   },
@@ -85,7 +85,7 @@
       "value": "card-0",
       "header": "Opłata miesięczna",
       "paragraph": "Dostępne są miesięczne płatności dostosowane do Twojego budżetu.",
-      "price": "1100",
+      "price": "800",
       "advantages": [
         "Indywidualne podejście",
         "Doświadczeni nauczyciele",
@@ -282,7 +282,7 @@
       "value": "card-0",
       "header": "Opłata miesięczna",
       "paragraph": "Dostępne są miesięczne płatności dostosowane do Twojego budżetu.",
-      "price": "800",
+      "price": "1100",
       "advantages": [
         "Indywidualne podejście",
         "Doświadczeni nauczyciele",
@@ -378,7 +378,7 @@
     }
   ],
   "imagesPartyHeaderContent": {
-    "kidFontText": "EKSPLODUJ Z LABOKIDS",
+    "kidFontText": "EKSPLORUJ Z LABOKIDS",
     "header": "Galeria",
     "paragraph": "Eksploruj porywające chwile z naszych przyjęć urodzinowych. Wkraczajcie w świat dziecięcej radości i inspirujcie się radością odkryć."
   },
@@ -469,7 +469,7 @@
     }
   ],
   "imagesWorkshopsHeaderContent": {
-    "kidFontText": "EKSPLODUJ Z LABOKIDS",
+    "kidFontText": "EKSPLORUJ Z LABOKIDS",
     "header": "Galeria",
     "paragraph": "Odkrywajcie fascynujące chwile z naszych warsztatów. Zapraszamy w świat dziecięcego śmiechu i radości odkryć."
   },
