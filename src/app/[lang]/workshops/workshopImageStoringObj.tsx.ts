@@ -1,39 +1,27 @@
-import montessoriGalleryListOfImage1 from '@/public/montessoriGallery/montessoriGallery1.jpg';
-import montessoriGalleryListOfImage2 from '@/public/montessoriGallery/montessoriGallery2.jpg';
-import montessoriGalleryListOfImage3 from '@/public/montessoriGallery/montessoriGallery3.jpg';
-import montessoriGalleryListOfImage4 from '@/public/montessoriGallery/montessoriGallery4.jpg';
-import montessoriGalleryListOfImage5 from '@/public/montessoriGallery/montessoriGallery5.jpg';
-import montessoriGalleryListOfImage6 from '@/public/montessoriGallery/montessoriGallery6.jpg';
-import montessoriGalleryListOfImage7 from '@/public/montessoriGallery/montessoriGallery7.jpg';
-import montessoriGalleryListOfImage8 from '@/public/montessoriGallery/montessoriGallery8.jpg';
-import montessoriGalleryListOfImage9 from '@/public/montessoriGallery/montessoriGallery9.jpg';
-import montessoriGalleryListOfImage10 from '@/public/montessoriGallery/montessoriGallery10.jpg';
-import montessoriGalleryListOfImage11 from '@/public/montessoriGallery/montessoriGallery11.jpg';
-import montessoriGalleryListOfImage12 from '@/public/montessoriGallery/montessoriGallery12.jpg';
-import montessoriGalleryListOfImage13 from '@/public/montessoriGallery/montessoriGallery13.jpg';
-import montessoriGalleryListOfImage14 from '@/public/montessoriGallery/montessoriGallery14.jpg';
-import montessoriGalleryListOfImage15 from '@/public/montessoriGallery/montessoriGallery15.jpg';
-import montessoriGalleryListOfImage16 from '@/public/montessoriGallery/montessoriGallery16.jpg';
-import montessoriGalleryListOfImage17 from '@/public/montessoriGallery/montessoriGallery17.jpg';
-import montessoriGalleryListOfImage18 from '@/public/montessoriGallery/montessoriGallery18.jpg';
+import workshop1 from '@/public/workshopGallery/workshop-1.jpg';
+import workshop2 from '@/public/workshopGallery/workshop-2.jpg';
+import workshop3 from '@/public/workshopGallery/workshop-3.jpg';
+import workshop4 from '@/public/workshopGallery/workshop-4.jpg';
+import workshop5 from '@/public/workshopGallery/workshop-5.jpg';
+import workshop6 from '@/public/workshopGallery/workshop-6.jpg';
+import workshop7 from '@/public/workshopGallery/workshop-7.jpg';
+import workshop8 from '@/public/workshopGallery/workshop-8.jpg';
+import workshop9 from '@/public/workshopGallery/workshop-9.jpg';
+import workshop10 from '@/public/workshopGallery/workshop-10.jpg';
+import workshop11 from '@/public/workshopGallery/workshop-11.jpg';
+import workshop12 from '@/public/workshopGallery/workshop-12.jpg';
 
 export const workshopGalleryPhotoSet = [
-  { id: 0, image: montessoriGalleryListOfImage1, alt: 'alt' },
-  { id: 1, image: montessoriGalleryListOfImage2, alt: 'alt' },
-  { id: 2, image: montessoriGalleryListOfImage3, alt: 'alt' },
-  { id: 3, image: montessoriGalleryListOfImage4, alt: 'alt' },
-  { id: 4, image: montessoriGalleryListOfImage5, alt: 'alt' },
-  { id: 5, image: montessoriGalleryListOfImage6, alt: 'alt' },
-  { id: 6, image: montessoriGalleryListOfImage7, alt: 'alt' },
-  { id: 7, image: montessoriGalleryListOfImage8, alt: 'alt' },
-  { id: 8, image: montessoriGalleryListOfImage9, alt: 'alt' },
-  { id: 9, image: montessoriGalleryListOfImage10, alt: 'alt' },
-  { id: 10, image: montessoriGalleryListOfImage11, alt: 'alt' },
-  { id: 11, image: montessoriGalleryListOfImage12, alt: 'alt' },
-  { id: 12, image: montessoriGalleryListOfImage13, alt: 'alt' },
-  { id: 13, image: montessoriGalleryListOfImage14, alt: 'alt' },
-  { id: 14, image: montessoriGalleryListOfImage15, alt: 'alt' },
-  { id: 15, image: montessoriGalleryListOfImage16, alt: 'alt' },
-  { id: 16, image: montessoriGalleryListOfImage17, alt: 'alt' },
-  { id: 17, image: montessoriGalleryListOfImage18, alt: 'alt' },
+  { id: 0, image: workshop1, alt: 'alt' },
+  { id: 2, image: workshop3, alt: 'alt' },
+  { id: 1, image: workshop2, alt: 'alt' },
+  { id: 4, image: workshop5, alt: 'alt' },
+  { id: 3, image: workshop4, alt: 'alt' },
+  { id: 5, image: workshop6, alt: 'alt' },
+  { id: 9, image: workshop10, alt: 'alt' },
+  { id: 10, image: workshop11, alt: 'alt' },
+  { id: 11, image: workshop12, alt: 'alt' },
+  { id: 6, image: workshop7, alt: 'alt' },
+  { id: 7, image: workshop8, alt: 'alt' },
+  { id: 8, image: workshop9, alt: 'alt' },
 ];

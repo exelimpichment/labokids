@@ -131,48 +131,55 @@
   "teachersMontessoriCarouselData": [
     {
       "id": 0,
-      "name": "poland poland",
-      "position": "position posiition"
+      "name": "Małgorzata Konarzewska",
+      "position": "Dyrektor"
     },
     {
       "id": 1,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Dorota Stencel",
+      "position": "Nauczyciel"
     },
     {
       "id": 2,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Kamila Sprawka",
+      "position": "Nauczyciel"
     },
     {
       "id": 3,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Dominika Zimniak",
+      "position": "Nauczyciel"
     },
     {
       "id": 4,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Karolina Zbitkowska",
+      "position": "Asystent nauczyciela"
     },
+
     {
       "id": 5,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Jagna Knapp",
+      "position": "Logopeda"
     },
     {
       "id": 6,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Krzysztof Konatkowski",
+      "position": "Nauczyciel WF"
     },
+
     {
       "id": 7,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Rafał",
+      "position": "Nauczyciel angielskiego"
     },
     {
       "id": 8,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "name": "Martyna Sominka",
+      "position": "Dogoterapia"
+    },
+    {
+      "id": 9,
+      "name": "_____ ______",
+      "position": "Psycholog"
     }
   ],
   "heroPageBilingual": {
@@ -217,49 +224,51 @@
   },
   "teachersBilingualCarouselData": [
     {
-      "id": 0,
-      "name": "poland poland",
-      "position": "position posiition"
+      "id": 10,
+      "name": "Małgorzata Konarzewska",
+      "position": "Dyrektor"
     },
     {
-      "id": 1,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "id": 11,
+      "name": "Marta Derwich",
+      "position": "Nauczyciel"
     },
     {
-      "id": 2,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "id": 12,
+      "name": "Marina Hlushko",
+      "position": "Nauczyciel"
     },
     {
-      "id": 3,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "id": 13,
+      "name": "Olga Kurbatava",
+      "position": "Nauczyciel muzyki"
     },
     {
-      "id": 4,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "id": 14,
+      "name": "Enitan Olukotun",
+      "position": "Nauczyciel angielskiego"
+    },
+
+    {
+      "id": 15,
+      "name": "Jagna Knapp",
+      "position": "Logopeda"
     },
     {
-      "id": 5,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "id": 16,
+      "name": "Krzysztof Konatkowski",
+      "position": "Nauczyciel WF"
+    },
+
+    {
+      "id": 17,
+      "name": "Mateusz Biniaś",
+      "position": "Psycholog"
     },
     {
-      "id": 6,
-      "name": "lorem ipsum",
-      "position": "position posiition"
-    },
-    {
-      "id": 7,
-      "name": "lorem ipsum",
-      "position": "position posiition"
-    },
-    {
-      "id": 8,
-      "name": "lorem ipsum",
-      "position": "position posiition"
+      "id": 18,
+      "name": "Martyna Sominka",
+      "position": "Dogoterapia"
     }
   ],
   "priceBilingualHeaderContent": {

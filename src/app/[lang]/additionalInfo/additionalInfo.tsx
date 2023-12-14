@@ -57,6 +57,7 @@ const AdditionalInfo = ({ hint }: { hint: string }) => {
       </AnimatePresence>
 
       <button
+        aria-label="price card additional info"
         type="button"
         onClick={handleClick}
         className={`absolute bottom-[3.5px] left-[-21px] cursor-pointer rounded-full  hover:bg-laboBlue ${

@@ -2,8 +2,6 @@ import {
   Balsamiq_Sans,
   Comfortaa,
   Shantell_Sans,
-  Ubuntu,
-  Wix_Madefor_Display,
 } from 'next/font/google';
 
 export const kidFont = Shantell_Sans({

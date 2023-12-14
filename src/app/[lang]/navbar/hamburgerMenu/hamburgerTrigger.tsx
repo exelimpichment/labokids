@@ -12,6 +12,7 @@ const HamburgerTrigger = () => {
   return (
     <div className="flex h-10 items-center justify-center">
       <button
+        aria-label="hamburger menu"
         type="button"
         className={` flex h-6   w-7 flex-col justify-between lg:hidden`}
         onClick={handleClick}

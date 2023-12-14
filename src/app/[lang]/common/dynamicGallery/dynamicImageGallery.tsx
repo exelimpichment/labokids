@@ -1,10 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-
 import Container from '../container';
 import { useGlobalContext } from '../../context/globalContext';
-
 import { partyGalleryPhotoSet } from '../../party/partyImageStoringObj';
 
 const DynamicImageGallery = () => {

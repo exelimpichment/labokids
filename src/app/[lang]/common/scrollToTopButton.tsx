@@ -14,6 +14,7 @@ const ScrollToTopButton = () => {
     <div className="fixed bottom-4 left-4">
       {isIntersecting && (
         <button
+          aria-label="scroll the page to top"
           type="button"
           className="mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-500 hover:bg-slate-400"
           onClick={scrollToTop}
@@ -23,6 +24,7 @@ const ScrollToTopButton = () => {
       )}
       <div className="mb-2 flex">
         <button
+          aria-label="open geolocation info popup"
           type="button"
           className="hidden h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-500 hover:bg-slate-400 lg:flex"
           onClick={() => setIsGeoOpen((prev) => !prev)}
@@ -46,6 +48,7 @@ const ScrollToTopButton = () => {
       </div>
       <div className="flex">
         <button
+          aria-label="open phone info popup"
           type="button"
           className="flex h-12 w-12 items-center justify-center rounded-full bg-laboBlue p-1 transition-all duration-500 hover:bg-slate-400"
           onClick={() => setIsPhoneOpen((prev) => !prev)}

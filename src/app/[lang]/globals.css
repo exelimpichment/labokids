@@ -3,42 +3,37 @@
 @tailwind utilities;
 
 .equalFlexPart {
-        @media (min-width: 768px) {
-                flex: 1 1 0px
-                }
-        
+  @media (min-width: 768px) {
+    flex: 1 1 0px;
+  }
 }
-
 
 html,
 body {
-        height: 100%;
-  
+  height: 100%;
+  scrollbar-gutter: stable;
 }
 
 body {
-        display: flex;
-        flex-direction: column;
-        height: 100lvh;
+  display: flex;
+  flex-direction: column;
+  height: 100lvh;
 }
-.content{
-        flex: 1 0 auto;
+.content {
+  flex: 1 0 auto;
 }
 
-  .custom-scrollbar {
-          scrollbar-width: none;
-          /* For Firefox */
-          -ms-overflow-style: none;
-          /* For Internet Explorer/Edge */
-  }
+.custom-scrollbar {
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer/Edge */
+}
 
-  .custom-scrollbar::-webkit-scrollbar {
-          width: 0;
-  }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
 
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: transparent;
-  }
-
-
-  
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
