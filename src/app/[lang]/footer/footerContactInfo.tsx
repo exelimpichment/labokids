@@ -3,7 +3,7 @@ import { MdAlternateEmail } from 'react-icons/md';
 
 const FooterContactInfo = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 pb-3">
+    <div className="flex flex-col items-center justify-center gap-2 py-3">
       <div className="">
         <div className="flex">
           <MdAlternateEmail size={20} />
@@ -12,26 +12,28 @@ const FooterContactInfo = () => {
           </a>
         </div>
 
-        <div className="flex">
+        <div className="flex pt-2">
           <Phone size={20} />
-          <a className="pl-1" href="tel:+48 503 038 500">
+          <a className="pl-1 " href="tel:+48 503 038 500">
             +48 503 038 500
           </a>
         </div>
       </div>
 
-      <div className="">
+      <div className="flex flex-col items-center gap-2">
         <div className="flex">
           <MapPin size={20} />
-          <span className="pl-1">
-            Knapowskiego 23, Poznań - Labokids Montessori
-          </span>
+          <div className="flex flex-col items-center pl-1">
+            <span>Knapowskiego 23, Poznań</span>
+            <span>Labokids Montessori</span>
+          </div>
         </div>
         <div className="flex">
           <MapPin size={20} />
-          <span className="pl-1">
-            Krośnieńska 9, Poznań - Labokids Bilingual
-          </span>
+          <div className="flex flex-col items-center pl-1">
+            <span>Krośnieńska 9, Poznań</span>
+            <span>Labokids Bilingual</span>
+          </div>
         </div>
       </div>
     </div>
