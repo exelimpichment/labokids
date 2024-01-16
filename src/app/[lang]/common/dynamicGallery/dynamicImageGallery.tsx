@@ -7,6 +7,7 @@ import { partyGalleryPhotoSet } from '../../party/partyImageStoringObj';
 
 const DynamicImageGallery = () => {
   const { activeGalleryCollection } = useGlobalContext();
+
   return (
     <Container>
       <div className=" mt-10 flex  flex-wrap justify-center gap-5">

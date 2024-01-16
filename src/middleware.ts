@@ -22,11 +22,6 @@ export function middleware(request: NextRequest) {
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
-  if (pathname === '/') {
-    const locale = getLocale(request);
-    return NextResponse.redirect(new URL(`/${locale}/montessori`, request.url));
-  }
-
   if (pathnameIsMissingLocale) {
     // Redirect if there is no locale
     const locale = getLocale(request);

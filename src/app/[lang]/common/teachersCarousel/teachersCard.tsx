@@ -9,6 +9,10 @@ import teacher6 from '@/public/montessoriTeachersImages/teacher-6.jpg';
 import teacher11 from '@/public/bilingualTeachersImages/teacher-11.jpg';
 import teacher15 from '@/public/bilingualTeachersImages/teacher-15.jpg';
 import teacher16 from '@/public/bilingualTeachersImages/teacher-16.jpg';
+import teacher12 from '@/public/bilingualTeachersImages/teacher-12.jpg';
+import teacher13 from '@/public/bilingualTeachersImages/teacher-13.jpg';
+import teacher14 from '@/public/bilingualTeachersImages/teacher-14.jpg';
+import teacher17 from '@/public/bilingualTeachersImages/teacher-17.jpg';
 import { IImageObj } from '@/lib/types';
 
 interface ITeachersCard {
@@ -35,12 +39,12 @@ const teachersMapObj: IImageObj = {
   // bilingual
   10: blue,
   11: teacher11,
-  12: blue,
-  13: blue,
-  14: blue,
+  12: teacher12,
+  13: teacher13,
+  14: teacher14,
   15: teacher15,
   16: teacher16,
-  17: blue,
+  17: teacher17,
   18: blue,
 };
 

@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const ScrollToTopButton = () => {
   const { scrollToTop, isIntersecting } = useGlobalContext();
-  const [isPhoneOpen, setIsPhoneOpen] = useState(false);
+  const [isPhoneOpen, setIsPhoneOpen] = useState(true);
   const [isGeoOpen, setIsGeoOpen] = useState(false);
 
   return (

@@ -101,14 +101,13 @@ export const pricingIconLibrary = {
 export type T = keyof typeof pricingIconLibrary;
 
 import bilingualMusic from '@/public/bilingualMusic.jpg';
-// import bilingualNative from '@/public/bilingualNative.jpg';
+import bilingualEnglish from '@/public/bilingualEnglish.jpg';
 import bilingualNature from '@/public/bilingualNature.jpg';
-import blue from '@/public/blue.jpg';
 
 export const bilingualProgramImageObj: IImageObj = {
+  english: bilingualEnglish,
   nature: bilingualNature,
   music: bilingualMusic,
-  english: blue,
 };
 
 export type IImageObj = {

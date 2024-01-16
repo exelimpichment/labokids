@@ -9,6 +9,9 @@ import Topics from '../common/topics/topics';
 import { getDictionary } from '@/lib/dictionary';
 import { workshopGalleryPhotoSet } from './workshopImageStoringObj.tsx';
 
+// write me multiplication function
+
+
 const Workshops = async ({
   params: { lang },
 }: {

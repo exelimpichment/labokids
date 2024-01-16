@@ -15,17 +15,26 @@ import chemistry6 from '@/public/birthdayImages/chemistry/chemistry-6.jpg';
 import blue from '@/public/birthdayImages/baloons/blue.jpg';
 import baloons1 from '@/public/birthdayImages/baloons/baloons-1.jpg';
 import baloons2 from '@/public/birthdayImages/baloons/baloons-2.jpg';
+import baloons3 from '@/public/birthdayImages/baloons/baloons-3.jpg';
+import baloons4 from '@/public/birthdayImages/baloons/baloons-4.webp';
+import baloons5 from '@/public/birthdayImages/baloons/baloons-5.jpg';
+import baloons6 from '@/public/birthdayImages/baloons/baloons-6.jpg';
 
 import soap1 from '@/public/birthdayImages/soap/soap-1.jpg';
+import soap2 from '@/public/birthdayImages/soap/soap-2.jpg';
+import soap3 from '@/public/birthdayImages/soap/soap-3.webp';
+import soap4 from '@/public/birthdayImages/soap/soap-4.jpg';
+import soap5 from '@/public/birthdayImages/soap/soap-5.jpg';
+import soap6 from '@/public/birthdayImages/soap/soap-6.webp';
 
 export const partyGalleryPhotoSet = {
   baloniki: [
     { id: 0, image: baloons1, alt: 'playing kids' },
     { id: 1, image: baloons2, alt: 'playing kids' },
-    { id: 2, image: blue, alt: 'playing kids' },
-    { id: 3, image: blue, alt: 'playing kids' },
-    { id: 4, image: blue, alt: 'playing kids' },
-    { id: 5, image: blue, alt: 'playing kids' },
+    { id: 2, image: baloons3, alt: 'playing kids' },
+    { id: 3, image: baloons4, alt: 'playing kids' },
+    { id: 4, image: baloons5, alt: 'playing kids' },
+    { id: 5, image: baloons6, alt: 'playing kids' },
   ],
   chemia: [
     { id: 0, image: chemistry1, alt: 'playing kids' },
@@ -37,11 +46,11 @@ export const partyGalleryPhotoSet = {
   ],
   mydlo: [
     { id: 0, image: soap1, alt: 'playing kids' },
-    { id: 1, image: blue, alt: 'playing kids' },
-    { id: 2, image: blue, alt: 'playing kids' },
-    { id: 3, image: blue, alt: 'playing kids' },
-    { id: 4, image: blue, alt: 'playing kids' },
-    { id: 5, image: blue, alt: 'playing kids' },
+    { id: 1, image: soap2, alt: 'playing kids' },
+    { id: 2, image: soap3, alt: 'playing kids' },
+    { id: 3, image: soap4, alt: 'playing kids' },
+    { id: 4, image: soap5, alt: 'playing kids' },
+    { id: 5, image: soap6, alt: 'playing kids' },
   ],
   lod: [
     { id: 0, image: dryIce1, alt: 'playing kids' },
