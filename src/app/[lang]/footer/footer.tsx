@@ -7,7 +7,7 @@ import FooterContactInfo from './footerContactInfo';
 const Footer = async ({ lang }: { lang: Locale }) => {
   const { navigation } = await getDictionary(lang);
   return (
-    <footer className="min-h-[50px] w-full shrink-0 border-t border-gray-200 p-2">
+    <footer>
       <Container>
         <FooterNavigationList lang={lang} navigation={navigation} />
         <FooterContactInfo />

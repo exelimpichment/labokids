@@ -5,9 +5,14 @@ import { useGlobalContext } from '../../context/globalContext';
 import LanguageSelect from '../../common/languageSelect/languageSelect';
 import { Locale } from '@/i18n.config';
 import HamburgerTrigger from './hamburgerTrigger';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const HamburgerMenu = ({ lang }: { lang: Locale }) => {
   const { burgerMenuOpen } = useGlobalContext();
+  const pathname = usePathname();
+  const locale = pathname.split('/')[1];
+
   return (
     <div
       className={`${
@@ -24,12 +29,14 @@ const HamburgerMenu = ({ lang }: { lang: Locale }) => {
             burgerMenuOpen ? 'hidden' : 'block'
           } transition-opacity`}
         >
-          <Image
-            src={laboKidsLogo}
-            alt="website logo"
-            style={{ objectFit: 'contain', objectPosition: 'center center' }}
-            className="h-full w-[auto]"
-          />
+          <Link href={`/${locale}`}>
+            <Image
+              src={laboKidsLogo}
+              alt="website logo"
+              style={{ objectFit: 'contain', objectPosition: 'center center' }}
+              className="h-full w-[auto]"
+            />
+          </Link>
         </div>
         <div
           className="flex gap-3

@@ -21,7 +21,9 @@ const DesktopNavbarLinkList: React.FC<IDesktopNavbarLinkList> = ({
   return (
     <div className="flex items-center justify-center gap-5 xl:gap-12">
       <ul
-        className={`${titleFont.className} flex gap-5 text-lg xl:gap-7  xl:text-[22px] xl:leading-[1.85rem]`}
+        className={`${titleFont.className} ${
+          pathname.length > 3 ? 'flex' : 'hidden'
+        } gap-5 text-lg xl:gap-7  xl:text-[22px] xl:leading-[1.85rem]`}
       >
         {Object.entries(navigation).map(([key, value]) => (
           <li

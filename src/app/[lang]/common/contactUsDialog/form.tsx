@@ -74,6 +74,7 @@ const Form: React.FC<IFormContent> = ({
             duration: 4000,
           }
         );
+        setIsverified(false);
       }
 
       if (responseData.errors) {
@@ -97,6 +98,8 @@ const Form: React.FC<IFormContent> = ({
         } else {
           toast.error('Please try again');
         }
+
+        setIsverified(false);
       }
     } catch (error) {
       toast(
@@ -108,6 +111,7 @@ const Form: React.FC<IFormContent> = ({
           duration: 4000,
         }
       );
+      setIsverified(false);
     }
 
     reset();

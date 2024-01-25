@@ -2,13 +2,25 @@
 
 import { ChevronUp, MapPin, Phone } from 'lucide-react';
 import { useGlobalContext } from '../context/globalContext';
-import { useState } from 'react';
+import { use, useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { usePathname } from 'next/navigation';
+import { TbRuler } from 'react-icons/tb';
 
 const ScrollToTopButton = () => {
+  const pathname = usePathname();
   const { scrollToTop, isIntersecting } = useGlobalContext();
   const [isPhoneOpen, setIsPhoneOpen] = useState(true);
   const [isGeoOpen, setIsGeoOpen] = useState(false);
+
+  useEffect(() => {
+    if (pathname.length > 3) {
+      setIsPhoneOpen(true);
+      console.log('render');
+    } else {
+      setIsPhoneOpen(false);
+    }
+  }, [pathname]);
 
   return (
     <div className="fixed bottom-4 left-4">
@@ -22,7 +34,7 @@ const ScrollToTopButton = () => {
           <ChevronUp size={32} />
         </button>
       )}
-      <div className="mb-2 flex">
+      <div className={` ${pathname.length > 3 ? 'flex' : 'hidden'} mb-2 `}>
         <button
           aria-label="open geolocation info popup"
           type="button"
