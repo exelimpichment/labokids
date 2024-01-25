@@ -12,13 +12,50 @@ import { usePathname, useRouter } from 'next/navigation';
 import { SiInstagram } from 'react-icons/si';
 import { FaFacebook } from 'react-icons/fa6';
 
-const HomeHero = () => {
+interface IHomeHero {
+  content: {
+    heroPageMontessori: {
+      kidFontText: string;
+      header: string;
+      paragraph: string;
+    };
+    heroPageButtonsText: {
+      readMore: string;
+      contactUs: string;
+    };
+    heroPageParty: {
+      kidFontText: string;
+      header: string;
+      paragraph: string;
+    };
+    heroPageBilingual: {
+      kidFontText: string;
+      header: string;
+      paragraph: string;
+    };
+    heroPageWorkshops: {
+      kidFontText: string;
+      header: string;
+      paragraph: string;
+    };
+  };
+}
+
+const HomeHero: React.FC<IHomeHero> = ({
+  content: {
+    heroPageMontessori,
+    heroPageButtonsText,
+    heroPageParty,
+    heroPageBilingual,
+    heroPageWorkshops,
+  },
+}) => {
   const pathname = usePathname();
   const router = useRouter();
 
   return (
     <article className="flex flex-col xl:h-screen xl:flex-wrap">
-      <div className="relative h-[66vh] xl:h-1/2 xl:w-1/2">
+      <div className="relative h-[66vh] text-end xl:h-1/2 xl:w-1/2">
         <Image
           src={montessori}
           fill
@@ -30,13 +67,13 @@ const HomeHero = () => {
         />
         <div className="absolute bottom-7 right-7 flex flex-col gap-2">
           <h2
-            className={`${titleFont.className} text-xl text-blue-50 md:text-2xl`}
+            className={`${titleFont.className}  text-xl text-blue-50 md:text-2xl`}
           >
-            Labokids Przedszkole Montessori
+            {heroPageMontessori.kidFontText}
           </h2>
 
           <address
-            className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50 `}
+            className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50`}
           >
             <a href="https://maps.app.goo.gl/qNmsCweqfJUkHkkE9">
               Knapowskiego 23, Poznań
@@ -65,7 +102,7 @@ const HomeHero = () => {
               type="button"
               variant="outline"
             >
-              Read More
+              {heroPageButtonsText.readMore}
               <ArrowRight size={18} className="ml-2" />
             </Button>
           </div>
@@ -84,7 +121,7 @@ const HomeHero = () => {
         />
         <div className="absolute bottom-7 right-10">
           <h2 className={`${titleFont.className} pb-4 text-2xl text-blue-50`}>
-            Urodzinki z Labokids
+            {heroPageParty.kidFontText}
           </h2>
           <div className="flex justify-end">
             <Button
@@ -93,7 +130,7 @@ const HomeHero = () => {
               type="button"
               variant="outline"
             >
-              Read More
+              {heroPageButtonsText.readMore}
               <ArrowRight size={18} className="ml-2" />
             </Button>
           </div>
@@ -110,11 +147,11 @@ const HomeHero = () => {
           placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
-        <div className="absolute bottom-7 right-7 flex flex-col gap-2">
+        <div className="absolute bottom-7 right-7 flex flex-col gap-2 text-end">
           <h2
             className={`${titleFont.className}  text-xl text-blue-50 md:text-2xl`}
           >
-            Labokids Przedszkole Dwujęzyczne
+            {heroPageBilingual.kidFontText}
           </h2>
 
           <address
@@ -147,7 +184,7 @@ const HomeHero = () => {
               type="button"
               variant="outline"
             >
-              Read More
+              {heroPageButtonsText.readMore}
               <ArrowRight size={18} className="ml-2" />
             </Button>
           </div>
@@ -166,7 +203,7 @@ const HomeHero = () => {
         />
         <div className="absolute bottom-7 right-10">
           <h2 className={`${titleFont.className} pb-4 text-2xl text-blue-50`}>
-            Warsztaty z Labokids
+            {heroPageWorkshops.kidFontText}
           </h2>
           <div className="flex justify-end">
             <Button
@@ -175,7 +212,7 @@ const HomeHero = () => {
               type="button"
               variant="outline"
             >
-              Read More
+              {heroPageButtonsText.readMore}
               <ArrowRight size={18} className="ml-2" />
             </Button>
           </div>

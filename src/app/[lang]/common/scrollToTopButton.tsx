@@ -16,7 +16,6 @@ const ScrollToTopButton = () => {
   useEffect(() => {
     if (pathname.length > 3) {
       setIsPhoneOpen(true);
-      console.log('render');
     } else {
       setIsPhoneOpen(false);
     }
