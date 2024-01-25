@@ -19,7 +19,7 @@
     "errorEmailString": "Invalid email*"
   },
   "heroPageMontessori": {
-    "kidFontText": "LaboKids Montessori kindergarten",
+    "kidFontText": "Labokids Montessori kindergarten",
     "header": "A bright future for all",
     "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness"
   },
@@ -114,7 +114,7 @@
     {
       "id": 6,
       "name": "Krzysztof Konatkowski",
-      "position": "Nauczyciel WF"
+      "position": "Trener"
     },
 
     {
@@ -183,7 +183,7 @@
     }
   ],
   "heroPageBilingual": {
-    "kidFontText": "LaboKids Montessori kindergarten",
+    "kidFontText": "Labokids Montessori kindergarten",
     "header": "A bright future for all",
     "paragraph": "Family-style kindergartens, where caring professional teachers envelop each child with love."
   },
@@ -257,7 +257,7 @@
     {
       "id": 16,
       "name": "Krzysztof Konatkowski",
-      "position": "Nauczyciel WF"
+      "position": "Trener"
     },
 
     {
@@ -326,7 +326,7 @@
     }
   ],
   "heroPageParty": {
-    "kidFontText": "Birthday with LaboKids",
+    "kidFontText": "Birthday with Labokids",
     "header": "A bright future for all",
     "paragraph": "Orchestration of the delightful and fun-filled birthday parties for the little ones, full of joy, games, and memorable moments"
   },
@@ -426,7 +426,7 @@
     }
   ],
   "heroPageWorkshops": {
-    "kidFontText": "Workshop with LaboKids",
+    "kidFontText": "Workshop with Labokids",
     "header": "A bright future for all",
     "paragraph": "Explore the world of wonder: kids' workshops with mind-blowing experiments and exciting insights into biology chemistry and more!"
   },

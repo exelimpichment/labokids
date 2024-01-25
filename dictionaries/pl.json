@@ -18,7 +18,7 @@
     "errorEmailString": "Błędny adres*"
   },
   "heroPageMontessori": {
-    "kidFontText": "Przedszkole Montessori LaboKids",
+    "kidFontText": "Przedszkole Montessori Labokids",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Oferujemy priorytetową edukację zindywidualizowaną zgodnie z metodą Montessori, rozwijając jedność grupy poprzez miłość i sprawiedliwość"
   },
@@ -163,7 +163,7 @@
     {
       "id": 6,
       "name": "Krzysztof Konatkowski",
-      "position": "Nauczyciel WF"
+      "position": "Trener"
     },
 
     {
@@ -183,7 +183,7 @@
     }
   ],
   "heroPageBilingual": {
-    "kidFontText": "Przedszkole dwujęzyczne LaboKids",
+    "kidFontText": "Przedszkole dwujęzyczne Labokids",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Jesteśmy kameralnym, rodzinnym przedszkolem, gdzie profesjonalni nauczyciele otaczają każde dziecko troską i miłością."
   },
@@ -257,7 +257,7 @@
     {
       "id": 16,
       "name": "Krzysztof Konatkowski",
-      "position": "Nauczyciel WF"
+      "position": "Trener"
     },
 
     {
@@ -326,7 +326,7 @@
     }
   ],
   "heroPageParty": {
-    "kidFontText": "Urodzinki z LaboKids",
+    "kidFontText": "Urodzinki z Labokids",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Organizacja radosnych, niezapomnianych i pełnych zabawy przyjęć urodzinowych dla dzieci"
   },
@@ -430,7 +430,7 @@
     }
   ],
   "heroPageWorkshops": {
-    "kidFontText": "Warsztaty z LaboKids",
+    "kidFontText": "Warsztaty z Labokids",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Odkryj świat ciekawości: warsztaty dla dzieci z niesamowitymi doświadczeniami i ekscytującymi wglądami w biologię, chemię i nie tylko!"
   },

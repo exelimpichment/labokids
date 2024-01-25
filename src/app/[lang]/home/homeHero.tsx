@@ -45,12 +45,20 @@ const HomeHero = () => {
           </address>
 
           <div className="flex justify-end gap-2">
-            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white">
+            <a
+              href="https://www.instagram.com/labokids_23"
+              target="_blank"
+              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
+            >
               <SiInstagram size={28} />
-            </div>
-            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white">
+            </a>
+            <a
+              href="https://www.facebook.com/Labokids"
+              target="_blank"
+              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
+            >
               <FaFacebook size={28} />
-            </div>
+            </a>
             <Button
               onClick={() => router.push(`${pathname}/montessori`)}
               className={`${titleFont.className}  rounded border-transparent bg-laboBlue text-base transition-all duration-500 hover:bg-white`}
@@ -76,7 +84,7 @@ const HomeHero = () => {
         />
         <div className="absolute bottom-7 right-10">
           <h2 className={`${titleFont.className} pb-4 text-2xl text-blue-50`}>
-            Urodzinki z LaboKids
+            Urodzinki z Labokids
           </h2>
           <div className="flex justify-end">
             <Button
@@ -119,12 +127,20 @@ const HomeHero = () => {
           </address>
 
           <div className="flex justify-end gap-2">
-            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white">
+            <a
+              href="https://www.instagram.com/labokids.9"
+              target="_blank"
+              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
+            >
               <SiInstagram size={28} />
-            </div>
-            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white">
+            </a>
+            <a
+              href="https://www.facebook.com/Labokids"
+              target="_blank"
+              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
+            >
               <FaFacebook size={28} />
-            </div>
+            </a>
             <Button
               onClick={() => router.push(`${pathname}/bilingual`)}
               className={`${titleFont.className}  rounded border-transparent bg-laboBlue text-base transition-all duration-500 hover:bg-white`}
@@ -150,7 +166,7 @@ const HomeHero = () => {
         />
         <div className="absolute bottom-7 right-10">
           <h2 className={`${titleFont.className} pb-4 text-2xl text-blue-50`}>
-            Warsztaty z LaboKids
+            Warsztaty z Labokids
           </h2>
           <div className="flex justify-end">
             <Button

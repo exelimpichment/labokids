@@ -18,7 +18,7 @@
     "errorEmailString": "Невірна пошта*"
   },
   "heroPageMontessori": {
-    "kidFontText": "Montessori-садок LaboKids",
+    "kidFontText": "Montessori-садок Labokids",
     "header": "Світле майбутнє для всіх",
     "paragraph": "Ми надаємо пріоритет персоналізованій освіті за методом Монтессорі, розвиваючи єдність групи через любов та справедливість"
   },
@@ -113,7 +113,7 @@
     {
       "id": 6,
       "name": "Krzysztof Konatkowski",
-      "position": "Nauczyciel WF"
+      "position": "Trener"
     },
     {
       "id": 7,
@@ -182,7 +182,7 @@
   ],
 
   "heroPageBilingual": {
-    "kidFontText": "Дитячий садок LaboKids з двомовним вихованням",
+    "kidFontText": "Дитячий садок Labokids з двомовним вихованням",
     "header": "Світле майбутнє для всіх",
     "paragraph": "Дитячі садочки у сімейному стилі, де турботливі професійні вчителі оточують кожне дитяче серце любов'ю."
   },
@@ -256,7 +256,7 @@
     {
       "id": 16,
       "name": "Krzysztof Konatkowski",
-      "position": "Nauczyciel WF"
+      "position": "Trener"
     },
 
     {
@@ -325,7 +325,7 @@
     }
   ],
   "heroPageParty": {
-    "kidFontText": "День народження з LaboKids",
+    "kidFontText": "День народження з Labokids",
     "header": "Світле майбутнє для всіх",
     "paragraph": "Організація веселих та наповнених радістю дитячих вечірок з нагоди дня народження для малюків, повних радості, ігор та незабутніх моментів"
   },
@@ -424,7 +424,7 @@
     }
   ],
   "heroPageWorkshops": {
-    "kidFontText": "Майстер-класи з LaboKids",
+    "kidFontText": "Майстер-класи з Labokids",
     "header": "Світле майбутнє для всіх",
     "paragraph": "Відкрийте світ чудес: дитячі майстер-класи з дивовижними експериментами та захоплюючими цікавинками з біології, хімії та не тільки!"
   },
