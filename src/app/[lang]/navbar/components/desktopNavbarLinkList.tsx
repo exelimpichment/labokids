@@ -6,6 +6,7 @@ import LanguageSelect from '../../common/languageSelect/languageSelect';
 import { TNavigation } from '@/lib/types';
 import { Locale } from '@/i18n.config';
 import { usePathname } from 'next/navigation';
+import { basicPathnameArr } from '@/lib/basicPathnameArr';
 
 interface IDesktopNavbarLinkList {
   navigation: TNavigation;
@@ -22,7 +23,7 @@ const DesktopNavbarLinkList: React.FC<IDesktopNavbarLinkList> = ({
     <div className="flex items-center justify-center gap-5 xl:gap-12">
       <ul
         className={`${titleFont.className} ${
-          pathname.length > 3 ? 'flex' : 'hidden'
+          !basicPathnameArr.includes(pathname) ? 'flex' : 'hidden'
         } gap-5 text-lg xl:gap-7  xl:text-[22px] xl:leading-[1.85rem]`}
       >
         {Object.entries(navigation).map(([key, value]) => (

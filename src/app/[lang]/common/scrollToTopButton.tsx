@@ -6,15 +6,18 @@ import { use, useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { TbRuler } from 'react-icons/tb';
+import { basicPathnameArr } from '@/lib/basicPathnameArr';
 
 const ScrollToTopButton = () => {
   const pathname = usePathname();
+  console.log(pathname);
+
   const { scrollToTop, isIntersecting } = useGlobalContext();
   const [isPhoneOpen, setIsPhoneOpen] = useState(true);
   const [isGeoOpen, setIsGeoOpen] = useState(false);
 
   useEffect(() => {
-    if (pathname.length > 3) {
+    if (!basicPathnameArr.includes(pathname)) {
       setIsPhoneOpen(true);
     } else {
       setIsPhoneOpen(false);

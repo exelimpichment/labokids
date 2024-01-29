@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { TNavigation } from '@/lib/types';
 import Link from 'next/link';
 import { titleFont } from '../common/fonts';
+import { basicPathnameArr } from '@/lib/basicPathnameArr';
 
 interface IDesktopNavbarLinkList {
   navigation: TNavigation;
@@ -20,7 +21,7 @@ const FooterNavigationList: React.FC<IDesktopNavbarLinkList> = ({
   return (
     <div
       className={` ${
-        pathname.length > 3 ? 'flex' : 'hidden'
+        !basicPathnameArr.includes(pathname) ? 'flex' : 'hidden'
       } min-h-[50px] items-center justify-center border-t border-gray-200  px-2 pt-2 `}
     >
       <ul

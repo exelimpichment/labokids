@@ -3,13 +3,15 @@
 import { MapPin, Phone } from 'lucide-react';
 import { MdAlternateEmail } from 'react-icons/md';
 import { usePathname } from 'next/navigation';
+import { basicPathnameArr } from '@/lib/basicPathnameArr';
 
 const FooterContactInfo = () => {
   const pathname = usePathname();
+
   return (
     <div
       className={` ${
-        pathname.length > 3 ? 'flex' : 'hidden'
+        !basicPathnameArr.includes(pathname) ? 'flex' : 'hidden'
       }  flex-col items-center justify-center gap-2 py-3`}
     >
       <div className="">
