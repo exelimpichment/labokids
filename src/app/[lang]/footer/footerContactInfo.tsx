@@ -37,12 +37,6 @@ const FooterContactInfo = () => {
             <span>Nad Seganką 6a, Poznań, Poland</span>
           </div>
         </div>
-        <div className="flex">
-          <MapPin size={20} />
-          <div className="flex flex-col items-center pl-1">
-            <span>Nad Seganką 6a, Poznań, Poland</span>
-          </div>
-        </div>
       </div>
     </div>
   );

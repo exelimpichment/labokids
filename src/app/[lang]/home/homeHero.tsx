@@ -158,7 +158,7 @@ const HomeHero: React.FC<IHomeHero> = ({
             className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50 `}
           >
             <a href="https://maps.app.goo.gl/4fTR5xNpvZUtaizr8">
-              Krośnieńska 9, Poznań
+              Nad Seganką 6a, Poznań, Poland
             </a>
             <a href="tel:+48503038500">+48 503 038 500</a>
           </address>
