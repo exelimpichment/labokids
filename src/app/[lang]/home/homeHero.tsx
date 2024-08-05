@@ -75,7 +75,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           <address
             className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50`}
           >
-            <a href="https://maps.app.goo.gl/qNmsCweqfJUkHkkE9">
+            <a href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6" target="_blank">
               Nad Seganką 6a, Poznań, Poland
             </a>
             <a href="tel:+48503038500">+48 503 038 500</a>
@@ -83,7 +83,7 @@ const HomeHero: React.FC<IHomeHero> = ({
 
           <div className="flex justify-end gap-2">
             <a
-              href="https://www.instagram.com/labokids_23"
+              href="https://maps.app.goo.gl/dRbjBXTnfJX881fh6"
               target="_blank"
               className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
             >
@@ -157,7 +157,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           <address
             className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50 `}
           >
-            <a href="https://maps.app.goo.gl/4fTR5xNpvZUtaizr8">
+            <a href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6" target="_blank">
               Nad Seganką 6a, Poznań, Poland
             </a>
             <a href="tel:+48503038500">+48 503 038 500</a>
