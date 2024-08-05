@@ -92,8 +92,7 @@ const SlidingDownNavigationMenuInner = ({
                 <MapPin size={24} />
               </div>
               <div className="flex flex-col text-lg">
-                <p>Knapowskiego 23, Poznań</p>
-                <p>Labokids Montessori</p>
+                <p>Nad Seganką 6a, Poznań, Poland</p>
               </div>
             </li>
             <li className="mt-3 flex items-center gap-3 px-3 text-[1.3rem] text-laboBlue">
@@ -101,8 +100,7 @@ const SlidingDownNavigationMenuInner = ({
                 <MapPin size={24} />
               </div>
               <div className="flex flex-col text-lg">
-                <p>Krośnieńska 9, Poznań</p>
-                <p>Labokids Bilingual</p>
+                <p>Nad Seganką 6a, Poznań, Poland</p>
               </div>
             </li>
           </ul>

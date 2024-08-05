@@ -54,8 +54,7 @@ const ScrollToTopButton = () => {
               transition={{ duration: 0.3 }}
               className="ml-2 hidden flex-col items-start justify-center rounded-full bg-laboBlue px-4 text-sm lg:flex "
             >
-              <p>Knapowskiego 23, Poznań - Labokids Montessori</p>
-              <p>Krośnieńska 9, Poznań - Labokids Bilingual</p>
+              <p>Nad Seganką 6a, Poznań, Poland</p>
             </motion.div>
           )}
         </AnimatePresence>

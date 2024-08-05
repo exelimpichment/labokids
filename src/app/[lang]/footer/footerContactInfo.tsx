@@ -34,15 +34,13 @@ const FooterContactInfo = () => {
         <div className="flex">
           <MapPin size={20} />
           <div className="flex flex-col items-center pl-1">
-            <span>Knapowskiego 23, Poznań</span>
-            <span>Labokids Montessori</span>
+            <span>Nad Seganką 6a, Poznań, Poland</span>
           </div>
         </div>
         <div className="flex">
           <MapPin size={20} />
           <div className="flex flex-col items-center pl-1">
-            <span>Krośnieńska 9, Poznań</span>
-            <span>Labokids Bilingual</span>
+            <span>Nad Seganką 6a, Poznań, Poland</span>
           </div>
         </div>
       </div>
