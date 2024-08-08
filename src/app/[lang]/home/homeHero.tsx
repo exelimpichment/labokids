@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import montessori from '../../../../public/montessoriHero.jpg';
-import bilingualHero from '../../../../public/bilingualHero.jpg';
+import bilingualHero from '../../../../public/zlobek.jpg';
 import partyHero from '../../../../public/partyHero.jpg';
 import workshopHero from '../../../../public/workshopHero.jpg';
 import { Button } from '@/components/ui/button';
@@ -75,7 +75,11 @@ const HomeHero: React.FC<IHomeHero> = ({
           <address
             className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50`}
           >
-            <a href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6" target="_blank">
+            <a
+              className="underline"
+              href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6"
+              target="_blank"
+            >
               Nad Seganką 6a, Poznań, Poland
             </a>
             <a href="tel:+48503038500">+48 503 038 500</a>
@@ -109,7 +113,7 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className="relative order-3 h-[66vh] xl:order-2 xl:h-1/2 xl:w-1/2">
+      <div className="relative  h-[66vh]  xl:h-1/2 xl:w-1/2">
         <Image
           src={partyHero}
           fill
@@ -137,7 +141,7 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className="relative  h-[66vh] xl:h-1/2 xl:w-1/2">
+      <div className="relative h-[66vh] xl:h-1/2 xl:w-1/2">
         <Image
           src={bilingualHero}
           fill
@@ -147,15 +151,15 @@ const HomeHero: React.FC<IHomeHero> = ({
           placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
-        <div className="absolute bottom-7 right-7 flex flex-col gap-2 text-end">
+        <div className="absolute flex h-full w-full flex-col items-center justify-center">
           <h2
-            className={`${titleFont.className}  text-xl text-blue-50 md:text-2xl`}
+            className={`${titleFont.className} text-xl text-blue-50 md:text-2xl`}
           >
             {heroPageBilingual.kidFontText}
           </h2>
 
-          <address
-            className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50 `}
+          {/* <address
+            className={` ${textFont.className}  flex flex-col gap-1 text-lg font-bold text-blue-50 `}
           >
             <a href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6" target="_blank">
               Nad Seganką 6a, Poznań, Poland
@@ -187,7 +191,7 @@ const HomeHero: React.FC<IHomeHero> = ({
               {heroPageButtonsText.readMore}
               <ArrowRight size={18} className="ml-2" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
 

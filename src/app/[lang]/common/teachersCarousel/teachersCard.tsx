@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import { titleFont } from '../fonts';
 import blue from '@/public/montessoriTeachersImages/blue.jpg';
+import teacher0 from '@/public/montessoriTeachersImages/teacher-0.jpg';
 import teacher1 from '@/public/montessoriTeachersImages/teacher-1.jpg';
 import teacher2 from '@/public/montessoriTeachersImages/teacher-2.jpg';
 import teacher4 from '@/public/montessoriTeachersImages/teacher-4.jpg';
@@ -25,7 +26,7 @@ interface ITeachersCard {
 
 const teachersMapObj: IImageObj = {
   // montessori
-  0: blue,
+  0: teacher0,
   1: teacher1,
   2: teacher2,
   3: blue,

@@ -20,9 +20,9 @@ export default async function Home({
       <HomeHero
         content={{
           heroPageMontessori,
+          heroPageBilingual,
           heroPageButtonsText,
           heroPageParty,
-          heroPageBilingual,
           heroPageWorkshops,
         }}
       />

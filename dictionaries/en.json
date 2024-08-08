@@ -1,7 +1,7 @@
 {
   "navigation": {
-    "montessori": "Montessori",
-    "bilingual": "Bilingual",
+    "montessori": "Kindergarten",
+
     "party": "Birthdays",
     "workshops": "Workshops"
   },
@@ -19,7 +19,7 @@
     "errorEmailString": "Invalid email*"
   },
   "heroPageMontessori": {
-    "kidFontText": "Labokids Montessori kindergarten",
+    "kidFontText": "Labokids kindergarten",
     "header": "A bright future for all",
     "paragraph": "We prioritize personalized Montessori education while nurturing group unity through camaraderie, affection, and fairness"
   },
@@ -29,7 +29,7 @@
   },
   "aboutMontessoriHeaderContent": {
     "kidFontText": "ABOUT OUR EDUCATION PROGRAM",
-    "header": "Montessori Method",
+    "header": "Education with passion",
     "paragraph": "Our aim is to promote the well-rounded growth of each child, emphasizing independence and tolerance, following the Montessori approach with five subject areas."
   },
   "montessoriMethodsList": [
@@ -183,7 +183,7 @@
     }
   ],
   "heroPageBilingual": {
-    "kidFontText": "Labokids Montessori kindergarten",
+    "kidFontText": "Nursery Coming Soon!",
     "header": "A bright future for all",
     "paragraph": "Family-style kindergartens, where caring professional teachers envelop each child with love."
   },

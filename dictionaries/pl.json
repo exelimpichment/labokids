@@ -1,7 +1,7 @@
 {
   "navigation": {
-    "montessori": "Montessori",
-    "bilingual": "Dwujęzyczny",
+    "montessori": "Przedszkole",
+
     "party": "Urodzinki",
     "workshops": "Warsztaty"
   },
@@ -18,7 +18,7 @@
     "errorEmailString": "Błędny adres*"
   },
   "heroPageMontessori": {
-    "kidFontText": "Przedszkole Montessori Labokids",
+    "kidFontText": "Przedszkole Labokids",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Oferujemy priorytetową edukację zindywidualizowaną zgodnie z metodą Montessori, rozwijając jedność grupy poprzez miłość i sprawiedliwość"
   },
@@ -28,39 +28,33 @@
   },
   "aboutMontessoriHeaderContent": {
     "kidFontText": "O NASZYM PROGRAMIE EDUKACYJNYM",
-    "header": "Metoda Montessori",
-    "paragraph": "Naszym celem jest promowanie wszechstronnego rozwoju każdego dziecka, podkreślając niezależność i tolerancję, zgodnie z podejściem Montessori obejmującym pięć obszarów przedmiotowych."
+    "header": "Edukacja z pasją",
+    "paragraph": "Oferujemy wyjątkową edukację z elementami Montessori, wspierającą rozwój dzieci poprzez miłość i troskę."
   },
   "montessoriMethodsList": [
     {
+      "id": 3,
+      "value": "montessori",
+      "header": "Elementy Montessori",
+      "paragraph": "W naszym przedszkolu wprowadzamy elementy pedagogiki Montessori, które wspierają indywidualny rozwój dzieci, kładąc nacisk na samodzielność, kreatywność oraz odkrywanie świata poprzez zmysły. Dzięki specjalnie przygotowanemu środowisku i materiałom dydaktycznym, dzieci uczą się w swoim tempie, rozwijając umiejętności niezbędne do dalszego kształcenia i życia."
+    },
+    {
       "id": 0,
-      "paragraph": "Działania praktyczne obejmują coraz bardziej wymagający zestaw zadań z motoryki małej o realnych celach, takich jak porządkowanie stołu czy mycie naczyń. Te czynności nie tylko pomagają dzieciom opanować codzienne obowiązki, ale także rozwijają niezależność, sprawność fizyczną, koordynację, skupienie i pojęcie organizacji.",
-      "header": "Życie praktyczne",
-      "value": "life"
+      "value": "english",
+      "header": "Język angielski",
+      "paragraph": "Już od pierwszych dni obecności dziecka w naszym przedszkolu mają one codzienny kontakt z językiem angielskim. Stosujemy metodę immersji językowej, dzięki której dzieci chłoną język w naturalny sposób. Nauka angielskiego odbywa się również poprzez zastosowanie pedagogiki zabawy oraz regularnych zajęć językowych."
     },
     {
       "id": 1,
-      "paragraph": "Edukacja sensoryczna Montessori skupia się na doskonaleniu percepcji sensorycznej dziecka poprzez stałe oddziaływanie z celowo opracowanymi materiałami. To podejście ma na celu oferowanie konkretnych przykładów, które ilustrują abstrakcyjne pojęcia, obejmujące elementy takie jak kolor, tekstura, dźwięk i zapach.",
-      "header": "Sensoryczna",
-      "value": "sensorial"
+      "value": "music",
+      "header": "Muzyka",
+      "paragraph": "Jesteśmy przedszkolem, które łączy rozwijanie wrażliwości muzycznej z edukacją językową. W ciepłej i rodzinnej atmosferze rozwijamy miłość do muzyki poprzez otaczanie dzieci dźwiękiem, melodią i rytmem."
     },
     {
       "id": 2,
-      "paragraph": "Sala Montessori jest starannie ułożona, aby organicznie wspierać zdobywanie umiejętności istotnych zarówno dla języka mówionego, jak i pisanego. Dzieci używają liter z papierem ściernym, aby zrozumieć fonetykę alfabetu i precyzyjne formowanie każdej litery.",
-      "header": "Język",
-      "value": "language"
-    },
-    {
-      "id": 3,
-      "paragraph": "Poprzez wykorzystanie praktycznych materiałów stworzonych wokół systemu dziesiętnego, dzieci uczą się ważnych\nzasad matematycznych. Maria Montessori ustaliła,\nże jeśli dziecko jest w stanie uczyć się w fazie,\nkiedy cieszy się manipulacją materiałami, będzie w stanie\nłatwiej i skuteczniej przyswajać\numiejętności i wiedzę z zakresu arytmetyki.",
-      "header": "Matematyka",
-      "value": "mathematics"
-    },
-    {
-      "id": 4,
-      "paragraph": "W tej dziedzinie dzieci zagłębiają się w różne przedmioty, w tym geografię, historię, biologię, sztukę i muzykę. Ta szeroka eksploracja daje im szansę zdobycia głębszego zrozumienia otoczenia. Ten aspekt edukacji dzieci umożliwia naszym uczniom odkrywanie bogactwa zarówno kultur historycznych, jak i współczesnych, jednocześnie badając obszary istniejących i nieożywionych istot.",
-      "header": "Kultura i Nauka",
-      "value": "science"
+      "value": "nature",
+      "header": "Natura",
+      "paragraph": "W naszym ogrodzie dzieci uczą się o cudach natury. Wierzymy, że doświadczenia praktyczne na świeżym powietrzu sprzyjają głębokiemu zrozumieniu dla środowiska. Otwarte otoczenie sprzyja współpracy i współdziałaniu dzieci, gdy biorą udział w różnych grach i aktywnościach, promując rozwój zarówno fizyczny, jak i społeczny."
     }
   ],
   "imagesMontessoriHeaderContent": {
@@ -70,7 +64,7 @@
   },
   "teachersMontessoriHeaderContent": {
     "kidFontText": "O NAUCZYCIELACH",
-    "header": "Nasi Nauczyciele",
+    "header": "Nasza Kadra",
     "paragraph": "W naszym przedszkolu panuje doskonała relacja między nauczycielami a dziećmi, zapewniająca, że każde z nich otrzymuje niezbędną uwagę."
   },
 
@@ -183,7 +177,7 @@
     }
   ],
   "heroPageBilingual": {
-    "kidFontText": "Przedszkole dwujęzyczne Labokids",
+    "kidFontText": "Żłobek wkrótce!",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Jesteśmy kameralnym, rodzinnym przedszkolem, gdzie profesjonalni nauczyciele otaczają każde dziecko troską i miłością."
   },

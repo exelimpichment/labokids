@@ -29,7 +29,7 @@ export type TFormSchema = z.infer<typeof formSchema>;
 
 export type TNavigation = {
   montessori: string;
-  bilingual: string;
+  // bilingual: string;
   party: string;
   workshops: string;
 };
