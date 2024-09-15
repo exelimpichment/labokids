@@ -16,7 +16,7 @@ const StaticGalleryCard: React.FC<IStaticGalleryCard> = ({ item }) => {
         src={item.image}
         fill
         alt="gallery image"
-        // placeholder="blur"
+        placeholder="blur"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         quality={100}
         style={{

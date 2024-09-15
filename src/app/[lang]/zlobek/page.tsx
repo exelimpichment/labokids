@@ -39,7 +39,7 @@ const Bilingual = async ({
       />
       <BilingualProgramList content={bilingualProgramContent} />
       <SectionHeader content={imagesBilingualHeaderContent} />
-      <div className="p-20">
+      <div className="pb-20">
         <StaticGallery galleryImages={bilingualGalleryPhotoSet} />
       </div>
 

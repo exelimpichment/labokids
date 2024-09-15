@@ -55,14 +55,14 @@ const HomeHero: React.FC<IHomeHero> = ({
 
   return (
     <article className="flex flex-col xl:h-screen xl:flex-wrap">
-      <div className="relative h-[66vh] text-end xl:h-1/2 xl:w-1/2">
+      <div className="relative h-[66vh] text-end xl:order-1 xl:h-1/2 xl:w-1/2">
         <Image
           src={montessori}
           fill
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-7 flex flex-col gap-2">
@@ -113,14 +113,14 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className="relative  h-[66vh]  xl:h-1/2 xl:w-1/2">
+      <div className=" relative  order-2 h-[66vh] xl:order-3  xl:h-1/2 xl:w-1/2">
         <Image
           src={partyHero}
           fill
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-10">
@@ -148,7 +148,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-7 flex flex-col gap-2">
@@ -206,7 +206,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-10">

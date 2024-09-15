@@ -62,7 +62,7 @@ const HomeHeroDummy: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-7 flex flex-col gap-2">
@@ -116,7 +116,7 @@ const HomeHeroDummy: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-10">
@@ -144,7 +144,7 @@ const HomeHeroDummy: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-7 flex flex-col gap-2 text-end">
@@ -198,7 +198,7 @@ const HomeHeroDummy: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          // placeholder="blur"
+          placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-10">

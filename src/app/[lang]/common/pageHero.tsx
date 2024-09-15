@@ -67,7 +67,7 @@ const PageHero: React.FC<IPageHero> = ({
             style={{ objectFit: 'cover', objectPosition: 'top center' }}
             quality={100}
             alt="hero image"
-            // placeholder="blur"
+            placeholder="blur"
           />
         </div>
         <Container>

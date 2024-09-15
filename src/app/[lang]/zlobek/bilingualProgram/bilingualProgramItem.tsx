@@ -29,7 +29,7 @@ const BilingualProgramItem: React.FC<IBilingualProgramItem> = ({
             className="rounded-3xl"
             fill
             quality={100}
-            // placeholder="blur"
+            placeholder="blur"
             sizes="(max-width: 768px) 100vw, 50vw"
             style={{
               objectFit: 'cover',
