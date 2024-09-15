@@ -29,7 +29,9 @@ const PriceCard: React.FC<IPriceCard> = ({
         <Icon size={36} />
       </div>
 
-      <h2 className={`${titleFont.className} pt-5 text-xl`}>{header}</h2>
+      <h2 className={`${titleFont.className} pt-5 text-center text-xl`}>
+        {header}
+      </h2>
       <p
         className={`${textFont.className} grow-1 px-5 pt-5 text-center text-gray-700`}
       >
@@ -38,7 +40,12 @@ const PriceCard: React.FC<IPriceCard> = ({
       <div className="pt-5 text-laboBlue">
         <sub
           className={`${
-            price === 'on request' ? 'hidden' : 'inline'
+            !price ||
+            price === 'on request' ||
+            price === 'na zapytanie' ||
+            price === 'за запитом'
+              ? 'hidden'
+              : 'inline'
           } pr-1 text-lg`}
         >
           zł
@@ -49,24 +56,38 @@ const PriceCard: React.FC<IPriceCard> = ({
         <ul
           className={`${textFont.className} flex flex-col items-center text-gray-700`}
         >
-          <li>
-            <div className="relative">
-              {hints[0] && <AdditionalInfo hint={hints[0]} />}
-              <span>{advantages[0]}</span>
-            </div>
-          </li>
-          <li>
-            <div className="relative">
-              {hints[1] && <AdditionalInfo hint={hints[1]} />}
-              <span>{advantages[1]}</span>
-            </div>
-          </li>
-          <li>
-            <div className="relative">
-              {hints[2] && <AdditionalInfo hint={hints[2]} />}
-              <span>{advantages[2]}</span>
-            </div>
-          </li>
+          {advantages?.length && (
+            <li>
+              <div className="relative">
+                {hints[0] && <AdditionalInfo hint={hints[0]} />}
+                <span>{advantages[0]}</span>
+              </div>
+            </li>
+          )}
+          {advantages?.length && (
+            <li>
+              <div className="relative">
+                {hints[1] && <AdditionalInfo hint={hints[1]} />}
+                <span>{advantages[1]}</span>
+              </div>
+            </li>
+          )}
+          {advantages?.length && (
+            <li>
+              <div className="relative">
+                {hints[2] && <AdditionalInfo hint={hints[2]} />}
+                <span>{advantages[2]}</span>
+              </div>
+            </li>
+          )}
+          {advantages?.length && (
+            <li>
+              <div className="relative">
+                {hints[3] && <AdditionalInfo hint={hints[3]} />}
+                <span>{advantages[3]}</span>
+              </div>
+            </li>
+          )}
         </ul>
       </div>
     </div>

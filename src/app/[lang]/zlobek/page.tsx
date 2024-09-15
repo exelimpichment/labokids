@@ -39,11 +39,14 @@ const Bilingual = async ({
       />
       <BilingualProgramList content={bilingualProgramContent} />
       <SectionHeader content={imagesBilingualHeaderContent} />
-      <StaticGallery galleryImages={bilingualGalleryPhotoSet} />
-      <SectionHeader content={teachersBilingualHeaderContent} />
-      <TeachersCarousel carouselData={teachersBilingualCarouselData} />
-      <SectionHeader content={priceBilingualHeaderContent} />
-      <Price priceData={bilingualPricingData} />
+      <div className="p-20">
+        <StaticGallery galleryImages={bilingualGalleryPhotoSet} />
+      </div>
+
+      {/* <SectionHeader content={teachersBilingualHeaderContent} />
+      <TeachersCarousel carouselData={teachersBilingualCarouselData} /> */}
+      {/* <SectionHeader content={priceBilingualHeaderContent} />
+      <Price priceData={bilingualPricingData} /> */}
     </main>
   );
 };

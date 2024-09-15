@@ -37,7 +37,7 @@ const DesktopNavbarLinkList: React.FC<IDesktopNavbarLinkList> = ({
           </li>
         ))}
       </ul>
-      <LanguageSelect lang={lang} />
+      {/* <LanguageSelect lang={lang} /> */}
     </div>
   );
 };

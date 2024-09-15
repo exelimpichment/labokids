@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import montessori from '../../../../public/montessoriHero.jpg';
-import bilingualHero from '../../../../public/zlobek.jpg';
+import bilingualHero from '../../../../public/bilingualHero.jpg';
 import partyHero from '../../../../public/partyHero.jpg';
 import workshopHero from '../../../../public/workshopHero.jpg';
 import { Button } from '@/components/ui/button';
@@ -62,7 +62,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          placeholder="blur"
+          // placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-7 flex flex-col gap-2">
@@ -87,7 +87,7 @@ const HomeHero: React.FC<IHomeHero> = ({
 
           <div className="flex justify-end gap-2">
             <a
-              href="https://maps.app.goo.gl/dRbjBXTnfJX881fh6"
+              href="https://www.instagram.com/labokids_?igsh=MWYwcGd5ZnFkejVnZg"
               target="_blank"
               className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
             >
@@ -120,7 +120,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          placeholder="blur"
+          // placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-10">
@@ -141,27 +141,31 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className="relative h-[66vh] xl:h-1/2 xl:w-1/2">
+      <div className="relative h-[66vh] text-end xl:h-1/2 xl:w-1/2">
         <Image
           src={bilingualHero}
           fill
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          placeholder="blur"
+          // placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
-        <div className="absolute flex h-full w-full flex-col items-center justify-center">
+        <div className="absolute bottom-7 right-7 flex flex-col gap-2">
           <h2
-            className={`${titleFont.className} text-xl text-blue-50 md:text-2xl`}
+            className={`${titleFont.className}  text-xl text-blue-50 md:text-2xl`}
           >
             {heroPageBilingual.kidFontText}
           </h2>
 
-          {/* <address
-            className={` ${textFont.className}  flex flex-col gap-1 text-lg font-bold text-blue-50 `}
+          <address
+            className={` ${textFont.className} flex flex-col gap-1 text-lg font-bold text-blue-50`}
           >
-            <a href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6" target="_blank">
+            <a
+              className="underline"
+              href="https://maps.app.goo.gl/n5vBU6E3biRCgi1X6"
+              target="_blank"
+            >
               Nad Seganką 6a, Poznań, Poland
             </a>
             <a href="tel:+48503038500">+48 503 038 500</a>
@@ -169,7 +173,7 @@ const HomeHero: React.FC<IHomeHero> = ({
 
           <div className="flex justify-end gap-2">
             <a
-              href="https://www.instagram.com/labokids.9"
+              href="https://www.instagram.com/labokids_?igsh=MWYwcGd5ZnFkejVnZg"
               target="_blank"
               className="flex h-10 w-10 cursor-pointer items-center justify-center rounded bg-laboBlue transition-all duration-500 hover:bg-white"
             >
@@ -183,7 +187,7 @@ const HomeHero: React.FC<IHomeHero> = ({
               <FaFacebook size={28} />
             </a>
             <Button
-              onClick={() => router.push(`${pathname}/bilingual`)}
+              onClick={() => router.push(`${pathname}/zlobek`)}
               className={`${titleFont.className}  rounded border-transparent bg-laboBlue text-base transition-all duration-500 hover:bg-white`}
               type="button"
               variant="outline"
@@ -191,7 +195,7 @@ const HomeHero: React.FC<IHomeHero> = ({
               {heroPageButtonsText.readMore}
               <ArrowRight size={18} className="ml-2" />
             </Button>
-          </div> */}
+          </div>
         </div>
       </div>
 
@@ -202,7 +206,7 @@ const HomeHero: React.FC<IHomeHero> = ({
           style={{ objectFit: 'cover', objectPosition: 'top center' }}
           quality={100}
           alt="hero image"
-          placeholder="blur"
+          // placeholder="blur"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-7 right-10">

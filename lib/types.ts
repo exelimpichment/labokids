@@ -2,6 +2,8 @@ import {
   StaticImageData,
   StaticImport,
 } from 'next/dist/shared/lib/get-img-props';
+import { FaChildren } from 'react-icons/fa6';
+import { MdOutlineHandshake } from 'react-icons/md';
 
 export interface IPageHero {
   content: {
@@ -36,12 +38,12 @@ export type TNavigation = {
 
 export interface PriceDataProps {
   priceData: {
-    value: string;
     id: number;
+    value: string;
     header: string;
     paragraph: string;
-    price: number | string;
-    advantages: string[];
+    price?: string; // Optional price field
+    advantages?: string[]; // Optional advantages field
     hints: string[];
   }[];
 }
@@ -52,8 +54,8 @@ export interface IPriceCard {
     value: string;
     header: string;
     paragraph: string;
-    price: number | string;
-    advantages: string[];
+    price?: string; // Optional price field
+    advantages?: string[]; // Optional advantages field
     hints: string[];
   };
 }
@@ -82,11 +84,11 @@ import {
 } from 'lucide-react';
 
 export const pricingIconLibrary = {
-  'card-0': Calendar,
-  'card-1': Soup,
+  'card-0': FaChildren,
+  'card-1': MdOutlineHandshake,
   'card-2': Gem,
 
-  'card-3': Calendar,
+  'card-3': FaChildren,
   'card-4': Soup,
   'card-5': Gem,
 
@@ -100,14 +102,18 @@ export const pricingIconLibrary = {
 };
 export type T = keyof typeof pricingIconLibrary;
 
-import bilingualMusic from '@/public/bilingualMusic.jpg';
-import bilingualEnglish from '@/public/bilingualEnglish.jpg';
-import bilingualNature from '@/public/bilingualNature.jpg';
+import plac_zabaw from '@/public/plac_zabaw.jpg';
+import naukaZabawa from '@/public/nauka_i_zabawa.jpg';
+import przytulne_sale from '@/public/przytulne_sale.jpg';
+import zdrowe_odzywianie from '@/public/zdrowe_odzywianie.jpg';
+import cudowni_nauczyciele from '@/public/cudowni_nauczyciele.jpg';
 
 export const bilingualProgramImageObj: IImageObj = {
-  english: bilingualEnglish,
-  nature: bilingualNature,
-  music: bilingualMusic,
+  english: naukaZabawa,
+  nature: cudowni_nauczyciele,
+  music: zdrowe_odzywianie,
+  sale: przytulne_sale,
+  plac: plac_zabaw,
 };
 
 export type IImageObj = {

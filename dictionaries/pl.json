@@ -1,7 +1,7 @@
 {
   "navigation": {
     "montessori": "Przedszkole",
-
+    "zlobek": "Zlobek",
     "party": "Urodzinki",
     "workshops": "Warsztaty"
   },
@@ -69,57 +69,34 @@
   },
 
   "priceMontessoriHeaderContent": {
-    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
-    "header": "Cennik",
-    "paragraph": "Odkryj niezrównaną wartość dla formacyjnych lat twojego dziecka - nasze zaangażowanie w przystępność zapewnia im najlepszą opiekę i edukację."
+    "kidFontText": "NAJLEPSZE OFERTY DLA RODZICÓW",
+    "header": "Bonusy",
+    "paragraph": "Oferujemy atrakcyjne bonusy i zniżki, aby dodatkowo wspierać dzieci i ich rodziny. O szczegóły zapytaj w naszej placówce lub skontaktuj się z nami telefonicznie albo mejlowo."
   },
   "montessoriPricingData": [
     {
       "id": 0,
       "value": "card-0",
-      "header": "Opłata miesięczna",
-      "paragraph": "Dostępne są miesięczne płatności dostosowane do Twojego budżetu.",
-      "price": "800",
-      "advantages": [
-        "Indywidualne podejście",
-        "Doświadczeni nauczyciele",
-        "Interesujący program"
-      ],
+      "header": "Rodzeństwo",
+      "paragraph": "To specjalna zniżka dla rodzin zapisujących więcej niż jedno dziecko do naszego przedszkola. Dzięki niej rodzice mogą liczyć na obniżenie kosztów czesnego za drugie i kolejne dziecko. To nasz sposób na wsparcie rodzin i stworzenie korzystniejszych warunków finansowych.",
+
       "hints": ["", "", ""]
     },
     {
       "id": 1,
       "value": "card-1",
-      "header": "Posiłki",
-      "paragraph": "Dziecko ma zapewnione pożywne posiłki w trakcie przebywania.",
-      "price": "17/dzień",
-      "advantages": [
-        "Zdrowe jedzenie",
-        "Personalizowane diety",
-        "Edukacja przy stole"
-      ],
-      "hints": [
-        "",
-        "Specjalne menu dla dzieci z alergią lub menu wegetariańskie.",
-        "Rozwijanie u dzieci umiejętności samodzielności podczas spożywania posiłków."
-      ]
+      "header": "Polecone-nagrodzone",
+      "paragraph": "To nasza forma podziękowania za polecanie przedszkola znajomym. Jeśli polecisz labokids i nowa rodzina zapisze dziecko, zarówno Ty, jak i ta rodzina, otrzymacie zniżkę na czesne. Dzięki Twoim rekomendacjom możemy rozwijać naszą przedszkolną społeczność. Dziel się dobrą opinią i ciesz się korzyściami!",
+
+      "hints": ["", "", ""]
     },
     {
       "id": 2,
       "value": "card-2",
-      "header": "Specjalne oferty",
-      "paragraph": "Korzystaj z profitów finansowych z naszymi ekskluzywnymi ofertami!",
-      "price": "po zgłoszeniu",
-      "advantages": [
-        "Zajęcia dodatkowe",
-        "Polecone - nagrodzone ",
-        "Oferty dla rodzeństwa"
-      ],
-      "hints": [
-        "Zajęcia dodatkowe - 0 zł",
-        "Przyprowadź przyjaciela i otrzymaj jeden miesiąc w naszym przedszkolu za darmo.",
-        "Zniżki na comiesięczną opłatę dla rodziców z dwójką lub więcej dzieci."
-      ]
+      "header": "Posiłki oraz dodatkowe zajęcia w cenie czesnego",
+      "paragraph": "To oznacza, że w ramach opłaty za czesne zapewniamy pełne wyżywienie przygotowywane w naszej własnej kuchni, a także dostęp do różnorodnych zajęć dodatkowych. Dzięki temu rodzice mogą cieszyć się pełną ofertą edukacyjną i opiekuńczą bez dodatkowych kosztów.",
+
+      "hints": ["", "", ""]
     }
   ],
   "teachersMontessoriCarouselData": [
@@ -177,33 +154,45 @@
     }
   ],
   "heroPageBilingual": {
-    "kidFontText": "Żłobek wkrótce!",
+    "kidFontText": "Żłobek Labokids",
     "header": "Jasna przyszłość dla wszystkich",
-    "paragraph": "Jesteśmy kameralnym, rodzinnym przedszkolem, gdzie profesjonalni nauczyciele otaczają każde dziecko troską i miłością."
+    "paragraph": "Jesteśmy kameralnym, rodzinnym żłobkiem, gdzie profesjonalni nauczyciele otaczają każde dziecko troską i miłością."
   },
   "aboutBilingualHeaderContent": {
-    "kidFontText": "O NASZYM PROGRAMIE EDUKACYJNYM",
-    "header": "Edukacja dwujęzyczna",
-    "paragraph": "Nauka języka odbywa się poprzez zanurzenie w anglojęzycznym środowisku, sprzyjając wczesnemu opanowaniu języka."
+    "kidFontText": "DOŁĄCZ DO NAS!",
+    "header": "Rekrutacja trwa",
+    "paragraph": "Oferujemy wyjątkowe warunki dla rozwoju i radości Twojego dziecka."
   },
   "bilingualProgramContent": [
     {
       "key": "0",
       "value": "english",
-      "header": "Język angielski",
-      "description": "Już od pierwszych dni obecności dziecka w naszym przedszkolu mają one codzienny kontakt z językiem angielskim. Stosujemy metodę immersji językowej, dzięki której dzieci chłoną język w naturalny sposób. Nauka angielskiego odbywa się również poprzez zastosowanie pedagogiki zabawy oraz regularnych zajęć językowych."
+      "header": "Nauka i zabawa",
+      "description": "W naszym żłobku łączymy naukę z zabawą, oferując programy edukacyjne, które rozwijają umiejętności poznawcze i społeczne dzieci. Starannie dobrane zabawki i zajęcia wspierają rozwój motoryczny i intelektualny maluchów, zapewniając radosną atmosferę i wszechstronny rozwój poprzez zabawę."
     },
     {
       "key": "1",
       "value": "music",
-      "header": "Muzyka",
-      "description": "Jesteśmy przedszkolem, które łączy rozwijanie wrażliwości muzycznej z edukacją językową. W ciepłej i rodzinnej atmosferze rozwijamy miłość do muzyki poprzez otaczanie dzieci dźwiękiem, melodią i rytmem."
+      "header": "Zdrowe odżywianie",
+      "description": "W naszym żłobku zapewniamy zdrowe, zrównoważone posiłki przygotowywane w naszej własnej kuchni. Codziennie serwujemy świeże, pełnowartościowe dania, które wspierają prawidłowy rozwój dzieci. Rodzice mogą być pewni, że ich maluchy otrzymują smaczne i zdrowe jedzenie każdego dnia."
     },
     {
       "key": "2",
       "value": "nature",
-      "header": "Natura",
-      "description": "W naszym ogrodzie dzieci uczą się o cudach natury. Wierzymy, że doświadczenia praktyczne na świeżym powietrzu sprzyjają głębokiemu zrozumieniu dla środowiska. Otwarte otoczenie sprzyja współpracy i współdziałaniu dzieci, gdy biorą udział w różnych grach i aktywnościach, promując rozwój zarówno fizyczny, jak i społeczny."
+      "header": "Cudowni nauczyciele",
+      "description": "Nasi nauczyciele to doświadczeni i pełni pasji specjaliści, którzy z zaangażowaniem dbają o rozwój każdego dziecka. Wspierają maluchy w nauce i zabawie, tworząc przyjazną i inspirującą atmosferę. Dzięki ich indywidualnemu i ciepłemu podejściu, każde dziecko czuje się bezpiecznie i komfortowo."
+    },
+    {
+      "key": "3",
+      "value": "sale",
+      "header": "Przytulne sale",
+      "description": "Nasze sale są przytulne i komfortowe, stworzone z myślą o zapewnieniu dzieciom poczucia bezpieczeństwa i swobody. Każda przestrzeń jest starannie urządzona, z wygodnymi meblami i ciepłymi kolorami, które sprzyjają nauce i zabawie. Dzięki temu dzieci mogą cieszyć się miłą atmosferą, która wspiera ich codzienne aktywności i rozwój."
+    },
+    {
+      "key": "4",
+      "value": "plac",
+      "header": "Własny plac zabaw",
+      "description": "Nasz żłobek dysponuje własnym placem zabaw, który jest bezpieczny i dostosowany do potrzeb najmłodszych. Wyposażony w nowoczesne urządzenia, takie jak huśtawki, zjeżdżalnie i piaskownice, zapewnia dzieciom radosną zabawę na świeżym powietrzu. Dzięki temu maluchy mogą rozwijać swoje umiejętności motoryczne i społeczne w atrakcyjnej i przyjaznej przestrzeni."
     }
   ],
   "imagesBilingualHeaderContent": {
@@ -266,7 +255,7 @@
     }
   ],
   "priceBilingualHeaderContent": {
-    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "kidFontText": "NAJLEPSZE OFERTY DLA RODZICÓW",
     "header": "Cennik",
     "paragraph": "Odkryj niezrównaną wartość dla formacyjnych lat twojego dziecka - nasze zaangażowanie w przystępność zapewnia im najlepszą opiekę i edukację."
   },
@@ -288,7 +277,7 @@
       "id": 1,
       "value": "card-1",
       "header": "Posiłki",
-      "paragraph": "Dziecko ma zapewnione pożywne posiłki w trakcie przebywania.",
+      "paragraph": "To nasza forma podziękowania za polecenie przedszkola znajomym. Jeśli polecisz nasze przedszkole i nowa rodzina zapisze dziecko, zarówno Ty, jak i ta rodzina, otrzymacie zniżkę na czesne. Dziel się dobrą opinią i zyskaj!s",
       "price": "17/dzień",
       "advantages": [
         "Zdrowe jedzenie",
@@ -377,7 +366,7 @@
     "paragraph": "Eksploruj porywające chwile z naszych przyjęć urodzinowych. Wkraczajcie w świat dziecięcej radości i inspirujcie się radością odkryć."
   },
   "pricePartyHeaderContent": {
-    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "kidFontText": "NAJLEPSZE OFERTY DLA RODZICÓW",
     "header": "Cennik",
     "paragraph": "Naszym celem jest zorganizowanie ekscytującej imprezy i niezapomnianych emocji dla Twojego dziecka za przyjemną cenę."
   },
@@ -390,9 +379,10 @@
       "paragraph": "Świętuj niezapomniane urodziny w naszym przedszkolu!",
       "price": "700",
       "advantages": [
-        "Nasze smakołyki",
         "Nasza lokalizacja",
-        "2 godziny zabawy"
+        "2 godziny zabawy",
+        "Max 10 dzieci",
+        "kolejkne dziecko + 35 zł"
       ],
       "hints": ["", "", ""]
     },
@@ -400,12 +390,13 @@
       "id": 1,
       "value": "card-7",
       "header": "Pakiet Domowy",
-      "paragraph": "Przenieś magię urodzin pod Twoje drzwi dzięki naszemu przyjęciu w domu!",
+      "paragraph": "Przenieś magię urodzin do Twojego domu dzięki naszemu przyjęciu w domu!",
       "price": "550",
       "advantages": [
-        "Domowy klimat",
         "Indywidualne podejście",
-        "1,5 godziny zabawy"
+        "1,5 godziny zabawy",
+        "Max 10 dzieci",
+        "Kolejkne dziecko + 35 zł"
       ],
       "hints": ["", "", ""]
     },
@@ -415,12 +406,13 @@
       "header": "Spersonalizowany",
       "paragraph": "Stworzymy spersonalizowany dzień urodzinowy na zamówienie.",
       "price": "na zapytanie",
-      "advantages": ["Indywidualne podejście", "Duża grupa", "Poza Poznaniem"],
-      "hints": [
-        "",
-        "Za każde dodatkowe dziecko w grupie przekraczającej 10 dzieci, obowiązuje dodatkowa opłata w wysokości 35 złotych.",
-        "Koszt podróży do klienta spoza Poznania wynosi 50 złotych za odległość do 15 km."
-      ]
+      "advantages": [
+        "Duża grupa",
+        "Poza Poznaniem",
+        "Indywidualne podejście",
+        "Kolejkne dziecko + 35 zł"
+      ],
+      "hints": ["", "", ""]
     }
   ],
   "heroPageWorkshops": {
@@ -468,7 +460,7 @@
     "paragraph": "Odkrywajcie fascynujące chwile z naszych warsztatów. Zapraszamy w świat dziecięcego śmiechu i radości odkryć."
   },
   "priceWorkshopsHeaderContent": {
-    "kidFontText": "NAJLEPSZA CENA DLA RODZICÓW",
+    "kidFontText": "NAJLEPSZE OFERTY DLA RODZICÓW",
     "header": "Cennik",
     "paragraph": "Naszym celem jest organizowanie ekscytujących warsztatów i zapewnianie dziecku niezapomnianych emocji w przystępnej cenie."
   },

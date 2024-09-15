@@ -10,7 +10,6 @@ import { basicPathnameArr } from '@/lib/basicPathnameArr';
 
 const ScrollToTopButton = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   const { scrollToTop, isIntersecting } = useGlobalContext();
   const [isPhoneOpen, setIsPhoneOpen] = useState(true);

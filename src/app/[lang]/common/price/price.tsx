@@ -8,8 +8,8 @@ interface IPriceDataProps {
     value: string;
     header: string;
     paragraph: string;
-    price: string;
-    advantages: string[];
+    price?: string; // Optional price field
+    advantages?: string[]; // Optional advantages field
     hints: string[];
   }[];
 }

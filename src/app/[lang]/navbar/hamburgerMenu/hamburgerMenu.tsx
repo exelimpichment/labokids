@@ -42,7 +42,7 @@ const HamburgerMenu = ({ lang }: { lang: Locale }) => {
           className="flex gap-3
         "
         >
-          {!burgerMenuOpen && <LanguageSelect lang={lang} />}
+          {/* {!burgerMenuOpen && <LanguageSelect lang={lang} />} */}
           <HamburgerTrigger />
         </div>
       </div>

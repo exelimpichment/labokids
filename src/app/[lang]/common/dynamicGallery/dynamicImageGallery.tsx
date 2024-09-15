@@ -18,7 +18,7 @@ const DynamicImageGallery = () => {
               fill
               alt="gallery image"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              placeholder="blur"
+              // placeholder="blur"
               quality={100}
               style={{
                 objectFit: 'cover',

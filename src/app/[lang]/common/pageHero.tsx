@@ -18,7 +18,7 @@ const offeredServicesObj = {
     textPosition: 'lg:text-right',
     flexPosition: 'items-end',
   },
-  bilingual: {
+  zlobek: {
     image: bilingualHero,
     buttonsPosition: 'lg:justify-end',
     textPosition: 'lg:text-right',
@@ -55,7 +55,7 @@ const PageHero: React.FC<IPageHero> = ({
   const pathnameSectionsArray = pathname.split('/');
   const lastSection = pathnameSectionsArray[
     pathnameSectionsArray.length - 1
-  ] as 'montessori' | 'bilingual' | 'party' | 'workshops';
+  ] as 'montessori' | 'zlobek' | 'party' | 'workshops';
 
   return (
     <section>
@@ -67,7 +67,7 @@ const PageHero: React.FC<IPageHero> = ({
             style={{ objectFit: 'cover', objectPosition: 'top center' }}
             quality={100}
             alt="hero image"
-            placeholder="blur"
+            // placeholder="blur"
           />
         </div>
         <Container>

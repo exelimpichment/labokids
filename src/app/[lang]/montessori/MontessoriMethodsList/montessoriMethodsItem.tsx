@@ -21,7 +21,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
             fill
             className="rounded-3xl"
             quality={100}
-            placeholder="blur"
+            // placeholder="blur"
             sizes="(max-width: 768px) 100vw, 50vw"
             style={{
               objectFit: 'cover',

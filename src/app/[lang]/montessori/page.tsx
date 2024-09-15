@@ -43,13 +43,13 @@ const Montessori = async ({
       />
 
       <StaticGallery galleryImages={montessoriGalleryPhotoSet} />
-      <SectionHeader content={teachersMontessoriHeaderContent} />
-      <div className="mb-20">
+      {/* <SectionHeader content={teachersMontessoriHeaderContent} /> */}
+      {/* <div className="mb-20">
         <TeachersCarousel carouselData={teachersMontessoriCarouselData} />
-      </div>
-      {/* <SectionHeader content={priceMontessoriHeaderContent} /> */}
+      </div> */}
+      <SectionHeader content={priceMontessoriHeaderContent} />
 
-      {/* <Price priceData={montessoriPricingData} /> */}
+      <Price priceData={montessoriPricingData} />
     </main>
   );
 };
