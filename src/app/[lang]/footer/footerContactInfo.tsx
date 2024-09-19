@@ -4,7 +4,6 @@ import { MapPin, Phone } from 'lucide-react';
 import { MdAlternateEmail } from 'react-icons/md';
 import { usePathname } from 'next/navigation';
 import { basicPathnameArr } from '@/lib/basicPathnameArr';
-import { File } from 'lucide-react';
 
 const FooterContactInfo = () => {
   const pathname = usePathname();
@@ -39,16 +38,6 @@ const FooterContactInfo = () => {
           </div>
         </div>
       </div>
-
-      <a
-        href="https://labokids-backet1.s3.eu-north-1.amazonaws.com/polityka_ochrony_maloletnich.pdf"
-        download="polityka_ochrony_maloletnich.pdf"
-        target="_blank"
-        className="flex gap-2"
-      >
-        <File size={20} />
-        <button>Polityka Ochrony Małoletnich</button>
-      </a>
     </div>
   );
 };
