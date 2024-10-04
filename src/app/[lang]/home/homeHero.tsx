@@ -113,7 +113,7 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className=" relative  order-2 h-[66vh] xl:order-2  xl:h-1/2 xl:w-1/2">
+      <div className=" relative  order-2 h-[66vh] xl:order-3  xl:h-1/2 xl:w-1/2">
         <Image
           src={partyHero}
           fill
@@ -141,7 +141,7 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className="relative h-[66vh] text-end xl:order-3 xl:h-1/2 xl:w-1/2">
+      <div className="relative h-[66vh] text-end xl:h-1/2 xl:w-1/2">
         <Image
           src={bilingualHero}
           fill
@@ -199,7 +199,7 @@ const HomeHero: React.FC<IHomeHero> = ({
         </div>
       </div>
 
-      <div className="relative h-[66vh] xl:order-4 xl:h-1/2 xl:w-1/2">
+      <div className="relative h-[66vh] xl:h-1/2 xl:w-1/2">
         <Image
           src={workshopHero}
           fill

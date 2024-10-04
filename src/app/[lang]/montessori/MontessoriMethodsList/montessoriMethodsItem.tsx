@@ -33,7 +33,7 @@ const MontessoriMethodsItem: React.FC<IMontessoriMethodsItem> = ({
           <h2 className={`${titleFont.className} text-center text-2xl`}>
             {header}
           </h2>
-          <p className="pt-5 text-center text-lg text-gray-600">{paragraph}</p>
+          <p className="pt-5 text-center text-lg text-gray-600"  dangerouslySetInnerHTML={{ __html: paragraph }}></p>
         </div>
       </section>
     </Container>

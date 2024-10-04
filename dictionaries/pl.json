@@ -35,26 +35,26 @@
     {
       "id": 3,
       "value": "montessori",
-      "header": "Elementy Montessori",
-      "paragraph": "W naszym przedszkolu wprowadzamy elementy pedagogiki Montessori, które wspierają indywidualny rozwój dzieci, kładąc nacisk na samodzielność, kreatywność oraz odkrywanie świata poprzez zmysły. Dzięki specjalnie przygotowanemu środowisku i materiałom dydaktycznym, dzieci uczą się w swoim tempie, rozwijając umiejętności niezbędne do dalszego kształcenia i życia."
+      "header": "Elementy Montessori w prywatnym przedszkolu – Poznań",
+      "paragraph": "Nasze <b>prywatne przedszkole</b> wprowadza elementy pedagogiki Montessori, które wspierają indywidualny rozwój dzieci, kładąc nacisk na samodzielność, kreatywność oraz odkrywanie świata poprzez zmysły. Dzięki specjalnie przygotowanemu środowisku i materiałom dydaktycznym dzieci uczą się w swoim tempie, rozwijając umiejętności niezbędne do dalszego kształcenia i życia. <b>Kameralne przedszkole</b> z pewnością temu sprzyja. Współpracujemy z doświadczonymi pedagogami mającymi świetne podejście do najmłodszych, którzy ich uwielbiają."
     },
     {
       "id": 0,
       "value": "english",
-      "header": "Język angielski",
-      "paragraph": "Już od pierwszych dni obecności dziecka w naszym przedszkolu mają one codzienny kontakt z językiem angielskim. Stosujemy metodę immersji językowej, dzięki której dzieci chłoną język w naturalny sposób. Nauka angielskiego odbywa się również poprzez zastosowanie pedagogiki zabawy oraz regularnych zajęć językowych."
+      "header": "Nauka angielskiego w przedszkolu z małymi grupami",
+      "paragraph": "<b>Niepubliczne przedszkole</b> Labokids już od pierwszych dni obecności dziecka w placówce zapewnia codzienny kontakt z językiem angielskim. Stosujemy metodę immersji językowej, dzięki której maluchy chłoną język w naturalny sposób. Nauka angielskiego odbywa się również poprzez zastosowanie pedagogiki zabawy oraz regularnych zajęć językowych. Jako że w <b>Poznaniu</b> w dzielnicy <b>Jeżyce</b> prowadzimy <b>przedszkole z małymi grupami</b>, dzieci są w pełni zaopiekowane i czują się jak w domu, a takie warunki sprzyjają szybkiemu rozwojowi."
     },
     {
       "id": 1,
       "value": "music",
-      "header": "Muzyka",
-      "paragraph": "Jesteśmy przedszkolem, które łączy rozwijanie wrażliwości muzycznej z edukacją językową. W ciepłej i rodzinnej atmosferze rozwijamy miłość do muzyki poprzez otaczanie dzieci dźwiękiem, melodią i rytmem."
+      "header": "Prywatne przedszkole z elementami muzyki – Poznań Jeżyce",
+      "paragraph": "Jesteśmy przedszkolem, które łączy rozwijanie wrażliwości muzycznej z edukacją językową. W ciepłej i rodzinnej atmosferze rozwijamy miłość do muzyki poprzez otaczanie dzieci dźwiękiem, melodią oraz rytmem. To sprawdzony i skuteczny sposób na pobudzanie rozwoju najmłodszych na różnych płaszczyznach. Mowa m.in. o koordynacji czy zdolnościach motorycznych. Labokids jako <b>przedszkole prywatne</b>, chce aktywizować swoich wychowanków także na tym poziomie."
     },
     {
       "id": 2,
       "value": "nature",
-      "header": "Natura",
-      "paragraph": "W naszym ogrodzie dzieci uczą się o cudach natury. Wierzymy, że doświadczenia praktyczne na świeżym powietrzu sprzyjają głębokiemu zrozumieniu dla środowiska. Otwarte otoczenie sprzyja współpracy i współdziałaniu dzieci, gdy biorą udział w różnych grach i aktywnościach, promując rozwój zarówno fizyczny, jak i społeczny."
+      "header": "Przedszkole blisko natury",
+      "paragraph": "W naszym ogrodzie dzieci uczą się o cudach natury. Wierzymy, że doświadczenia praktyczne na świeżym powietrzu wspierają głębokie zrozumienie środowiska. Otwarte otoczenie sprzyja współpracy i współdziałaniu dzieci, gdy biorą udział w różnych grach i aktywnościach, promując rozwój zarówno fizyczny, jak i społeczny. Dzięki temu, że w <b>Poznaniu</b> prowadzimy <b>przedszkole</b>, które jest <b>kameralne</b>, dzieci będą mogły doświadczać oraz poznawać przyrodę w sposób rzeczywisty, ale przede wszystkim bezpieczny. Z przyjemnością odpowiemy również na pytania związane z działalnością naszej placówki. Jesteśmy otwarci, dlatego, jeśli szukają Państwo <b>prywatnego przedszkola</b>, zapraszamy."
     }
   ],
   "imagesMontessoriHeaderContent": {
@@ -309,6 +309,11 @@
     }
   ],
   "heroPageParty": {
+    "kidFontText": "Urodzinki z Labokids",
+    "header": "Jasna przyszłość dla wszystkich",
+    "paragraph": "Organizacja radosnych, niezapomnianych i pełnych zabawy przyjęć urodzinowych dla dzieci"
+  },
+  "elementyMontessori": {
     "kidFontText": "Urodzinki z Labokids",
     "header": "Jasna przyszłość dla wszystkich",
     "paragraph": "Organizacja radosnych, niezapomnianych i pełnych zabawy przyjęć urodzinowych dla dzieci"
